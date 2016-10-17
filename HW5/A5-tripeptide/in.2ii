@@ -16,9 +16,12 @@ read_data       data.tripeptide
 pair_modify     mix geometric
 neighbor        2.0 multi
 neigh_modify    every 2 delay 4 check yes
-thermo		100
-thermo_style 	custom step temp pe ke etotal
-#thermo_modify	line multi format float %14.6f
+
+timestep	1.0 # 1 fms - recommended
+
+thermo		100 # every 100 steps
+thermo_style 	custom step temp pe ke etotal press vol ebond eangle edihed eimp epair ecoul
+thermo_modify	line one format float %14.6f
 variable        input index in.tripeptide
 variable        sname index tripeptide
 
@@ -26,11 +29,11 @@ dump		1 all xyz 100 tripeptide.min.xyz
 dump_modify	1 element H C N O
 
 min_style	cg
-minimize	0 1e-6 4000 8000
+minimize	0.001 .01 4000 8000
 
 reset_timestep	0
 fix		1 all nvt temp 300.0 300.0 100.0
 fix		2 all momentum 100 linear 1 1 1 angular
-run 		1000000
+run 		10000
 
 
