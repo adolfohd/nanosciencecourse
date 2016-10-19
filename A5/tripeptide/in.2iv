@@ -19,7 +19,7 @@ neigh_modify    every 2 delay 4 check yes
 
 timestep	1.0 # 1 fms - recommended
 
-thermo		100 # every 100 steps
+thermo		1000 # every 100 steps
 thermo_style 	custom step temp pe ke etotal press vol ebond eangle edihed eimp epair ecoul
 thermo_modify	line one format float %14.6f
 variable        input index in.tripeptide
@@ -32,8 +32,9 @@ min_style	cg
 minimize	0.001 .01 4000 8000
 
 reset_timestep	0
-fix		1 all nvt temp 300.0 300.0 100.0
+fix		1 all nvt temp 100.0 0.0000001 100.0
+#fix		1 all nvt temp 300.0 300.0 100.0
 fix		2 all momentum 100 linear 1 1 1 angular
-run 		10000
+run 		9000000
 
 
