@@ -1,5 +1,5 @@
-echo $1
-/Users/Andres/Documents/Software/MD/lammps_svn/src/lmp_mpi -in $1
+#!/usr/bin/bash
+lmp_serial.exe -in in.Al2
 grep "Length, Energy " log.lammps > l
 grep -v "print" l > l1
 sed -e 's/Length, Energy (eV and kcal\/mol), pressure = //g' l1 > l2
