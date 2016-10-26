@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo $1
-
+echo $2
 # lmp_serial.exe -in in.Al2
-lammps -in $1
+lammps < $1 > $2
 
 grep "Length, Energy " log.lammps > l
 grep -v "print" l > l1
