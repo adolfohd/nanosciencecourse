@@ -1,0 +1,60 @@
+# EOS and bulk modulus of fcc Aluminum
+#
+# ---------- Initialize Simulation --------------------- 
+units metal 
+dimension 3 
+boundary p p p 
+atom_style atomic 
+atom_modify map array
+
+variable	per equal 100
+
+# ---------- Define simulation box ------------
+lattice 	fcc 4.046
+region		box block 0 1 0 1 0 1 units lattice
+create_box	1 box
+lattice		fcc 4.046 orient x 1 0 0 orient y 0 1 0 orient z 0 0 1  
+create_atoms 	1 box
+
+# ---------- Define Interatomic Potential --------------------- 
+pair_style 	eam/fs 
+pair_coeff 	* * Al_mm.eam.fs Al
+#pair_coeff	* * Al_zhou.eam.alloy Al
+neighbor 	2.0 bin 
+neigh_modify 	delay 10 check yes one 30000 page 300000 
+ 
+# ---------- Output --------------------- 
+thermo 10 
+thermo_style 	custom step etotal vol epair
+
+dump            1 all xyz 100 Al_expand.xyz
+dump_modify     1 element Al 
+
+# ---------- Find equilibrium box size --------------------- 
+min_style	cg
+fix             2 all box/relax iso 0.0 vmax 0.001
+minimize	0 1e-6 2000 4000
+
+variable	dim equal lx
+variable	Eequil equal etotal/count(all)
+print           "Lattice constant = ${dim}, Energy = ${Eequil} kcal/mol"
+
+unfix		2
+
+variable	etkcal equal etotal*23/count(all)
+variable	etev equal etotal/count(all)
+variable 	vt equal vol/count(all)
+
+# compress box to 2% and do expansion
+change_box      all x scale 0.95 y scale 0.95 z scale 0.95 remap units box
+minimize        0 1e-6 5000 10000
+print           "Vol and Energy = ${vt} ${etev} ${etkcal}"
+
+# ----------- Expand ------------------
+variable 	e loop ${per}
+label		loop1
+change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
+minimize 	0 1e-6 5000 10000 
+print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
+next		e
+jump		SELF loop1
