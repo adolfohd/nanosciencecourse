@@ -1,5 +1,5 @@
-LAMMPS (27 Aug 2016-ICMS)
-WARNING: OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (../comm.cpp:90)
+LAMMPS (17 Nov 2015)
+WARNING: OMP_NUM_THREADS environment is not set. (../comm.cpp:90)
   using 1 OpenMP thread(s) per MPI task
 # EOS and bulk modulus of fcc Aluminum
 #
@@ -55,7 +55,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
        0   -13.642623    66.233489   -13.642623 
        4   -13.642628    66.197144   -13.642628 
-Loop time of 0.00199914 on 1 procs for 4 steps with 4 atoms
+Loop time of 0.000684977 on 1 procs for 4 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -63,20 +63,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.6426232047     -13.6426278149     -13.6426278149
-  Force two-norm initial, final = 0.0505674 1.4434e-009
-  Force max component initial, final = 0.0505674 1.4434e-009
-  Final line search alpha, max atom move = 1 1.4434e-009
+  Force two-norm initial, final = 0.0505674 1.44339e-09
+  Force max component initial, final = 0.0505674 1.44339e-09
+  Final line search alpha, max atom move = 1 1.44339e-09
   Iterations, force evaluations = 4 8
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00050116 | 0.00050116 | 0.00050116 |   0.0 | 25.07
+Pair    | 0.00029993 | 0.00029993 | 0.00029993 |   0.0 | 43.79
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 6.5088e-05 | 6.5088e-05 | 6.5088e-05 |   0.0 |  9.50
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001498   |            |       | 74.93
+Other   |            | 0.00032    |            |       | 46.71
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -112,7 +112,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
        4    -13.08832    56.755776    -13.08832 
        5    -13.08832    56.755776    -13.08832 
-Loop time of 0.0040009 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000252962 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -120,20 +120,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.0883202662     -13.0883202662     -13.0883202662
-  Force two-norm initial, final = 1.25131e-014 6.68e-015
-  Force max component initial, final = 4.47906e-015 3.4972e-015
-  Final line search alpha, max atom move = 1 3.4972e-015
+  Force two-norm initial, final = 7.99587e-15 7.25723e-15
+  Force max component initial, final = 3.20664e-15 2.89612e-15
+  Final line search alpha, max atom move = 1 2.89612e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00050187 | 0.00050187 | 0.00050187 |   0.0 | 12.54
+Pair    | 9.3699e-05 | 9.3699e-05 | 9.3699e-05 |   0.0 | 37.04
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.0266e-05 | 2.0266e-05 | 2.0266e-05 |   0.0 |  8.01
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.003499   |            |       | 87.46
+Other   |            | 0.000139   |            |       | 54.95
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -163,7 +163,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
        5    -13.11236    56.926214    -13.11236 
        6    -13.11236    56.926214    -13.11236 
-Loop time of 0.000999928 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000258923 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -171,20 +171,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.1123598029     -13.1123598029     -13.1123598029
-  Force two-norm initial, final = 9.46795e-015 7.20001e-015
-  Force max component initial, final = 3.67067e-015 3.77476e-015
-  Final line search alpha, max atom move = 1 3.77476e-015
+  Force two-norm initial, final = 1.44733e-14 6.4709e-15
+  Force max component initial, final = 5.10703e-15 3.21965e-15
+  Final line search alpha, max atom move = 1 3.21965e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 9.3937e-05 | 9.3937e-05 | 9.3937e-05 |   0.0 | 36.28
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.0742e-05 | 2.0742e-05 | 2.0742e-05 |   0.0 |  8.01
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       |100.00
+Other   |            | 0.0001442  |            |       | 55.71
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -198,7 +198,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 14.23155353713	-3.27808995073644 -75.3960688669381
+Vol and Energy = 14.23155353713	-3.27808995073645 -75.3960688669383
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -211,7 +211,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
        6   -13.135946    57.097164   -13.135946 
        7   -13.135946    57.097164   -13.135946 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000646114 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -219,20 +219,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
          -13.135946216      -13.135946216      -13.135946216
-  Force two-norm initial, final = 8.80917e-015 4.15684e-015
-  Force max component initial, final = 6.92502e-015 3.19189e-015
-  Final line search alpha, max atom move = 1 3.19189e-015
+  Force two-norm initial, final = 1.18137e-14 3.88782e-15
+  Force max component initial, final = 7.66054e-15 1.85268e-15
+  Final line search alpha, max atom move = 1 1.85268e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 0.00044036 | 0.00044036 | 0.00044036 |   0.0 | 68.15
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.2888e-05 | 2.2888e-05 | 2.2888e-05 |   0.0 |  3.54
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001829  |            |       | 28.30
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -259,7 +259,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
        7   -13.159054    57.268626   -13.159054 
        8   -13.159054    57.268626   -13.159054 
-Loop time of 0.0019989 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00107098 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -267,20 +267,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
          -13.159053902      -13.159053902      -13.159053902
-  Force two-norm initial, final = 8.81473e-015 6.27218e-016
-  Force max component initial, final = 5.30478e-015 3.72966e-016
-  Final line search alpha, max atom move = 1 3.72966e-016
+  Force two-norm initial, final = 9.32659e-15 5.32262e-15
+  Force max component initial, final = 3.77476e-15 3.21965e-15
+  Final line search alpha, max atom move = 1 3.21965e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 9.0122e-05 | 9.0122e-05 | 9.0122e-05 |   0.0 |  8.41
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.0504e-05 | 2.0504e-05 | 2.0504e-05 |   0.0 |  1.91
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001999   |            |       |100.00
+Other   |            | 0.0009604  |            |       | 89.67
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -307,7 +307,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
        8    -13.18166    57.440604    -13.18166 
        9    -13.18166    57.440604    -13.18166 
-Loop time of 0.00199819 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000231981 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -315,20 +315,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.1816600763     -13.1816600763     -13.1816600763
-  Force two-norm initial, final = 5.07382e-015 4.37433e-015
-  Force max component initial, final = 1.58554e-015 1.47451e-015
-  Final line search alpha, max atom move = 1 1.47451e-015
+  Force two-norm initial, final = 1.23448e-14 8.29575e-15
+  Force max component initial, final = 1.02279e-14 6.05072e-15
+  Final line search alpha, max atom move = 1 6.05072e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.5817e-05 | 7.5817e-05 | 7.5817e-05 |   0.0 | 32.68
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.2411e-05 | 2.2411e-05 | 2.2411e-05 |   0.0 |  9.66
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001998   |            |       |100.00
+Other   |            | 0.0001338  |            |       | 57.66
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -355,7 +355,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
        9   -13.203744    57.613098   -13.203744 
       10   -13.203744    57.613098   -13.203744 
-Loop time of 0.0024991 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000252008 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -363,20 +363,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.2037436197     -13.2037436197     -13.2037436197
-  Force two-norm initial, final = 5.09607e-015 5.17048e-015
-  Force max component initial, final = 2.12677e-015 2.23953e-015
-  Final line search alpha, max atom move = 1 2.23953e-015
+  Force two-norm initial, final = 1.00942e-14 5.12496e-15
+  Force max component initial, final = 6.38378e-15 2.16754e-15
+  Final line search alpha, max atom move = 1 2.16754e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.4387e-05 | 7.4387e-05 | 7.4387e-05 |   0.0 | 29.52
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6451e-05 | 1.6451e-05 | 1.6451e-05 |   0.0 |  6.53
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002499   |            |       |100.00
+Other   |            | 0.0001612  |            |       | 63.95
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -390,7 +390,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 14.4032746001066	-3.30093590492756 -75.9215258133339
+Vol and Energy = 14.4032746001066	-3.30093590492756 -75.921525813334
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -403,28 +403,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       10   -13.225287    57.786111   -13.225287 
       11   -13.225287    57.786111   -13.225287 
-Loop time of 0.00549889 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000255823 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = quadratic factors are zero
+  Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.2252866135     -13.2252866135     -13.2252866135
-  Force two-norm initial, final = 1.51995e-015 1.51995e-015
-  Force max component initial, final = 6.80012e-016 6.80012e-016
-  Final line search alpha, max atom move = 1 6.80012e-016
+  Force two-norm initial, final = 1.42979e-14 3.77785e-15
+  Force max component initial, final = 6.88338e-15 2.13718e-15
+  Final line search alpha, max atom move = 1 2.13718e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.2956e-05 | 7.2956e-05 | 7.2956e-05 |   0.0 | 28.52
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.00050092 | 0.00050092 | 0.00050092 |   0.0 |  9.11
+Comm    | 1.7166e-05 | 1.7166e-05 | 1.7166e-05 |   0.0 |  6.71
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.004998   |            |       | 90.89
+Other   |            | 0.0001657  |            |       | 64.77
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -451,7 +451,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       11   -13.246272    57.959642   -13.246272 
       12   -13.246272    57.959642   -13.246272 
-Loop time of 0.0225 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000473022 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -459,20 +459,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.2462718766     -13.2462718766     -13.2462718766
-  Force two-norm initial, final = 1.01497e-015 1.01497e-015
-  Force max component initial, final = 7.38992e-016 7.38992e-016
-  Final line search alpha, max atom move = 1 7.38992e-016
+  Force two-norm initial, final = 6.41532e-16 6.41532e-16
+  Force max component initial, final = 3.40006e-16 3.40006e-16
+  Final line search alpha, max atom move = 1 3.40006e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 6.7711e-05 | 6.7711e-05 | 6.7711e-05 |   0.0 | 14.31
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.5974e-05 | 1.5974e-05 | 1.5974e-05 |   0.0 |  3.38
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0225     |            |       |100.00
+Other   |            | 0.0003893  |            |       | 82.31
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -486,7 +486,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 14.4899105851079	-3.31156796915731 -76.1660632906181
+Vol and Energy = 14.4899105851079	-3.3115679691573 -76.166063290618
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -499,7 +499,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       12   -13.266686    58.133695   -13.266686 
       13   -13.266686    58.133695   -13.266686 
-Loop time of 0.00200295 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000273943 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -507,20 +507,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.2666859894     -13.2666859894     -13.2666859894
-  Force two-norm initial, final = 5.05948e-015 4.70524e-015
-  Force max component initial, final = 1.66533e-015 2.668e-015
-  Final line search alpha, max atom move = 1 2.668e-015
+  Force two-norm initial, final = 6.05023e-15 8.64146e-15
+  Force max component initial, final = 2.10942e-15 4.11129e-15
+  Final line search alpha, max atom move = 1 4.11129e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.1764e-05 | 7.1764e-05 | 7.1764e-05 |   0.0 | 26.20
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.1219e-05 | 2.1219e-05 | 2.1219e-05 |   0.0 |  7.75
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002003   |            |       |100.00
+Other   |            | 0.000181   |            |       | 66.06
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -547,7 +547,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       13   -13.286517    58.308271   -13.286517 
       14   -13.286517    58.308271   -13.286517 
-Loop time of 0.0015018 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000478029 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -555,20 +555,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.2865166154     -13.2865166154     -13.2865166154
-  Force two-norm initial, final = 3.08038e-016 3.08038e-016
-  Force max component initial, final = 2.60209e-016 2.60209e-016
-  Final line search alpha, max atom move = 1 2.60209e-016
+  Force two-norm initial, final = 5.63116e-16 5.63116e-16
+  Force max component initial, final = 3.33067e-16 3.33067e-16
+  Final line search alpha, max atom move = 1 3.33067e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.0095e-05 | 7.0095e-05 | 7.0095e-05 |   0.0 | 14.66
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7166e-05 | 1.7166e-05 | 1.7166e-05 |   0.0 |  3.59
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001502   |            |       |100.00
+Other   |            | 0.0003908  |            |       | 81.75
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -595,7 +595,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       14   -13.305753    58.483371   -13.305753 
       15   -13.305753    58.483371   -13.305753 
-Loop time of 0.00349998 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000391006 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -603,20 +603,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.3057534225     -13.3057534225     -13.3057534225
-  Force two-norm initial, final = 4.31817e-015 4.31064e-015
-  Force max component initial, final = 1.39819e-015 1.39819e-015
-  Final line search alpha, max atom move = 1 1.39819e-015
+  Force two-norm initial, final = 6.64511e-15 5.1909e-16
+  Force max component initial, final = 2.5327e-15 3.1572e-16
+  Final line search alpha, max atom move = 1 3.1572e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.1049e-05 | 7.1049e-05 | 7.1049e-05 |   0.0 | 18.17
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.5736e-05 | 1.5736e-05 | 1.5736e-05 |   0.0 |  4.02
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0035     |            |       |100.00
+Other   |            | 0.0003042  |            |       | 77.80
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -630,7 +630,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 14.6208426361349	-3.32643835563197 -76.5080821795354
+Vol and Energy = 14.6208426361349	-3.32643835563196 -76.5080821795351
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -643,7 +643,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       15   -13.324389    58.658996   -13.324389 
       16   -13.324389    58.658996   -13.324389 
-Loop time of 0.000998974 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000211954 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -651,20 +651,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.3243893555     -13.3243893555     -13.3243893555
-  Force two-norm initial, final = 1.09635e-014 2.88083e-015
-  Force max component initial, final = 3.36189e-015 1.38778e-015
-  Final line search alpha, max atom move = 1 1.38778e-015
+  Force two-norm initial, final = 6.21029e-15 2.71191e-15
+  Force max component initial, final = 2.94036e-15 1.93595e-15
+  Final line search alpha, max atom move = 1 1.93595e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.0095e-05 | 7.0095e-05 | 7.0095e-05 |   0.0 | 33.07
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.502e-05  | 1.502e-05  | 1.502e-05  |   0.0 |  7.09
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.000999   |            |       |100.00
+Other   |            | 0.0001268  |            |       | 59.84
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -691,7 +691,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       16   -13.342418    58.835149   -13.342418 
       17   -13.342418    58.835149   -13.342418 
-Loop time of 0.00250101 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00171304 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -699,20 +699,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
          -13.342418115      -13.342418115      -13.342418115
-  Force two-norm initial, final = 5.05334e-015 9.42473e-016
-  Force max component initial, final = 2.02182e-015 5.48173e-016
-  Final line search alpha, max atom move = 1 5.48173e-016
+  Force two-norm initial, final = 5.81654e-15 6.12322e-15
+  Force max component initial, final = 3.66027e-15 2.8727e-15
+  Final line search alpha, max atom move = 1 2.8727e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00050092 | 0.00050092 | 0.00050092 |   0.0 | 20.03
+Pair    | 7.4148e-05 | 7.4148e-05 | 7.4148e-05 |   0.0 |  4.33
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.359e-05  | 1.359e-05  | 1.359e-05  |   0.0 |  0.79
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002      |            |       | 79.97
+Other   |            | 0.001625   |            |       | 94.88
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -726,7 +726,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 14.7087872972275	-3.33560452876101 -76.7189041615033
+Vol and Energy = 14.7087872972275	-3.33560452876102 -76.7189041615034
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -739,7 +739,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       17   -13.359836    59.011831   -13.359836 
       18   -13.359836    59.011831   -13.359836 
-Loop time of 0.00249982 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000350952 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -747,20 +747,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.3598357053     -13.3598357053     -13.3598357053
-  Force two-norm initial, final = 8.01781e-015 3.48985e-015
-  Force max component initial, final = 3.33761e-015 1.66533e-015
-  Final line search alpha, max atom move = 1 1.66533e-015
+  Force two-norm initial, final = 9.94425e-15 2.3503e-15
+  Force max component initial, final = 3.9968e-15 1.27589e-15
+  Final line search alpha, max atom move = 1 1.27589e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 0.00010419 | 0.00010419 | 0.00010419 |   0.0 | 29.69
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.8133e-05 | 2.8133e-05 | 2.8133e-05 |   0.0 |  8.02
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0025     |            |       |100.00
+Other   |            | 0.0002186  |            |       | 62.30
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -787,7 +787,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       18    -13.37664    59.189044    -13.37664 
       19    -13.37664    59.189044    -13.37664 
-Loop time of 0.029001 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000490904 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -795,20 +795,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3766404672     -13.3766404672     -13.3766404672
-  Force two-norm initial, final = 2.19318e-015 2.19318e-015
-  Force max component initial, final = 1.14492e-015 1.14492e-015
-  Final line search alpha, max atom move = 1 1.14492e-015
+  Force two-norm initial, final = 2.26987e-15 2.26987e-15
+  Force max component initial, final = 1.17267e-15 1.17267e-15
+  Final line search alpha, max atom move = 1 1.17267e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.0109e-05 | 8.0109e-05 | 8.0109e-05 |   0.0 | 16.32
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6928e-05 | 1.6928e-05 | 1.6928e-05 |   0.0 |  3.45
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.029      |            |       |100.00
+Other   |            | 0.0003939  |            |       | 80.23
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -835,7 +835,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       19   -13.392832    59.366789   -13.392832 
       20   -13.392832    59.366789   -13.392832 
-Loop time of 0.0309999 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000476122 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -843,20 +843,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3928324667     -13.3928324667     -13.3928324667
-  Force two-norm initial, final = 2.3437e-015 2.3437e-015
-  Force max component initial, final = 1.05992e-015 1.05992e-015
-  Final line search alpha, max atom move = 1 1.05992e-015
+  Force two-norm initial, final = 1.53489e-15 1.53489e-15
+  Force max component initial, final = 8.32667e-16 8.32667e-16
+  Final line search alpha, max atom move = 1 8.32667e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.1301e-05 | 8.1301e-05 | 8.1301e-05 |   0.0 | 17.08
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.955e-05  | 1.955e-05  | 1.955e-05  |   0.0 |  4.11
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.031      |            |       |100.00
+Other   |            | 0.0003753  |            |       | 78.82
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -870,7 +870,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 14.8416971366386	-3.34820811667752 -77.0087866835831
+Vol and Energy = 14.8416971366386	-3.34820811667752 -77.008786683583
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -883,28 +883,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       20   -13.408413    59.545067   -13.408413 
       21   -13.408413    59.545067   -13.408413 
-Loop time of 0.115 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000307083 on 1 procs for 1 steps with 4 atoms
 
-13.6% CPU use with 1 MPI tasks x 1 OpenMP threads
+0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
          -13.408413152      -13.408413152      -13.408413152
-  Force two-norm initial, final = 6.82741e-015 1.98354e-015
-  Force max component initial, final = 2.44596e-015 1.05731e-015
-  Final line search alpha, max atom move = 1 1.05731e-015
+  Force two-norm initial, final = 7.30644e-15 3.29264e-15
+  Force max component initial, final = 3.46598e-15 2.38264e-15
+  Final line search alpha, max atom move = 1 2.38264e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.987e-05  | 7.987e-05  | 7.987e-05  |   0.0 | 26.01
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.8835e-05 | 1.8835e-05 | 1.8835e-05 |   0.0 |  6.13
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.115      |            |       |100.00
+Other   |            | 0.0002084  |            |       | 67.86
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -931,28 +931,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       21   -13.423386    59.723881   -13.423386 
       22   -13.423386    59.723881   -13.423386 
-Loop time of 0.00300002 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000306845 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = quadratic factors are zero
+  Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.4233864591     -13.4233864591     -13.4233864591
-  Force two-norm initial, final = 6.997e-016 6.997e-016
-  Force max component initial, final = 4.83988e-016 4.83988e-016
-  Final line search alpha, max atom move = 1 4.83988e-016
+  Force two-norm initial, final = 3.66394e-15 2.40474e-15
+  Force max component initial, final = 2.25948e-15 1.56906e-15
+  Final line search alpha, max atom move = 1 1.56906e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.5817e-05 | 7.5817e-05 | 7.5817e-05 |   0.0 | 24.71
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.1458e-05 | 2.1458e-05 | 2.1458e-05 |   0.0 |  6.99
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.003      |            |       |100.00
+Other   |            | 0.0002096  |            |       | 68.30
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -979,7 +979,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       22   -13.437758    59.903232   -13.437758 
       23   -13.437758    59.903232   -13.437758 
-Loop time of 0.00149798 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000477076 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -987,20 +987,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.4377576961     -13.4377576961     -13.4377576961
-  Force two-norm initial, final = 7.13916e-015 2.69845e-015
-  Force max component initial, final = 2.77556e-015 1.5335e-015
-  Final line search alpha, max atom move = 1 1.5335e-015
+  Force two-norm initial, final = 8.27645e-15 3.73437e-15
+  Force max component initial, final = 3.05311e-15 1.58207e-15
+  Final line search alpha, max atom move = 1 1.58207e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.5817e-05 | 7.5817e-05 | 7.5817e-05 |   0.0 | 15.89
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.0981e-05 | 2.0981e-05 | 2.0981e-05 |   0.0 |  4.40
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001498   |            |       |100.00
+Other   |            | 0.0003803  |            |       | 79.71
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1027,28 +1027,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       23   -13.451534    60.083121   -13.451534 
       24   -13.451534    60.083121   -13.451534 
-Loop time of 0.0509999 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000227928 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = quadratic factors are zero
+  Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.4515341553     -13.4515341553     -13.4515341553
-  Force two-norm initial, final = 8.19984e-016 8.19984e-016
-  Force max component initial, final = 7.04298e-016 7.04298e-016
-  Final line search alpha, max atom move = 1 7.04298e-016
+  Force two-norm initial, final = 3.44046e-15 4.30044e-16
+  Force max component initial, final = 1.77636e-15 2.8276e-16
+  Final line search alpha, max atom move = 1 2.8276e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.7963e-05 | 7.7963e-05 | 7.7963e-05 |   0.0 | 34.21
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.8835e-05 | 1.8835e-05 | 1.8835e-05 |   0.0 |  8.26
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.051      |            |       |100.00
+Other   |            | 0.0001311  |            |       | 57.53
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1075,7 +1075,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       24   -13.464725    60.263551   -13.464725 
       25   -13.464725    60.263551   -13.464725 
-Loop time of 0.00349808 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000656128 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1083,20 +1083,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.4647247075     -13.4647247075     -13.4647247075
-  Force two-norm initial, final = 4.6422e-015 6.37636e-016
-  Force max component initial, final = 1.57166e-015 3.22659e-016
-  Final line search alpha, max atom move = 1 3.22659e-016
+  Force two-norm initial, final = 4.42506e-15 2.27293e-15
+  Force max component initial, final = 1.44502e-15 1.26982e-15
+  Final line search alpha, max atom move = 1 1.26982e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 9.203e-05  | 9.203e-05  | 9.203e-05  |   0.0 | 14.03
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.2888e-05 | 2.2888e-05 | 2.2888e-05 |   0.0 |  3.49
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.003498   |            |       |100.00
+Other   |            | 0.0005412  |            |       | 82.49
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1110,7 +1110,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.0658877451632	-3.36618117687857 -77.4221670682071
+Vol and Energy = 15.0658877451632	-3.36618117687857 -77.422167068207
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1123,28 +1123,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       25    -13.47734    60.444522    -13.47734 
       26    -13.47734    60.444522    -13.47734 
-Loop time of 0.0195019 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000313044 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = quadratic factors are zero
+  Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.4773400797     -13.4773400797     -13.4773400797
-  Force two-norm initial, final = 8.08034e-016 8.08034e-016
-  Force max component initial, final = 4.11129e-016 4.11129e-016
-  Final line search alpha, max atom move = 1 4.11129e-016
+  Force two-norm initial, final = 3.44271e-15 2.50809e-15
+  Force max component initial, final = 2.85882e-15 1.58207e-15
+  Final line search alpha, max atom move = 1 1.58207e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 0.00010419 | 0.00010419 | 0.00010419 |   0.0 | 33.28
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.3127e-05 | 2.3127e-05 | 2.3127e-05 |   0.0 |  7.39
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0195     |            |       |100.00
+Other   |            | 0.0001857  |            |       | 59.33
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1171,28 +1171,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       26   -13.489391    60.626037   -13.489391 
       27   -13.489391    60.626037   -13.489391 
-Loop time of 0.038497 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000287056 on 1 procs for 1 steps with 4 atoms
 
-0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+1393.5% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4893910578     -13.4893910578     -13.4893910578
-  Force two-norm initial, final = 2.22993e-016 2.22993e-016
-  Force max component initial, final = 1.63064e-016 1.63064e-016
-  Final line search alpha, max atom move = 1 1.63064e-016
+  Force two-norm initial, final = 1.74051e-15 1.74051e-15
+  Force max component initial, final = 1.16573e-15 1.16573e-15
+  Final line search alpha, max atom move = 1 1.16573e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.7023e-05 | 8.7023e-05 | 8.7023e-05 |   0.0 | 30.32
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.00049901 | 0.00049901 | 0.00049901 |   0.0 |  1.30
+Comm    | 3.314e-05  | 3.314e-05  | 3.314e-05  |   0.0 | 11.54
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.038      |            |       | 98.70
+Other   |            | 0.0001669  |            |       | 58.14
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1206,7 +1206,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.1565093614942	-3.37234776444331 -77.5639985821961
+Vol and Energy = 15.1565093614942	-3.37234776444331 -77.5639985821962
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1219,7 +1219,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       27    -13.50089    60.808097    -13.50089 
       28    -13.50089    60.808097    -13.50089 
-Loop time of 0.00200009 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000524998 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1227,20 +1227,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5008895156     -13.5008895156     -13.5008895156
-  Force two-norm initial, final = 2.33932e-015 2.33932e-015
-  Force max component initial, final = 1.1241e-015 1.1241e-015
-  Final line search alpha, max atom move = 1 1.1241e-015
+  Force two-norm initial, final = 3.08062e-16 3.08062e-16
+  Force max component initial, final = 1.66533e-16 1.66533e-16
+  Final line search alpha, max atom move = 1 1.66533e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00049901 | 0.00049901 | 0.00049901 |   0.0 | 24.95
+Pair    | 0.00011611 | 0.00011611 | 0.00011611 |   0.0 | 22.12
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.5763e-05 | 3.5763e-05 | 3.5763e-05 |   0.0 |  6.81
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001501   |            |       | 75.05
+Other   |            | 0.0003731  |            |       | 71.07
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1267,7 +1267,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       28   -13.511846    60.990704   -13.511846 
       29   -13.511846    60.990704   -13.511846 
-Loop time of 0.00250101 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000384092 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1275,20 +1275,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.511846327      -13.511846327      -13.511846327
-  Force two-norm initial, final = 2.41672e-016 2.41672e-016
-  Force max component initial, final = 1.38778e-016 1.38778e-016
-  Final line search alpha, max atom move = 1 1.38778e-016
+  Force two-norm initial, final = 4.9109e-16 4.9109e-16
+  Force max component initial, final = 2.25514e-16 2.25514e-16
+  Final line search alpha, max atom move = 1 2.25514e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00050092 | 0.00050092 | 0.00050092 |   0.0 | 20.03
+Pair    | 0.00012016 | 0.00012016 | 0.00012016 |   0.0 | 31.28
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.0518e-05 | 3.0518e-05 | 3.0518e-05 |   0.0 |  7.95
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002      |            |       | 79.97
+Other   |            | 0.0002334  |            |       | 60.77
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1302,7 +1302,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.2476760686612	-3.37796158174418 -77.6931163801163
+Vol and Energy = 15.2476760686612	-3.37796158174418 -77.6931163801162
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1315,7 +1315,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       29   -13.522274    61.173859   -13.522274 
       30   -13.522274    61.173859   -13.522274 
-Loop time of 0.00850105 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000250101 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1323,20 +1323,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5222736622     -13.5222736622     -13.5222736622
-  Force two-norm initial, final = 1.44843e-015 1.44843e-015
-  Force max component initial, final = 8.32667e-016 8.32667e-016
-  Final line search alpha, max atom move = 1 8.32667e-016
+  Force two-norm initial, final = 6.33999e-16 6.33999e-16
+  Force max component initial, final = 3.19189e-16 3.19189e-16
+  Final line search alpha, max atom move = 1 3.19189e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 9.5129e-05 | 9.5129e-05 | 9.5129e-05 |   0.0 | 38.04
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.1935e-05 | 2.1935e-05 | 2.1935e-05 |   0.0 |  8.77
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.008501   |            |       |100.00
+Other   |            | 0.000133   |            |       | 53.19
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1363,7 +1363,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       30   -13.532183    61.357565   -13.532183 
       31   -13.532183    61.357565   -13.532183 
-Loop time of 0.00149989 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000236034 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1371,20 +1371,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5321830377     -13.5321830377     -13.5321830377
-  Force two-norm initial, final = 9.09322e-016 9.09322e-016
-  Force max component initial, final = 4.03323e-016 4.03323e-016
-  Final line search alpha, max atom move = 1 4.03323e-016
+  Force two-norm initial, final = 8.02248e-16 8.02248e-16
+  Force max component initial, final = 3.73833e-16 3.73833e-16
+  Final line search alpha, max atom move = 1 3.73833e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 9.4891e-05 | 9.4891e-05 | 9.4891e-05 |   0.0 | 40.20
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.00049996 | 0.00049996 | 0.00049996 |   0.0 | 33.33
+Comm    | 2.0504e-05 | 2.0504e-05 | 2.0504e-05 |   0.0 |  8.69
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       | 66.67
+Other   |            | 0.0001206  |            |       | 51.11
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1411,7 +1411,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       31   -13.541586    61.541821   -13.541586 
       32   -13.541586    61.541821   -13.541586 
-Loop time of 0.00149894 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00020504 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1419,20 +1419,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5415857619     -13.5415857619     -13.5415857619
-  Force two-norm initial, final = 1.69384e-016 1.69384e-016
-  Force max component initial, final = 8.32667e-017 8.32667e-017
-  Final line search alpha, max atom move = 1 8.32667e-017
+  Force two-norm initial, final = 1.70601e-15 1.70601e-15
+  Force max component initial, final = 1.05471e-15 1.05471e-15
+  Final line search alpha, max atom move = 1 1.05471e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.9843e-05 | 5.9843e-05 | 5.9843e-05 |   0.0 | 29.19
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.2398e-05 | 1.2398e-05 | 1.2398e-05 |   0.0 |  6.05
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001499   |            |       |100.00
+Other   |            | 0.0001328  |            |       | 64.77
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1459,7 +1459,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       32   -13.550494    61.726632   -13.550494 
       33   -13.550494    61.726632   -13.550494 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000231981 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1467,20 +1467,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.5504939683     -13.5504939683     -13.5504939683
-  Force two-norm initial, final = 5.51621e-015 3.5422e-015
-  Force max component initial, final = 2.33494e-015 1.85702e-015
-  Final line search alpha, max atom move = 1 1.85702e-015
+  Force two-norm initial, final = 5.62285e-15 3.82352e-15
+  Force max component initial, final = 2.44249e-15 2.34448e-15
+  Final line search alpha, max atom move = 1 2.34448e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.5831e-05 | 8.5831e-05 | 8.5831e-05 |   0.0 | 37.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 3.5286e-05 | 3.5286e-05 | 3.5286e-05 |   0.0 | 15.21
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001109  |            |       | 47.79
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1494,7 +1494,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.4316578901541	-3.38762349206821 -77.9153403175689
+Vol and Energy = 15.4316578901541	-3.38762349206822 -77.9153403175689
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1507,7 +1507,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       33   -13.558919    61.911997   -13.558919 
       34   -13.558919    61.911997   -13.558919 
-Loop time of 0.00650191 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000234842 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1515,20 +1515,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.5589190212     -13.5589190212     -13.5589190212
-  Force two-norm initial, final = 3.20673e-015 2.36277e-015
-  Force max component initial, final = 1.64018e-015 1.83187e-015
-  Final line search alpha, max atom move = 1 1.83187e-015
+  Force two-norm initial, final = 3.63835e-15 2.30777e-15
+  Force max component initial, final = 2.16493e-15 1.86309e-15
+  Final line search alpha, max atom move = 1 1.86309e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00050211 | 0.00050211 | 0.00050211 |   0.0 |  7.72
+Pair    | 8.6784e-05 | 8.6784e-05 | 8.6784e-05 |   0.0 | 36.95
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.9073e-05 | 1.9073e-05 | 1.9073e-05 |   0.0 |  8.12
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.006      |            |       | 92.28
+Other   |            | 0.000129   |            |       | 54.92
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1542,7 +1542,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.4779991742299	-3.38972975530475 -77.9637843720092
+Vol and Energy = 15.4779991742299	-3.38972975530475 -77.9637843720093
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1555,7 +1555,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       34   -13.566872    62.097918   -13.566872 
       35   -13.566872    62.097918   -13.566872 
-Loop time of 0.00150108 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000308037 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1563,20 +1563,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5668723941     -13.5668723941     -13.5668723941
-  Force two-norm initial, final = 2.52812e-015 2.52812e-015
-  Force max component initial, final = 2.05391e-015 2.05391e-015
-  Final line search alpha, max atom move = 1 2.05391e-015
+  Force two-norm initial, final = 2.64521e-15 2.64521e-15
+  Force max component initial, final = 2.14065e-15 2.14065e-15
+  Final line search alpha, max atom move = 1 2.14065e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00049901 | 0.00049901 | 0.00049901 |   0.0 | 33.24
+Pair    | 8.4162e-05 | 8.4162e-05 | 8.4162e-05 |   0.0 | 27.32
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6689e-05 | 1.6689e-05 | 1.6689e-05 |   0.0 |  5.42
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001002   |            |       | 66.76
+Other   |            | 0.0002072  |            |       | 67.26
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1590,7 +1590,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.5244796212281	-3.39171809852921 -78.0095162661718
+Vol and Energy = 15.5244796212281	-3.3917180985292 -78.0095162661717
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1603,28 +1603,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       35   -13.574365    62.284399   -13.574365 
       36   -13.574365    62.284399   -13.574365 
-Loop time of 0.00250101 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000689983 on 1 procs for 1 steps with 4 atoms
 
-0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+579.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.574364984      -13.574364984      -13.574364984
-  Force two-norm initial, final = 2.64348e-015 2.64348e-015
-  Force max component initial, final = 2.16493e-015 2.16493e-015
-  Final line search alpha, max atom move = 1 2.16493e-015
+  Force two-norm initial, final = 2.33804e-15 2.33804e-15
+  Force max component initial, final = 1.95503e-15 1.95503e-15
+  Final line search alpha, max atom move = 1 1.95503e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.7261e-05 | 8.7261e-05 | 8.7261e-05 |   0.0 | 12.65
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.9789e-05 | 1.9789e-05 | 1.9789e-05 |   0.0 |  2.87
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002501   |            |       |100.00
+Other   |            | 0.0005829  |            |       | 84.49
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1638,7 +1638,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.5710996490551	-3.39359124599926 -78.0525986579829
+Vol and Energy = 15.5710996490551	-3.39359124599925 -78.0525986579828
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1651,7 +1651,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       36   -13.581408    62.471439   -13.581408 
       37   -13.581408    62.471439   -13.581408 
-Loop time of 0.00499892 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00020504 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1659,20 +1659,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.5814083245     -13.5814083245     -13.5814083245
-  Force two-norm initial, final = 4.48895e-015 4.47711e-015
-  Force max component initial, final = 1.38778e-015 1.38778e-015
-  Final line search alpha, max atom move = 1 1.38778e-015
+  Force two-norm initial, final = 4.21929e-15 2.93138e-15
+  Force max component initial, final = 1.34961e-15 1.20216e-15
+  Final line search alpha, max atom move = 1 1.20216e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.7936e-05 | 5.7936e-05 | 5.7936e-05 |   0.0 | 28.26
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.4305e-05 | 1.4305e-05 | 1.4305e-05 |   0.0 |  6.98
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.004999   |            |       |100.00
+Other   |            | 0.0001328  |            |       | 64.77
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1699,28 +1699,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       37   -13.588013    62.659041   -13.588013 
       38   -13.588013    62.659041   -13.588013 
-Loop time of 0.00150084 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000263929 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = force tolerance
+  Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5880128314     -13.5880128314     -13.5880128314
-  Force two-norm initial, final = 3.39849e-015 4.77656e-016
-  Force max component initial, final = 1.16573e-015 3.40873e-016
-  Final line search alpha, max atom move = 1 3.40873e-016
+  Force two-norm initial, final = 2.63098e-15 2.63098e-15
+  Force max component initial, final = 1.18308e-15 1.18308e-15
+  Final line search alpha, max atom move = 1 1.18308e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.7023e-05 | 8.7023e-05 | 8.7023e-05 |   0.0 | 32.97
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.0027e-05 | 2.0027e-05 | 2.0027e-05 |   0.0 |  7.59
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001501   |            |       |100.00
+Other   |            | 0.0001569  |            |       | 59.44
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1734,7 +1734,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.6647601250998	-3.39700320784397 -78.1310737804112
+Vol and Energy = 15.6647601250998	-3.39700320784397 -78.1310737804113
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1747,7 +1747,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       38   -13.594189    62.847206   -13.594189 
       39   -13.594189    62.847206   -13.594189 
-Loop time of 0.00149798 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000387192 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1755,20 +1755,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.594189465      -13.594189465      -13.594189465
-  Force two-norm initial, final = 4.44204e-016 4.44204e-016
-  Force max component initial, final = 2.01228e-016 2.01228e-016
-  Final line search alpha, max atom move = 1 2.01228e-016
+  Force two-norm initial, final = 1.69269e-16 1.69269e-16
+  Force max component initial, final = 1.07553e-16 1.07553e-16
+  Final line search alpha, max atom move = 1 1.07553e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.6784e-05 | 8.6784e-05 | 8.6784e-05 |   0.0 | 22.41
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.2411e-05 | 2.2411e-05 | 2.2411e-05 |   0.0 |  5.79
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001498   |            |       |100.00
+Other   |            | 0.000278   |            |       | 71.80
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1782,7 +1782,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.7118014154203	-3.39854736626175 -78.1665894240201
+Vol and Energy = 15.7118014154203	-3.39854736626175 -78.1665894240202
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1795,28 +1795,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       39   -13.599949    63.035936   -13.599949 
       40   -13.599949    63.035936   -13.599949 
-Loop time of 0.00150084 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000330925 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = quadratic factors are zero
+  Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.5999489072     -13.5999489072     -13.5999489072
-  Force two-norm initial, final = 3.22087e-015 3.22087e-015
-  Force max component initial, final = 1.52482e-015 1.52482e-015
-  Final line search alpha, max atom move = 1 1.52482e-015
+  Force two-norm initial, final = 6.62336e-15 3.9354e-15
+  Force max component initial, final = 2.47025e-15 2.7053e-15
+  Final line search alpha, max atom move = 1 2.7053e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.5075e-05 | 5.5075e-05 | 5.5075e-05 |   0.0 | 16.64
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.2159e-05 | 1.2159e-05 | 1.2159e-05 |   0.0 |  3.67
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001501   |            |       |100.00
+Other   |            | 0.0002637  |            |       | 79.68
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1830,7 +1830,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.7589839707826	-3.39998722680871 -78.1997062166003
+Vol and Energy = 15.7589839707826	-3.39998722680871 -78.1997062166004
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1843,7 +1843,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       40   -13.605301    63.225233   -13.605301 
       41   -13.605301    63.225233   -13.605301 
-Loop time of 0.00349998 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000283003 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1851,20 +1851,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6053005554     -13.6053005554     -13.6053005554
-  Force two-norm initial, final = 2.30645e-015 2.30645e-015
-  Force max component initial, final = 1.04777e-015 1.04777e-015
-  Final line search alpha, max atom move = 1 1.04777e-015
+  Force two-norm initial, final = 2.70658e-15 2.70658e-15
+  Force max component initial, final = 1.13798e-15 1.13798e-15
+  Final line search alpha, max atom move = 1 1.13798e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.1778e-05 | 8.1778e-05 | 8.1778e-05 |   0.0 | 28.90
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.8835e-05 | 1.8835e-05 | 1.8835e-05 |   0.0 |  6.66
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0035     |            |       |100.00
+Other   |            | 0.0001824  |            |       | 64.45
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1891,7 +1891,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       41   -13.610255    63.415098   -13.610255 
       42   -13.610255    63.415098   -13.610255 
-Loop time of 0.0019958 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000254869 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1899,20 +1899,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6102550364     -13.6102550364     -13.6102550364
-  Force two-norm initial, final = 5.80914e-016 5.80914e-016
-  Force max component initial, final = 2.65413e-016 2.65413e-016
-  Final line search alpha, max atom move = 1 2.65413e-016
+  Force two-norm initial, final = 7.26141e-16 7.26141e-16
+  Force max component initial, final = 3.60822e-16 3.60822e-16
+  Final line search alpha, max atom move = 1 3.60822e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.6069e-05 | 8.6069e-05 | 8.6069e-05 |   0.0 | 33.77
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.9073e-05 | 1.9073e-05 | 1.9073e-05 |   0.0 |  7.48
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001996   |            |       |100.00
+Other   |            | 0.0001497  |            |       | 58.75
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1939,28 +1939,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       42   -13.614821    63.605534   -13.614821 
       43   -13.614821    63.605534   -13.614821 
-Loop time of 0.0155001 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000254869 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = quadratic factors are zero
+  Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.6148212286     -13.6148212286     -13.6148212286
-  Force two-norm initial, final = 2.16586e-015 2.16586e-015
-  Force max component initial, final = 1.02349e-015 1.02349e-015
-  Final line search alpha, max atom move = 1 1.02349e-015
+  Force two-norm initial, final = 3.80971e-15 3.87151e-15
+  Force max component initial, final = 1.98452e-15 1.67921e-15
+  Final line search alpha, max atom move = 1 1.67921e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.2254e-05 | 8.2254e-05 | 8.2254e-05 |   0.0 | 32.27
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0005002  | 0.0005002  | 0.0005002  |   0.0 |  3.23
+Comm    | 1.7166e-05 | 1.7166e-05 | 1.7166e-05 |   0.0 |  6.74
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.015      |            |       | 96.77
+Other   |            | 0.0001554  |            |       | 60.99
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1974,7 +1974,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.9013834756848	-3.40370530714863 -78.2852220644185
+Vol and Energy = 15.9013834756848	-3.40370530714863 -78.2852220644184
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -1987,28 +1987,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       43   -13.619009    63.796541   -13.619009 
       44   -13.619009    63.796541   -13.619009 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000215054 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = force tolerance
+  Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6190087659     -13.6190087659     -13.6190087659
-  Force two-norm initial, final = 3.66871e-015 3.47639e-015
-  Force max component initial, final = 1.5786e-015 2.00794e-015
-  Final line search alpha, max atom move = 1 2.00794e-015
+  Force two-norm initial, final = 3.70027e-15 3.70027e-15
+  Force max component initial, final = 1.6584e-15 1.6584e-15
+  Final line search alpha, max atom move = 1 1.6584e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.5115e-05 | 8.5115e-05 | 8.5115e-05 |   0.0 | 39.58
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.0266e-05 | 2.0266e-05 | 2.0266e-05 |   0.0 |  9.42
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001097  |            |       | 51.00
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2022,7 +2022,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 15.9491353461637	-3.404752191485 -78.3093004041549
+Vol and Energy = 15.9491353461637	-3.40475219148499 -78.3093004041549
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -2035,7 +2035,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       44   -13.622826    63.988122   -13.622826 
       45   -13.622826    63.988122   -13.622826 
-Loop time of 0.00200009 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000200987 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2043,20 +2043,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6228264624     -13.6228264624     -13.6228264624
-  Force two-norm initial, final = 6.39615e-016 6.39615e-016
-  Force max component initial, final = 2.46331e-016 2.46331e-016
-  Final line search alpha, max atom move = 1 2.46331e-016
+  Force two-norm initial, final = 7.43647e-16 7.43647e-16
+  Force max component initial, final = 2.81025e-16 2.81025e-16
+  Final line search alpha, max atom move = 1 2.81025e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.3923e-05 | 8.3923e-05 | 8.3923e-05 |   0.0 | 41.76
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.00049996 | 0.00049996 | 0.00049996 |   0.0 | 25.00
+Comm    | 1.9312e-05 | 1.9312e-05 | 1.9312e-05 |   0.0 |  9.61
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       | 75.00
+Other   |            | 9.775e-05  |            |       | 48.64
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2083,7 +2083,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       45   -13.626283    64.180279   -13.626283 
       46   -13.626283    64.180279   -13.626283 
-Loop time of 0.00250006 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000194073 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2091,20 +2091,20 @@ Minimization stats:
   Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.6262827827     -13.6262827827     -13.6262827827
-  Force two-norm initial, final = 6.84933e-015 2.22312e-015
-  Force max component initial, final = 2.80418e-015 9.29812e-016
-  Final line search alpha, max atom move = 1 9.29812e-016
+  Force two-norm initial, final = 5.19604e-15 2.45789e-15
+  Force max component initial, final = 1.97065e-15 1.2889e-15
+  Final line search alpha, max atom move = 1 1.2889e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.5075e-05 | 5.5075e-05 | 5.5075e-05 |   0.0 | 28.38
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.2159e-05 | 1.2159e-05 | 1.2159e-05 |   0.0 |  6.27
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0025     |            |       |100.00
+Other   |            | 0.0001268  |            |       | 65.36
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2118,7 +2118,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 16.0450697144929	-3.40657069567598 -78.3511260005476
+Vol and Energy = 16.0450697144929	-3.40657069567599 -78.3511260005477
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -2131,7 +2131,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       46   -13.629386    64.373012   -13.629386 
       47   -13.629386    64.373012   -13.629386 
-Loop time of 0.028501 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000212908 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2139,20 +2139,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6293859686     -13.6293859686     -13.6293859686
-  Force two-norm initial, final = 8.18497e-017 8.18497e-017
-  Force max component initial, final = 4.85723e-017 4.85723e-017
-  Final line search alpha, max atom move = 1 4.85723e-017
+  Force two-norm initial, final = 1.39278e-16 1.39278e-16
+  Force max component initial, final = 1.35308e-16 1.35308e-16
+  Final line search alpha, max atom move = 1 1.35308e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.9155e-05 | 7.9155e-05 | 7.9155e-05 |   0.0 | 37.18
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 2.0981e-05 | 2.0981e-05 | 2.0981e-05 |   0.0 |  9.85
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0285     |            |       |100.00
+Other   |            | 0.0001128  |            |       | 52.97
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2179,7 +2179,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       47   -13.632144    64.566325   -13.632144 
       48   -13.632144    64.566325   -13.632144 
-Loop time of 0.000998974 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000303984 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2187,20 +2187,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6321439991     -13.6321439991     -13.6321439991
-  Force two-norm initial, final = 3.10297e-015 3.10297e-015
-  Force max component initial, final = 1.47105e-015 1.47105e-015
-  Final line search alpha, max atom move = 1 1.47105e-015
+  Force two-norm initial, final = 1.2672e-15 1.2672e-15
+  Force max component initial, final = 5.10009e-16 5.10009e-16
+  Final line search alpha, max atom move = 1 5.10009e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.2016e-05 | 8.2016e-05 | 8.2016e-05 |   0.0 | 26.98
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7881e-05 | 1.7881e-05 | 1.7881e-05 |   0.0 |  5.88
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.000999   |            |       |100.00
+Other   |            | 0.0002041  |            |       | 67.14
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2227,28 +2227,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       48   -13.634564    64.760217   -13.634564 
       49   -13.634564    64.760217   -13.634564 
-Loop time of 0.00200009 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000285149 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = force tolerance
+  Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6345642482     -13.6345642482     -13.6345642482
-  Force two-norm initial, final = 4.23261e-015 3.91195e-016
-  Force max component initial, final = 2.00881e-015 1.73472e-016
-  Final line search alpha, max atom move = 1 1.73472e-016
+  Force two-norm initial, final = 2.57307e-15 2.57307e-15
+  Force max component initial, final = 1.07553e-15 1.07553e-15
+  Final line search alpha, max atom move = 1 1.07553e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.0010011  | 0.0010011  | 0.0010011  |   0.0 | 50.05
+Pair    | 5.3883e-05 | 5.3883e-05 | 5.3883e-05 |   0.0 | 18.90
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.3828e-05 | 1.3828e-05 | 1.3828e-05 |   0.0 |  4.85
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.000999   |            |       | 49.95
+Other   |            | 0.0002174  |            |       | 76.25
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2275,7 +2275,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       49   -13.636654    64.954692   -13.636654 
       50   -13.636654    64.954692   -13.636654 
-Loop time of 0.00599885 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000246048 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2283,20 +2283,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6366541989     -13.6366541989     -13.6366541989
-  Force two-norm initial, final = 7.32908e-017 7.32908e-017
-  Force max component initial, final = 3.98986e-017 3.98986e-017
-  Final line search alpha, max atom move = 1 3.98986e-017
+  Force two-norm initial, final = 1.1861e-16 1.1861e-16
+  Force max component initial, final = 1.00614e-16 1.00614e-16
+  Final line search alpha, max atom move = 1 1.00614e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 8.8215e-05 | 8.8215e-05 | 8.8215e-05 |   0.0 | 35.85
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7881e-05 | 1.7881e-05 | 1.7881e-05 |   0.0 |  7.27
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.005999   |            |       |100.00
+Other   |            | 0.00014    |            |       | 56.88
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2323,7 +2323,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       50    -13.63842    65.149751    -13.63842 
       51    -13.63842    65.149751    -13.63842 
-Loop time of 0.000999928 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000227213 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2331,20 +2331,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6384204497     -13.6384204497     -13.6384204497
-  Force two-norm initial, final = 2.80144e-015 2.80144e-015
-  Force max component initial, final = 9.0726e-016 9.0726e-016
-  Final line search alpha, max atom move = 1 9.0726e-016
+  Force two-norm initial, final = 2.17581e-15 2.17581e-15
+  Force max component initial, final = 1.07206e-15 1.07206e-15
+  Final line search alpha, max atom move = 1 1.07206e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.5102e-05 | 7.5102e-05 | 7.5102e-05 |   0.0 | 33.05
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6689e-05 | 1.6689e-05 | 1.6689e-05 |   0.0 |  7.35
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       |100.00
+Other   |            | 0.0001354  |            |       | 59.60
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2371,28 +2371,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       51    -13.63987    65.345396    -13.63987 
       52    -13.63987    65.345396    -13.63987 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000370979 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = force tolerance
+  Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6398697338     -13.6398697338     -13.6398697338
-  Force two-norm initial, final = 3.61401e-015 2.23399e-015
-  Force max component initial, final = 1.09635e-015 1.02696e-015
-  Final line search alpha, max atom move = 1 1.02696e-015
+  Force two-norm initial, final = 3.1142e-15 3.1142e-15
+  Force max component initial, final = 1.54737e-15 1.54737e-15
+  Final line search alpha, max atom move = 1 1.54737e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 4.9829e-05 | 4.9829e-05 | 4.9829e-05 |   0.0 | 13.43
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.3113e-05 | 1.3113e-05 | 1.3113e-05 |   0.0 |  3.53
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.000308   |            |       | 83.03
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2419,28 +2419,28 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       52   -13.641008    65.541628   -13.641008 
       53   -13.641008    65.541628   -13.641008 
-Loop time of 0.000999928 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000215054 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = quadratic factors are zero
+  Stopping criterion = force tolerance
   Energy initial, next-to-last, final = 
         -13.6410080917     -13.6410080917     -13.6410080917
-  Force two-norm initial, final = 2.27536e-015 2.27536e-015
-  Force max component initial, final = 9.57567e-016 9.57567e-016
-  Final line search alpha, max atom move = 1 9.57567e-016
+  Force two-norm initial, final = 4.27061e-15 6.04114e-15
+  Force max component initial, final = 2.20483e-15 2.5327e-15
+  Final line search alpha, max atom move = 1 2.5327e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.8201e-05 | 7.8201e-05 | 7.8201e-05 |   0.0 | 36.36
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7643e-05 | 1.7643e-05 | 1.7643e-05 |   0.0 |  8.20
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       |100.00
+Other   |            | 0.0001192  |            |       | 55.43
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2467,7 +2467,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       53   -13.641841     65.73845   -13.641841 
       54   -13.641841     65.73845   -13.641841 
-Loop time of 0.00200009 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000363111 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2475,20 +2475,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6418409692     -13.6418409692     -13.6418409692
-  Force two-norm initial, final = 1.71386e-015 1.71386e-015
-  Force max component initial, final = 8.43076e-016 8.43076e-016
-  Final line search alpha, max atom move = 1 8.43076e-016
+  Force two-norm initial, final = 2.04626e-15 2.04626e-15
+  Force max component initial, final = 1.00614e-15 1.00614e-15
+  Final line search alpha, max atom move = 1 1.00614e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.8201e-05 | 7.8201e-05 | 7.8201e-05 |   0.0 | 21.54
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6451e-05 | 1.6451e-05 | 1.6451e-05 |   0.0 |  4.53
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002      |            |       |100.00
+Other   |            | 0.0002685  |            |       | 73.93
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2515,7 +2515,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       54   -13.642374    65.935863   -13.642374 
       55   -13.642374    65.935863   -13.642374 
-Loop time of 0.00199986 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000216007 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2523,20 +2523,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6423743731     -13.6423743731     -13.6423743731
-  Force two-norm initial, final = 6.00926e-017 6.00926e-017
-  Force max component initial, final = 3.81639e-017 3.81639e-017
-  Final line search alpha, max atom move = 1 3.81639e-017
+  Force two-norm initial, final = 7.5878e-17 7.5878e-17
+  Force max component initial, final = 5.20417e-17 5.20417e-17
+  Final line search alpha, max atom move = 1 5.20417e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00049996 | 0.00049996 | 0.00049996 |   0.0 | 25.00
+Pair    | 6.9857e-05 | 6.9857e-05 | 6.9857e-05 |   0.0 | 32.34
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6451e-05 | 1.6451e-05 | 1.6451e-05 |   0.0 |  7.62
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       | 75.00
+Other   |            | 0.0001297  |            |       | 60.04
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2550,7 +2550,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 16.4839656309739	-3.41059359326612 -78.4436526451207
+Vol and Energy = 16.4839656309739	-3.41059359326612 -78.4436526451208
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -2563,7 +2563,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       55   -13.642613    66.133868   -13.642613 
       56   -13.642613    66.133868   -13.642613 
-Loop time of 0.0115011 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000494957 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2571,20 +2571,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.642613131      -13.642613131      -13.642613131
-  Force two-norm initial, final = 5.82619e-017 5.82619e-017
-  Force max component initial, final = 2.77556e-017 2.77556e-017
-  Final line search alpha, max atom move = 1 2.77556e-017
+  Force two-norm initial, final = 4.91879e-17 4.91879e-17
+  Force max component initial, final = 2.25514e-17 2.25514e-17
+  Final line search alpha, max atom move = 1 2.25514e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.3195e-05 | 7.3195e-05 | 7.3195e-05 |   0.0 | 14.79
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6928e-05 | 1.6928e-05 | 1.6928e-05 |   0.0 |  3.42
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0115     |            |       |100.00
+Other   |            | 0.0004048  |            |       | 81.79
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2611,7 +2611,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       56   -13.642562    66.332468   -13.642562 
       57   -13.642562    66.332468   -13.642562 
-Loop time of 0.00250101 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000504971 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2619,20 +2619,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6425616731     -13.6425616731     -13.6425616731
-  Force two-norm initial, final = 3.44966e-015 3.44966e-015
-  Force max component initial, final = 1.6185e-015 1.6185e-015
-  Final line search alpha, max atom move = 1 1.6185e-015
+  Force two-norm initial, final = 1.88718e-15 1.88718e-15
+  Force max component initial, final = 7.97973e-16 7.97973e-16
+  Final line search alpha, max atom move = 1 7.97973e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.0005002  | 0.0005002  | 0.0005002  |   0.0 | 20.00
+Pair    | 7.391e-05  | 7.391e-05  | 7.391e-05  |   0.0 | 14.64
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7166e-05 | 1.7166e-05 | 1.7166e-05 |   0.0 |  3.40
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002001   |            |       | 80.00
+Other   |            | 0.0004139  |            |       | 81.96
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2659,7 +2659,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       57   -13.642225    66.531665   -13.642225 
       58   -13.642225    66.531665   -13.642225 
-Loop time of 0.000998974 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000193119 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2667,20 +2667,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6422251414     -13.6422251414     -13.6422251414
-  Force two-norm initial, final = 2.56359e-016 2.56359e-016
-  Force max component initial, final = 1.04083e-016 1.04083e-016
-  Final line search alpha, max atom move = 1 1.04083e-016
+  Force two-norm initial, final = 2.69848e-16 2.69848e-16
+  Force max component initial, final = 9.88792e-17 9.88792e-17
+  Final line search alpha, max atom move = 1 9.88792e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 6.8903e-05 | 6.8903e-05 | 6.8903e-05 |   0.0 | 35.68
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.812e-05  | 1.812e-05  | 1.812e-05  |   0.0 |  9.38
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.000999   |            |       |100.00
+Other   |            | 0.0001061  |            |       | 54.94
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2707,7 +2707,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       58   -13.641607    66.731459   -13.641607 
       59   -13.641607    66.731459   -13.641607 
-Loop time of 0.00349998 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000178099 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2715,20 +2715,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6416070047     -13.6416070047     -13.6416070047
-  Force two-norm initial, final = 3.34661e-015 3.34661e-015
-  Force max component initial, final = 1.60288e-015 1.60288e-015
-  Final line search alpha, max atom move = 1 1.60288e-015
+  Force two-norm initial, final = 1.49534e-15 1.49534e-15
+  Force max component initial, final = 6.26235e-16 6.26235e-16
+  Final line search alpha, max atom move = 1 6.26235e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 4.9114e-05 | 4.9114e-05 | 4.9114e-05 |   0.0 | 27.58
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.1921e-05 | 1.1921e-05 | 1.1921e-05 |   0.0 |  6.69
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0035     |            |       |100.00
+Other   |            | 0.0001171  |            |       | 65.73
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2742,7 +2742,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 16.6828647949223	-3.41040175117605 -78.4392402770492
+Vol and Energy = 16.6828647949223	-3.41040175117605 -78.4392402770491
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -2755,7 +2755,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       59   -13.640711    66.931854   -13.640711 
       60   -13.640711    66.931854   -13.640711 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000202179 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2763,20 +2763,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6407109148     -13.6407109148     -13.6407109148
-  Force two-norm initial, final = 3.52461e-015 3.52461e-015
-  Force max component initial, final = 1.67574e-015 1.67574e-015
-  Final line search alpha, max atom move = 1 1.67574e-015
+  Force two-norm initial, final = 1.66656e-15 1.66656e-15
+  Force max component initial, final = 7.12971e-16 7.12971e-16
+  Final line search alpha, max atom move = 1 7.12971e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 4.9114e-05 | 4.9114e-05 | 4.9114e-05 |   0.0 | 24.29
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.2875e-05 | 1.2875e-05 | 1.2875e-05 |   0.0 |  6.37
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001402  |            |       | 69.34
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2803,7 +2803,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       60   -13.639541     67.13285   -13.639541 
       61   -13.639541     67.13285   -13.639541 
-Loop time of 0.00150108 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000200033 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2811,20 +2811,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6395406221     -13.6395406221     -13.6395406221
-  Force two-norm initial, final = 5.6106e-017 5.6106e-017
-  Force max component initial, final = 3.03577e-017 3.03577e-017
-  Final line search alpha, max atom move = 1 3.03577e-017
+  Force two-norm initial, final = 6.13271e-17 6.13271e-17
+  Force max component initial, final = 2.94903e-17 2.94903e-17
+  Final line search alpha, max atom move = 1 2.94903e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.4863e-05 | 7.4863e-05 | 7.4863e-05 |   0.0 | 37.43
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6928e-05 | 1.6928e-05 | 1.6928e-05 |   0.0 |  8.46
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001501   |            |       |100.00
+Other   |            | 0.0001082  |            |       | 54.11
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2851,7 +2851,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       61   -13.638098     67.33445   -13.638098 
       62   -13.638098     67.33445   -13.638098 
-Loop time of 0.00149989 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000174046 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2859,20 +2859,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6380983835     -13.6380983835     -13.6380983835
-  Force two-norm initial, final = 3.13996e-017 3.13996e-017
-  Force max component initial, final = 2.08167e-017 2.08167e-017
-  Final line search alpha, max atom move = 1 2.08167e-017
+  Force two-norm initial, final = 5.37014e-17 5.37014e-17
+  Force max component initial, final = 2.77556e-17 2.77556e-17
+  Final line search alpha, max atom move = 1 2.77556e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 4.9829e-05 | 4.9829e-05 | 4.9829e-05 |   0.0 | 28.63
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.1444e-05 | 1.1444e-05 | 1.1444e-05 |   0.0 |  6.58
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001128  |            |       | 64.79
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2899,7 +2899,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       62   -13.636387    67.536656   -13.636387 
       63   -13.636387    67.536656   -13.636387 
-Loop time of 0.000999928 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00019598 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2907,20 +2907,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.636387411      -13.636387411      -13.636387411
-  Force two-norm initial, final = 5.90125e-017 5.90125e-017
-  Force max component initial, final = 3.1225e-017 3.1225e-017
-  Final line search alpha, max atom move = 1 3.1225e-017
+  Force two-norm initial, final = 3.16201e-17 3.16201e-17
+  Force max component initial, final = 2.08167e-17 2.08167e-17
+  Final line search alpha, max atom move = 1 2.08167e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.4863e-05 | 7.4863e-05 | 7.4863e-05 |   0.0 | 38.20
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.8835e-05 | 1.8835e-05 | 1.8835e-05 |   0.0 |  9.61
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       |100.00
+Other   |            | 0.0001023  |            |       | 52.19
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2947,7 +2947,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       63    -13.63441    67.739468    -13.63441 
       64    -13.63441    67.739468    -13.63441 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000262976 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -2955,20 +2955,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6344103406     -13.6344103406     -13.6344103406
-  Force two-norm initial, final = 1.38368e-016 1.38368e-016
-  Force max component initial, final = 6.245e-017 6.245e-017
-  Final line search alpha, max atom move = 1 6.245e-017
+  Force two-norm initial, final = 9.41157e-17 9.41157e-17
+  Force max component initial, final = 4.42354e-17 4.42354e-17
+  Final line search alpha, max atom move = 1 4.42354e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.3195e-05 | 7.3195e-05 | 7.3195e-05 |   0.0 | 27.83
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7881e-05 | 1.7881e-05 | 1.7881e-05 |   0.0 |  6.80
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001719  |            |       | 65.37
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -2995,7 +2995,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       64   -13.632168     67.94289   -13.632168 
       65   -13.632168     67.94289   -13.632168 
-Loop time of 0.00150108 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000188828 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3003,20 +3003,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6321678607     -13.6321678607     -13.6321678607
-  Force two-norm initial, final = 5.23085e-017 5.23085e-017
-  Force max component initial, final = 3.03577e-017 3.03577e-017
-  Final line search alpha, max atom move = 1 3.03577e-017
+  Force two-norm initial, final = 6.24741e-17 6.24741e-17
+  Force max component initial, final = 4.68375e-17 4.68375e-17
+  Final line search alpha, max atom move = 1 4.68375e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.0095e-05 | 7.0095e-05 | 7.0095e-05 |   0.0 | 37.12
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6212e-05 | 1.6212e-05 | 1.6212e-05 |   0.0 |  8.59
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001501   |            |       |100.00
+Other   |            | 0.0001025  |            |       | 54.29
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3030,7 +3030,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 16.9857225039549	-3.40804196516527 -78.3849651988011
+Vol and Energy = 16.9857225039549	-3.40804196516527 -78.3849651988012
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -3043,7 +3043,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       65   -13.629662    68.146923   -13.629662 
       66   -13.629662    68.146923   -13.629662 
-Loop time of 0.00249887 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000203848 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3051,20 +3051,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6296623619     -13.6296623619     -13.6296623619
-  Force two-norm initial, final = 8.84284e-017 8.84284e-017
-  Force max component initial, final = 4.16334e-017 4.16334e-017
-  Final line search alpha, max atom move = 1 4.16334e-017
+  Force two-norm initial, final = 8.21616e-17 8.21616e-17
+  Force max component initial, final = 3.46945e-17 3.46945e-17
+  Final line search alpha, max atom move = 1 3.46945e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 4.8161e-05 | 4.8161e-05 | 4.8161e-05 |   0.0 | 23.63
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.0729e-05 | 1.0729e-05 | 1.0729e-05 |   0.0 |  5.26
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002499   |            |       |100.00
+Other   |            | 0.000145   |            |       | 71.11
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3091,7 +3091,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       66   -13.626895    68.351568   -13.626895 
       67   -13.626895    68.351568   -13.626895 
-Loop time of 0.00200009 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000209093 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3099,20 +3099,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6268946774     -13.6268946774     -13.6268946774
-  Force two-norm initial, final = 1.4524e-015 1.4524e-015
-  Force max component initial, final = 6.80012e-016 6.80012e-016
-  Final line search alpha, max atom move = 1 6.80012e-016
+  Force two-norm initial, final = 2.23142e-15 2.23142e-15
+  Force max component initial, final = 1.01308e-15 1.01308e-15
+  Final line search alpha, max atom move = 1 1.01308e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00050116 | 0.00050116 | 0.00050116 |   0.0 | 25.06
+Pair    | 9.5129e-05 | 9.5129e-05 | 9.5129e-05 |   0.0 | 45.50
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.5974e-05 | 1.5974e-05 | 1.5974e-05 |   0.0 |  7.64
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001499   |            |       | 74.94
+Other   |            | 9.799e-05  |            |       | 46.86
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3126,7 +3126,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 17.0878919647855	-3.40672366935646 -78.3546443951985
+Vol and Energy = 17.0878919647855	-3.40672366935645 -78.3546443951984
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -3139,7 +3139,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       67   -13.623865    68.556828   -13.623865 
       68   -13.623865    68.556828   -13.623865 
-Loop time of 0.00900006 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000185013 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3147,20 +3147,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6238654052     -13.6238654052     -13.6238654052
-  Force two-norm initial, final = 2.93835e-017 2.93835e-017
-  Force max component initial, final = 2.42861e-017 2.42861e-017
-  Final line search alpha, max atom move = 1 2.42861e-017
+  Force two-norm initial, final = 4.51227e-17 4.51227e-17
+  Force max component initial, final = 3.1225e-17 3.1225e-17
+  Final line search alpha, max atom move = 1 3.1225e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00049996 | 0.00049996 | 0.00049996 |   0.0 |  5.56
+Pair    | 6.8188e-05 | 6.8188e-05 | 6.8188e-05 |   0.0 | 36.86
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.4782e-05 | 1.4782e-05 | 1.4782e-05 |   0.0 |  7.99
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0085     |            |       | 94.44
+Other   |            | 0.000102   |            |       | 55.15
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3187,7 +3187,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       68   -13.620575    68.762704   -13.620575 
       69   -13.620575    68.762704   -13.620575 
-Loop time of 0.000998974 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00019908 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3195,20 +3195,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6205749336     -13.6205749336     -13.6205749336
-  Force two-norm initial, final = 1.17292e-015 1.17292e-015
-  Force max component initial, final = 5.68989e-016 5.68989e-016
-  Final line search alpha, max atom move = 1 5.68989e-016
+  Force two-norm initial, final = 2.07156e-15 2.07156e-15
+  Force max component initial, final = 9.57567e-16 9.57567e-16
+  Final line search alpha, max atom move = 1 9.57567e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.2241e-05 | 7.2241e-05 | 7.2241e-05 |   0.0 | 36.29
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6928e-05 | 1.6928e-05 | 1.6928e-05 |   0.0 |  8.50
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.000999   |            |       |100.00
+Other   |            | 0.0001099  |            |       | 55.21
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3235,7 +3235,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       69   -13.617023    68.969198   -13.617023 
       70   -13.617023    68.969198   -13.617023 
-Loop time of 0.00500202 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000201941 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3243,20 +3243,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.617023069      -13.617023069      -13.617023069
-  Force two-norm initial, final = 5.92415e-017 5.92415e-017
-  Force max component initial, final = 3.1225e-017 3.1225e-017
-  Final line search alpha, max atom move = 1 3.1225e-017
+  Force two-norm initial, final = 7.651e-17 7.651e-17
+  Force max component initial, final = 5.20417e-17 5.20417e-17
+  Final line search alpha, max atom move = 1 5.20417e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 6.9857e-05 | 6.9857e-05 | 6.9857e-05 |   0.0 | 34.59
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6212e-05 | 1.6212e-05 | 1.6212e-05 |   0.0 |  8.03
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.005002   |            |       |100.00
+Other   |            | 0.0001159  |            |       | 57.38
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3283,7 +3283,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       70    -13.61321    69.176313    -13.61321 
       71    -13.61321    69.176313    -13.61321 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000174999 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3291,20 +3291,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6132095269     -13.6132095269     -13.6132095269
-  Force two-norm initial, final = 8.7324e-017 8.7324e-017
-  Force max component initial, final = 4.16334e-017 4.16334e-017
-  Final line search alpha, max atom move = 1 4.16334e-017
+  Force two-norm initial, final = 7.93292e-17 7.93292e-17
+  Force max component initial, final = 4.16334e-17 4.16334e-17
+  Final line search alpha, max atom move = 1 4.16334e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 4.6968e-05 | 4.6968e-05 | 4.6968e-05 |   0.0 | 26.84
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.0252e-05 | 1.0252e-05 | 1.0252e-05 |   0.0 |  5.86
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001178  |            |       | 67.30
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3318,7 +3318,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 17.2940782370409	-3.40330238173598 -78.2759547799276
+Vol and Energy = 17.2940782370409	-3.40330238173599 -78.2759547799277
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -3331,7 +3331,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       71   -13.609132    69.384049   -13.609132 
       72   -13.609132    69.384049   -13.609132 
-Loop time of 0.000998974 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00017786 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3339,20 +3339,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.609132479      -13.609132479      -13.609132479
-  Force two-norm initial, final = 5.41667e-017 5.41667e-017
-  Force max component initial, final = 3.1225e-017 3.1225e-017
-  Final line search alpha, max atom move = 1 3.1225e-017
+  Force two-norm initial, final = 8.78908e-17 8.78908e-17
+  Force max component initial, final = 4.68375e-17 4.68375e-17
+  Final line search alpha, max atom move = 1 4.68375e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 4.6968e-05 | 4.6968e-05 | 4.6968e-05 |   0.0 | 26.41
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 8.8215e-06 | 8.8215e-06 | 8.8215e-06 |   0.0 |  4.96
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.000999   |            |       |100.00
+Other   |            | 0.0001221  |            |       | 68.63
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3379,7 +3379,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       72   -13.604792     69.59241   -13.604792 
       73   -13.604792     69.59241   -13.604792 
-Loop time of 0.000998974 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000166893 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3387,20 +3387,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6047915299     -13.6047915299     -13.6047915299
-  Force two-norm initial, final = 9.4761e-017 9.4761e-017
-  Force max component initial, final = 5.55112e-017 5.55112e-017
-  Final line search alpha, max atom move = 1 5.55112e-017
+  Force two-norm initial, final = 7.1166e-17 7.1166e-17
+  Force max component initial, final = 4.68375e-17 4.68375e-17
+  Final line search alpha, max atom move = 1 4.68375e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.7909e-05 | 3.7909e-05 | 3.7909e-05 |   0.0 | 22.71
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.1206e-05 | 1.1206e-05 | 1.1206e-05 |   0.0 |  6.71
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.000999   |            |       |100.00
+Other   |            | 0.0001178  |            |       | 70.57
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3427,7 +3427,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       73   -13.600184    69.801396   -13.600184 
       74   -13.600184    69.801396   -13.600184 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000398159 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3435,20 +3435,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.6001841335     -13.6001841335     -13.6001841335
-  Force two-norm initial, final = 7.95376e-017 7.95376e-017
-  Force max component initial, final = 5.55112e-017 5.55112e-017
-  Final line search alpha, max atom move = 1 5.55112e-017
+  Force two-norm initial, final = 7.05981e-17 7.05981e-17
+  Force max component initial, final = 2.86229e-17 2.86229e-17
+  Final line search alpha, max atom move = 1 2.86229e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.6744e-05 | 5.6744e-05 | 5.6744e-05 |   0.0 | 14.25
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7405e-05 | 1.7405e-05 | 1.7405e-05 |   0.0 |  4.37
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.000324   |            |       | 81.38
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3475,7 +3475,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       74   -13.595308     70.01101   -13.595308 
       75   -13.595308     70.01101   -13.595308 
-Loop time of 0.00599909 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00017786 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3483,20 +3483,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5953081715     -13.5953081715     -13.5953081715
-  Force two-norm initial, final = 1.52271e-015 1.52271e-015
-  Force max component initial, final = 7.49401e-016 7.49401e-016
-  Final line search alpha, max atom move = 1 7.49401e-016
+  Force two-norm initial, final = 6.68213e-16 6.68213e-16
+  Force max component initial, final = 3.07046e-16 3.07046e-16
+  Final line search alpha, max atom move = 1 3.07046e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.2929e-05 | 5.2929e-05 | 5.2929e-05 |   0.0 | 29.76
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.502e-05  | 1.502e-05  | 1.502e-05  |   0.0 |  8.45
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.005999   |            |       |100.00
+Other   |            | 0.0001099  |            |       | 61.80
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3510,7 +3510,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 17.5027523983205	-3.39882704287396 -78.173021986101
+Vol and Energy = 17.5027523983205	-3.39882704287396 -78.1730219861011
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -3523,7 +3523,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       75   -13.590162    70.221253   -13.590162 
       76   -13.590162    70.221253   -13.590162 
-Loop time of 0.00149989 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000178814 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3531,20 +3531,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5901618158     -13.5901618158     -13.5901618158
-  Force two-norm initial, final = 1.55125e-015 1.55125e-015
-  Force max component initial, final = 8.01442e-016 8.01442e-016
-  Final line search alpha, max atom move = 1 8.01442e-016
+  Force two-norm initial, final = 1.42888e-15 1.42888e-15
+  Force max component initial, final = 7.94503e-16 7.94503e-16
+  Final line search alpha, max atom move = 1 7.94503e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00049996 | 0.00049996 | 0.00049996 |   0.0 | 33.33
+Pair    | 3.9816e-05 | 3.9816e-05 | 3.9816e-05 |   0.0 | 22.27
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.8835e-05 | 1.8835e-05 | 1.8835e-05 |   0.0 | 10.53
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       | 66.67
+Other   |            | 0.0001202  |            |       | 67.20
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3571,7 +3571,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       76   -13.584743    70.432127   -13.584743 
       77   -13.584743    70.432127   -13.584743 
-Loop time of 0.00300097 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000168085 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3579,20 +3579,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5847432761     -13.5847432761     -13.5847432761
-  Force two-norm initial, final = 1.59279e-015 1.59279e-015
-  Force max component initial, final = 6.93889e-016 6.93889e-016
-  Final line search alpha, max atom move = 1 6.93889e-016
+  Force two-norm initial, final = 7.41078e-16 7.41078e-16
+  Force max component initial, final = 3.67761e-16 3.67761e-16
+  Final line search alpha, max atom move = 1 3.67761e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.7909e-05 | 3.7909e-05 | 3.7909e-05 |   0.0 | 22.55
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.4067e-05 | 1.4067e-05 | 1.4067e-05 |   0.0 |  8.37
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.003001   |            |       |100.00
+Other   |            | 0.0001161  |            |       | 69.08
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3619,7 +3619,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       77   -13.579051    70.643635   -13.579051 
       78   -13.579051    70.643635   -13.579051 
-Loop time of 0.000999928 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000154018 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3627,20 +3627,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5790505567     -13.5790505567     -13.5790505567
-  Force two-norm initial, final = 1.25272e-015 1.25272e-015
-  Force max component initial, final = 6.20164e-016 6.20164e-016
-  Final line search alpha, max atom move = 1 6.20164e-016
+  Force two-norm initial, final = 1.53603e-15 1.53603e-15
+  Force max component initial, final = 8.97719e-16 8.97719e-16
+  Final line search alpha, max atom move = 1 8.97719e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.1975e-05 | 5.1975e-05 | 5.1975e-05 |   0.0 | 33.75
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.502e-05  | 1.502e-05  | 1.502e-05  |   0.0 |  9.75
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       |100.00
+Other   |            | 8.702e-05  |            |       | 56.50
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3667,7 +3667,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       78   -13.573082    70.855778   -13.573082 
       79   -13.573082    70.855778   -13.573082 
-Loop time of 0.015002 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000156164 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3675,20 +3675,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5730820387     -13.5730820387     -13.5730820387
-  Force two-norm initial, final = 9.61481e-017 9.61481e-017
-  Force max component initial, final = 5.89806e-017 5.89806e-017
-  Final line search alpha, max atom move = 1 5.89806e-017
+  Force two-norm initial, final = 6.34598e-17 6.34598e-17
+  Force max component initial, final = 4.42354e-17 4.42354e-17
+  Final line search alpha, max atom move = 1 4.42354e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.8385e-05 | 3.8385e-05 | 3.8385e-05 |   0.0 | 24.58
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 9.7752e-06 | 9.7752e-06 | 9.7752e-06 |   0.0 |  6.26
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.015      |            |       |100.00
+Other   |            | 0.000108   |            |       | 69.16
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3715,7 +3715,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       79   -13.566836    71.068558   -13.566836 
       80   -13.566836    71.068558   -13.566836 
-Loop time of 0.00099802 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000164032 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3723,20 +3723,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5668360704     -13.5668360704     -13.5668360704
-  Force two-norm initial, final = 1.31988e-015 1.31988e-015
-  Force max component initial, final = 6.73073e-016 6.73073e-016
-  Final line search alpha, max atom move = 1 6.73073e-016
+  Force two-norm initial, final = 2.49974e-15 2.49974e-15
+  Force max component initial, final = 1.25074e-15 1.25074e-15
+  Final line search alpha, max atom move = 1 1.25074e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.6267e-05 | 5.6267e-05 | 5.6267e-05 |   0.0 | 34.30
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.00049996 | 0.00049996 | 0.00049996 |   0.0 | 50.10
+Comm    | 1.5497e-05 | 1.5497e-05 | 1.5497e-05 |   0.0 |  9.45
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0004981  |            |       | 49.90
+Other   |            | 9.227e-05  |            |       | 56.25
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3750,7 +3750,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 17.7671394609934	-3.39170901759434 -78.0093074046697
+Vol and Energy = 17.7671394609934	-3.39170901759433 -78.0093074046697
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -3763,7 +3763,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       80    -13.56031    71.281977    -13.56031 
       81    -13.56031    71.281977    -13.56031 
-Loop time of 0.00250006 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000203133 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3771,20 +3771,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5603104015     -13.5603104015     -13.5603104015
-  Force two-norm initial, final = 2.13446e-015 2.13446e-015
-  Force max component initial, final = 1.1241e-015 1.1241e-015
-  Final line search alpha, max atom move = 1 1.1241e-015
+  Force two-norm initial, final = 2.49466e-15 2.49466e-15
+  Force max component initial, final = 1.2941e-15 1.2941e-15
+  Final line search alpha, max atom move = 1 1.2941e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.3167e-05 | 5.3167e-05 | 5.3167e-05 |   0.0 | 26.17
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.1683e-05 | 1.1683e-05 | 1.1683e-05 |   0.0 |  5.75
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0025     |            |       |100.00
+Other   |            | 0.0001383  |            |       | 68.08
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3811,7 +3811,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       81   -13.553504    71.496037   -13.553504 
       82   -13.553504    71.496037   -13.553504 
-Loop time of 0.00799799 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000168085 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3819,20 +3819,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5535040623     -13.5535040623     -13.5535040623
-  Force two-norm initial, final = 1.13115e-015 1.13115e-015
-  Force max component initial, final = 5.82867e-016 5.82867e-016
-  Final line search alpha, max atom move = 1 5.82867e-016
+  Force two-norm initial, final = 2.02347e-15 2.02347e-15
+  Force max component initial, final = 9.33281e-16 9.33281e-16
+  Final line search alpha, max atom move = 1 9.33281e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.5075e-05 | 5.5075e-05 | 5.5075e-05 |   0.0 | 32.77
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.5974e-05 | 1.5974e-05 | 1.5974e-05 |   0.0 |  9.50
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.007998   |            |       |100.00
+Other   |            | 9.704e-05  |            |       | 57.73
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3859,7 +3859,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       82   -13.546416    71.710739   -13.546416 
       83   -13.546416    71.710739   -13.546416 
-Loop time of 0.0024991 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000146866 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3867,20 +3867,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5464155856     -13.5464155856     -13.5464155856
-  Force two-norm initial, final = 8.51783e-017 8.51783e-017
-  Force max component initial, final = 4.33681e-017 4.33681e-017
-  Final line search alpha, max atom move = 1 4.33681e-017
+  Force two-norm initial, final = 7.92343e-17 7.92343e-17
+  Force max component initial, final = 5.55112e-17 5.55112e-17
+  Final line search alpha, max atom move = 1 5.55112e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00049901 | 0.00049901 | 0.00049901 |   0.0 | 19.97
+Pair    | 3.6001e-05 | 3.6001e-05 | 3.6001e-05 |   0.0 | 24.51
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.0967e-05 | 1.0967e-05 | 1.0967e-05 |   0.0 |  7.47
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002      |            |       | 80.03
+Other   |            | 9.99e-05   |            |       | 68.02
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3907,7 +3907,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       83   -13.539043    71.926087   -13.539043 
       84   -13.539043    71.926087   -13.539043 
-Loop time of 0.00399995 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000159979 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3915,20 +3915,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5390432137     -13.5390432137     -13.5390432137
-  Force two-norm initial, final = 8.66841e-017 8.66841e-017
-  Force max component initial, final = 5.55112e-017 5.55112e-017
-  Final line search alpha, max atom move = 1 5.55112e-017
+  Force two-norm initial, final = 1.16113e-16 1.16113e-16
+  Force max component initial, final = 7.71952e-17 7.71952e-17
+  Final line search alpha, max atom move = 1 7.71952e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.5286e-05 | 3.5286e-05 | 3.5286e-05 |   0.0 | 22.06
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 9.7752e-06 | 9.7752e-06 | 9.7752e-06 |   0.0 |  6.11
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.004      |            |       |100.00
+Other   |            | 0.0001149  |            |       | 71.83
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -3955,7 +3955,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       84   -13.531386    72.142081   -13.531386 
       85   -13.531386    72.142081   -13.531386 
-Loop time of 0.00150108 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000169992 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -3963,20 +3963,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5313864861     -13.5313864861     -13.5313864861
-  Force two-norm initial, final = 1.35429e-015 1.35429e-015
-  Force max component initial, final = 6.38378e-016 6.38378e-016
-  Final line search alpha, max atom move = 1 6.38378e-016
+  Force two-norm initial, final = 1.35652e-15 1.35652e-15
+  Force max component initial, final = 7.07767e-16 7.07767e-16
+  Final line search alpha, max atom move = 1 7.07767e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00050211 | 0.00050211 | 0.00050211 |   0.0 | 33.45
+Pair    | 5.1975e-05 | 5.1975e-05 | 5.1975e-05 |   0.0 | 30.58
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.5974e-05 | 1.5974e-05 | 1.5974e-05 |   0.0 |  9.40
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.000999   |            |       | 66.55
+Other   |            | 0.000102   |            |       | 60.03
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4003,7 +4003,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       85   -13.523444    72.358724   -13.523444 
       86   -13.523444    72.358724   -13.523444 
-Loop time of 0.00750089 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000252008 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4011,20 +4011,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5234438246     -13.5234438246     -13.5234438246
-  Force two-norm initial, final = 1.08845e-015 1.08845e-015
-  Force max component initial, final = 5.06539e-016 5.06539e-016
-  Final line search alpha, max atom move = 1 5.06539e-016
+  Force two-norm initial, final = 7.42046e-16 7.42046e-16
+  Force max component initial, final = 3.88578e-16 3.88578e-16
+  Final line search alpha, max atom move = 1 3.88578e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 9.1791e-05 | 9.1791e-05 | 9.1791e-05 |   0.0 | 36.42
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.8358e-05 | 1.8358e-05 | 1.8358e-05 |   0.0 |  7.28
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.007501   |            |       |100.00
+Other   |            | 0.0001419  |            |       | 56.29
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4051,7 +4051,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       86   -13.515215    72.576017   -13.515215 
       87   -13.515215    72.576017   -13.515215 
-Loop time of 0.000999928 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000180006 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4059,20 +4059,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.515214794      -13.515214794      -13.515214794
-  Force two-norm initial, final = 1.06494e-015 1.06494e-015
-  Force max component initial, final = 5.27356e-016 5.27356e-016
-  Final line search alpha, max atom move = 1 5.27356e-016
+  Force two-norm initial, final = 1.70893e-15 1.70893e-15
+  Force max component initial, final = 8.32667e-16 8.32667e-16
+  Final line search alpha, max atom move = 1 8.32667e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.3883e-05 | 5.3883e-05 | 5.3883e-05 |   0.0 | 29.93
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.502e-05  | 1.502e-05  | 1.502e-05  |   0.0 |  8.34
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       |100.00
+Other   |            | 0.0001111  |            |       | 61.72
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4099,7 +4099,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       87   -13.506698    72.793963   -13.506698 
       88   -13.506698    72.793963   -13.506698 
-Loop time of 0.00199986 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000176907 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4107,20 +4107,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.5066984845     -13.5066984845     -13.5066984845
-  Force two-norm initial, final = 1.09112e-016 1.09112e-016
-  Force max component initial, final = 5.89806e-017 5.89806e-017
-  Final line search alpha, max atom move = 1 5.89806e-017
+  Force two-norm initial, final = 1.54984e-16 1.54984e-16
+  Force max component initial, final = 8.67362e-17 8.67362e-17
+  Final line search alpha, max atom move = 1 8.67362e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.6955e-05 | 3.6955e-05 | 3.6955e-05 |   0.0 | 20.89
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.1206e-05 | 1.1206e-05 | 1.1206e-05 |   0.0 |  6.33
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002      |            |       |100.00
+Other   |            | 0.0001287  |            |       | 72.78
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4134,7 +4134,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 18.1984906887898	-3.37667462112064 -77.6635162857747
+Vol and Energy = 18.1984906887898	-3.37667462112064 -77.6635162857748
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -4147,7 +4147,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       88   -13.497894    73.012563   -13.497894 
       89   -13.497894    73.012563   -13.497894 
-Loop time of 0.000996113 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00018692 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4155,20 +4155,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.497894183      -13.497894183      -13.497894183
-  Force two-norm initial, final = 1.29342e-016 1.29342e-016
-  Force max component initial, final = 9.36751e-017 9.36751e-017
-  Final line search alpha, max atom move = 1 9.36751e-017
+  Force two-norm initial, final = 1.18117e-16 1.18117e-16
+  Force max component initial, final = 6.93889e-17 6.93889e-17
+  Final line search alpha, max atom move = 1 6.93889e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.5075e-05 | 5.5075e-05 | 5.5075e-05 |   0.0 | 29.46
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6689e-05 | 1.6689e-05 | 1.6689e-05 |   0.0 |  8.93
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009961  |            |       |100.00
+Other   |            | 0.0001152  |            |       | 61.61
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4195,7 +4195,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       89   -13.488802     73.23182   -13.488802 
       90   -13.488802     73.23182   -13.488802 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000171185 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4203,20 +4203,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4888020873     -13.4888020873     -13.4888020873
-  Force two-norm initial, final = 1.56472e-016 1.56472e-016
-  Force max component initial, final = 1.11022e-016 1.11022e-016
-  Final line search alpha, max atom move = 1 1.11022e-016
+  Force two-norm initial, final = 1.42744e-16 1.42744e-16
+  Force max component initial, final = 6.76542e-17 6.76542e-17
+  Final line search alpha, max atom move = 1 6.76542e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.0005002  | 0.0005002  | 0.0005002  |   0.0 | 33.34
+Pair    | 3.7193e-05 | 3.7193e-05 | 3.7193e-05 |   0.0 | 21.73
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.0729e-05 | 1.0729e-05 | 1.0729e-05 |   0.0 |  6.27
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       | 66.66
+Other   |            | 0.0001233  |            |       | 72.01
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4243,7 +4243,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       90   -13.479422    73.451735   -13.479422 
       91   -13.479422    73.451735   -13.479422 
-Loop time of 0.000999928 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000172853 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4251,20 +4251,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4794215544     -13.4794215544     -13.4794215544
-  Force two-norm initial, final = 1.20925e-016 1.20925e-016
-  Force max component initial, final = 6.93889e-017 6.93889e-017
-  Final line search alpha, max atom move = 1 6.93889e-017
+  Force two-norm initial, final = 9.30344e-17 9.30344e-17
+  Force max component initial, final = 6.93889e-17 6.93889e-17
+  Final line search alpha, max atom move = 1 6.93889e-17
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.6982e-05 | 5.6982e-05 | 5.6982e-05 |   0.0 | 32.97
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.6928e-05 | 1.6928e-05 | 1.6928e-05 |   0.0 |  9.79
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0009999  |            |       |100.00
+Other   |            | 9.894e-05  |            |       | 57.24
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4278,7 +4278,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 18.3629337816222	-3.36985538859318 -77.5066739376431
+Vol and Energy = 18.3629337816222	-3.36985538859318 -77.5066739376432
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -4291,7 +4291,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       91   -13.469753    73.672311   -13.469753 
       92   -13.469753    73.672311   -13.469753 
-Loop time of 0.00200105 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000169992 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4299,20 +4299,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4697528219     -13.4697528219     -13.4697528219
-  Force two-norm initial, final = 1.14723e-015 1.14723e-015
-  Force max component initial, final = 7.21645e-016 7.21645e-016
-  Final line search alpha, max atom move = 1 7.21645e-016
+  Force two-norm initial, final = 2.08381e-15 2.08381e-15
+  Force max component initial, final = 1.59248e-15 1.59248e-15
+  Final line search alpha, max atom move = 1 1.59248e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.3167e-05 | 5.3167e-05 | 5.3167e-05 |   0.0 | 31.28
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.4067e-05 | 1.4067e-05 | 1.4067e-05 |   0.0 |  8.27
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002001   |            |       |100.00
+Other   |            | 0.0001028  |            |       | 60.45
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4339,7 +4339,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       92   -13.459796    73.893549   -13.459796 
       93   -13.459796    73.893549   -13.459796 
-Loop time of 0.00250006 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000194073 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4347,20 +4347,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4597960814     -13.4597960814     -13.4597960814
-  Force two-norm initial, final = 1.33298e-015 1.33298e-015
-  Force max component initial, final = 6.76542e-016 6.76542e-016
-  Final line search alpha, max atom move = 1 6.76542e-016
+  Force two-norm initial, final = 2.56807e-15 2.56807e-15
+  Force max component initial, final = 1.58033e-15 1.58033e-15
+  Final line search alpha, max atom move = 1 1.58033e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 7.7009e-05 | 7.7009e-05 | 7.7009e-05 |   0.0 | 39.68
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.3828e-05 | 1.3828e-05 | 1.3828e-05 |   0.0 |  7.13
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0025     |            |       |100.00
+Other   |            | 0.0001032  |            |       | 53.19
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4387,7 +4387,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       93   -13.449552    74.115451   -13.449552 
       94   -13.449552    74.115451   -13.449552 
-Loop time of 0.00149989 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000160933 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4395,20 +4395,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4495521094     -13.4495521094     -13.4495521094
-  Force two-norm initial, final = 1.31008e-015 1.31008e-015
-  Force max component initial, final = 6.66134e-016 6.66134e-016
-  Final line search alpha, max atom move = 1 6.66134e-016
+  Force two-norm initial, final = 3.06804e-15 3.06804e-15
+  Force max component initial, final = 2.1233e-15 2.1233e-15
+  Final line search alpha, max atom move = 1 2.1233e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.8862e-05 | 3.8862e-05 | 3.8862e-05 |   0.0 | 24.15
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.4305e-05 | 1.4305e-05 | 1.4305e-05 |   0.0 |  8.89
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001078  |            |       | 66.96
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4435,7 +4435,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       94   -13.439021     74.33802   -13.439021 
       95   -13.439021     74.33802   -13.439021 
-Loop time of 0.0145011 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.00018692 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4443,20 +4443,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4390209801     -13.4390209801     -13.4390209801
-  Force two-norm initial, final = 2.35403e-015 2.35403e-015
-  Force max component initial, final = 1.20737e-015 1.20737e-015
-  Final line search alpha, max atom move = 1 1.20737e-015
+  Force two-norm initial, final = 2.76036e-15 2.76036e-15
+  Force max component initial, final = 1.93248e-15 1.93248e-15
+  Final line search alpha, max atom move = 1 1.93248e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.00049996 | 0.00049996 | 0.00049996 |   0.0 |  3.45
+Pair    | 5.2929e-05 | 5.2929e-05 | 5.2929e-05 |   0.0 | 28.32
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7166e-05 | 1.7166e-05 | 1.7166e-05 |   0.0 |  9.18
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.014      |            |       | 96.55
+Other   |            | 0.0001168  |            |       | 62.50
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4483,7 +4483,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       95   -13.428204    74.561257   -13.428204 
       96   -13.428204    74.561257   -13.428204 
-Loop time of 0.00350189 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000243902 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4491,20 +4491,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4282038955     -13.4282038955     -13.4282038955
-  Force two-norm initial, final = 1.26746e-015 1.26746e-015
-  Force max component initial, final = 6.10623e-016 6.10623e-016
-  Final line search alpha, max atom move = 1 6.10623e-016
+  Force two-norm initial, final = 2.62237e-15 2.62237e-15
+  Force max component initial, final = 1.86309e-15 1.86309e-15
+  Final line search alpha, max atom move = 1 1.86309e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.579e-05  | 5.579e-05  | 5.579e-05  |   0.0 | 22.87
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7405e-05 | 1.7405e-05 | 1.7405e-05 |   0.0 |  7.14
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.003502   |            |       |100.00
+Other   |            | 0.0001707  |            |       | 69.99
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4531,7 +4531,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       96   -13.417102    74.785165   -13.417102 
       97   -13.417102    74.785165   -13.417102 
-Loop time of 0.0149999 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000187159 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4539,20 +4539,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.4171019427     -13.4171019427     -13.4171019427
-  Force two-norm initial, final = 1.97912e-016 1.97912e-016
-  Force max component initial, final = 1.11022e-016 1.11022e-016
-  Final line search alpha, max atom move = 1 1.11022e-016
+  Force two-norm initial, final = 1.81063e-16 1.81063e-16
+  Force max component initial, final = 1.249e-16 1.249e-16
+  Final line search alpha, max atom move = 1 1.249e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.6955e-05 | 3.6955e-05 | 3.6955e-05 |   0.0 | 19.75
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.0967e-05 | 1.0967e-05 | 1.0967e-05 |   0.0 |  5.86
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.015      |            |       |100.00
+Other   |            | 0.0001392  |            |       | 74.39
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4579,7 +4579,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       97   -13.405716    75.009745   -13.405716 
       98   -13.405716    75.009745   -13.405716 
-Loop time of 0.00649905 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000157118 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4587,20 +4587,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
          -13.405716433      -13.405716433      -13.405716433
-  Force two-norm initial, final = 2.26966e-016 2.26966e-016
-  Force max component initial, final = 1.66533e-016 1.66533e-016
-  Final line search alpha, max atom move = 1 1.66533e-016
+  Force two-norm initial, final = 2.4733e-16 2.4733e-16
+  Force max component initial, final = 1.66533e-16 1.66533e-16
+  Final line search alpha, max atom move = 1 1.66533e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.6955e-05 | 3.6955e-05 | 3.6955e-05 |   0.0 | 23.52
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.00049901 | 0.00049901 | 0.00049901 |   0.0 |  7.68
+Comm    | 1.0014e-05 | 1.0014e-05 | 1.0014e-05 |   0.0 |  6.37
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.006      |            |       | 92.32
+Other   |            | 0.0001101  |            |       | 70.11
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4627,7 +4627,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       98   -13.394049    75.234999   -13.394049 
       99   -13.394049    75.234999   -13.394049 
-Loop time of 0.00250101 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000165939 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4635,20 +4635,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3940485898     -13.3940485898     -13.3940485898
-  Force two-norm initial, final = 1.22801e-016 1.22801e-016
-  Force max component initial, final = 5.89806e-017 5.89806e-017
-  Final line search alpha, max atom move = 1 5.89806e-017
+  Force two-norm initial, final = 2.07218e-16 2.07218e-16
+  Force max component initial, final = 1.2837e-16 1.2837e-16
+  Final line search alpha, max atom move = 1 1.2837e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.6001e-05 | 3.6001e-05 | 3.6001e-05 |   0.0 | 21.70
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.1206e-05 | 1.1206e-05 | 1.1206e-05 |   0.0 |  6.75
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002501   |            |       |100.00
+Other   |            | 0.0001187  |            |       | 71.55
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4662,7 +4662,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 18.8087497245903	-3.34851214746034 -77.0157793915879
+Vol and Energy = 18.8087497245903	-3.34851214746034 -77.0157793915878
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -4675,7 +4675,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
       99   -13.382101     75.46093   -13.382101 
      100   -13.382101     75.46093   -13.382101 
-Loop time of 0.00150013 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000184059 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4683,20 +4683,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3821005358     -13.3821005358     -13.3821005358
-  Force two-norm initial, final = 2.36483e-016 2.36483e-016
-  Force max component initial, final = 1.71738e-016 1.71738e-016
-  Final line search alpha, max atom move = 1 1.71738e-016
+  Force two-norm initial, final = 2.67931e-16 2.67931e-16
+  Force max component initial, final = 1.45717e-16 1.45717e-16
+  Final line search alpha, max atom move = 1 1.45717e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.8174e-05 | 5.8174e-05 | 5.8174e-05 |   0.0 | 31.61
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7643e-05 | 1.7643e-05 | 1.7643e-05 |   0.0 |  9.59
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001082  |            |       | 58.81
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4710,7 +4710,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 18.865232418822	-3.34552513395085 -76.9470780808696
+Vol and Energy = 18.865232418822	-3.34552513395086 -76.9470780808697
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -4723,7 +4723,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
      100   -13.369874    75.687539   -13.369874 
      101   -13.369874    75.687539   -13.369874 
-Loop time of 0.018497 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000173092 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4731,20 +4731,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3698741215     -13.3698741215     -13.3698741215
-  Force two-norm initial, final = 1.41801e-015 1.41801e-015
-  Force max component initial, final = 4.90927e-016 4.90927e-016
-  Final line search alpha, max atom move = 1 4.90927e-016
+  Force two-norm initial, final = 4.9544e-16 4.9544e-16
+  Force max component initial, final = 2.98372e-16 2.98372e-16
+  Final line search alpha, max atom move = 1 2.98372e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.9339e-05 | 3.9339e-05 | 3.9339e-05 |   0.0 | 22.73
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.0729e-05 | 1.0729e-05 | 1.0729e-05 |   0.0 |  6.20
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0185     |            |       |100.00
+Other   |            | 0.000123   |            |       | 71.07
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4771,7 +4771,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
      101   -13.357371    75.914829   -13.357371 
      102   -13.357371    75.914829   -13.357371 
-Loop time of 0.00749993 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000169992 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4779,20 +4779,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3573711536     -13.3573711536     -13.3573711536
-  Force two-norm initial, final = 1.03728e-015 1.03728e-015
-  Force max component initial, final = 4.51028e-016 4.51028e-016
-  Final line search alpha, max atom move = 1 4.51028e-016
+  Force two-norm initial, final = 1.63302e-15 1.63302e-15
+  Force max component initial, final = 8.7777e-16 8.7777e-16
+  Final line search alpha, max atom move = 1 8.7777e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.9128e-05 | 5.9128e-05 | 5.9128e-05 |   0.0 | 34.78
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.7166e-05 | 1.7166e-05 | 1.7166e-05 |   0.0 | 10.10
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0075     |            |       |100.00
+Other   |            | 9.37e-05   |            |       | 55.12
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4806,7 +4806,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 18.978707169409	-3.33934278840565 -76.80488413333
+Vol and Energy = 18.978707169409	-3.33934278840565 -76.8048841333301
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -4819,7 +4819,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
      102   -13.344594    76.142801   -13.344594 
      103   -13.344594    76.142801   -13.344594 
-Loop time of 0.00149989 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000163078 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4827,20 +4827,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3445941986     -13.3445941986     -13.3445941986
-  Force two-norm initial, final = 1.16604e-015 1.16604e-015
-  Force max component initial, final = 5.08274e-016 5.08274e-016
-  Final line search alpha, max atom move = 1 5.08274e-016
+  Force two-norm initial, final = 2.5266e-15 2.5266e-15
+  Force max component initial, final = 1.2039e-15 1.2039e-15
+  Final line search alpha, max atom move = 1 1.2039e-15
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 3.7909e-05 | 3.7909e-05 | 3.7909e-05 |   0.0 | 23.25
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 9.7752e-06 | 9.7752e-06 | 9.7752e-06 |   0.0 |  5.99
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0015     |            |       |100.00
+Other   |            | 0.0001154  |            |       | 70.76
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4867,7 +4867,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
      103   -13.331546    76.371458   -13.331546 
      104   -13.331546    76.371458   -13.331546 
-Loop time of 0.00549984 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000176191 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4875,20 +4875,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3315461958     -13.3315461958     -13.3315461958
-  Force two-norm initial, final = 2.21454e-015 2.21454e-015
-  Force max component initial, final = 1.01134e-015 1.01134e-015
-  Final line search alpha, max atom move = 1 1.01134e-015
+  Force two-norm initial, final = 1.59435e-15 1.59435e-15
+  Force max component initial, final = 7.07767e-16 7.07767e-16
+  Final line search alpha, max atom move = 1 7.07767e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.8174e-05 | 5.8174e-05 | 5.8174e-05 |   0.0 | 33.02
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 1.812e-05  | 1.812e-05  | 1.812e-05  |   0.0 | 10.28
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0055     |            |       |100.00
+Other   |            | 9.99e-05   |            |       | 56.70
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4902,7 +4902,7 @@ Ave neighs/atom = 70
 Neighbor list builds = 0
 Dangerous builds = 0
 print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-Vol and Energy = 19.0928644728919	-3.33288654895437 -76.6563906259506
+Vol and Energy = 19.0928644728919	-3.33288654895438 -76.6563906259506
 next		e
 jump		SELF loop1
 change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box
@@ -4915,7 +4915,7 @@ Memory usage per processor = 4.78603 Mbytes
 Step TotEng Volume E_pair 
      104    -13.31823    76.600801    -13.31823 
      105    -13.31823    76.600801    -13.31823 
-Loop time of 0.00349879 on 1 procs for 1 steps with 4 atoms
+Loop time of 0.000174999 on 1 procs for 1 steps with 4 atoms
 
 0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -4923,20 +4923,20 @@ Minimization stats:
   Stopping criterion = quadratic factors are zero
   Energy initial, next-to-last, final = 
         -13.3182295169     -13.3182295169     -13.3182295169
-  Force two-norm initial, final = 1.29781e-015 1.29781e-015
-  Force max component initial, final = 7.77156e-016 7.77156e-016
-  Final line search alpha, max atom move = 1 7.77156e-016
+  Force two-norm initial, final = 1.31443e-15 1.31443e-15
+  Force max component initial, final = 7.12971e-16 7.12971e-16
+  Final line search alpha, max atom move = 1 7.12971e-16
   Iterations, force evaluations = 1 2
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Pair    | 5.1022e-05 | 5.1022e-05 | 5.1022e-05 |   0.0 | 29.16
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 9.7752e-06 | 9.7752e-06 | 9.7752e-06 |   0.0 |  5.59
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.003499   |            |       |100.00
+Other   |            | 0.0001142  |            |       | 65.26
 
 Nlocal:    4 ave 4 max 4 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -4953,4 +4953,4 @@ print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
 Vol and Energy = 19.1502003639969	-3.32955737921566 -76.5798197219603
 next		e
 jump		SELF loop1
-Total wall time: 0:00:15
+Total wall time: 0:00:00

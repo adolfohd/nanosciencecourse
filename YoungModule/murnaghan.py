@@ -56,6 +56,8 @@ def sortstrain(s,e):
 factor     = 2.
 startorder = 0
 
+print(os.path)
+
 lrydberg = os.path.exists('quantum-espresso') or os.path.exists('vasp')
 lplanar  = os.path.exists('planar')
 lstartor = os.path.exists('startorder')
