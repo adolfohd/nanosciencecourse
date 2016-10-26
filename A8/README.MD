@@ -10,5 +10,10 @@ Due date: undefined.
  - run_Youngs.sh
     - Execute
 
+### Some references
+
+#### Uniaxial tension demonstration
+ - https://icme.hpc.msstate.edu/mediawiki/index.php/Uniaxial_Tension
+
 
 ## Bravais index
