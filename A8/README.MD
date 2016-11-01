@@ -1,7 +1,6 @@
 # Assignment 8
 Due date: undefined.
 
-
 ## Young's module
 
 ### Files provided by Prof. Jaramillo:
@@ -14,6 +13,5 @@ Due date: undefined.
 
 #### Uniaxial tension demonstration
  - https://icme.hpc.msstate.edu/mediawiki/index.php/Uniaxial_Tension
-
 
 ## Bravais index
