@@ -62,6 +62,7 @@ variable	dim equal lx
 variable	Eequil equal etotal/count(all)
 print           "Lattice constant = ${dim}, Energy = ${Eequil} kcal/mol"
 
+print "length, pressure = 0, ${px}"
 # unfix		2
 unfix 1 # esto "apaga" el fix que está después del minimize.
     # no poner esto haría que después de deformar la caja, esta volviera a relajarse.
@@ -82,19 +83,22 @@ unfix 1 # esto "apaga" el fix que está después del minimize.
 #  #---print "Length and Stress = $"
 # ----------- Expand ------------------
 # variable 	e loop ${per} # per = 100
+variable dim_0 equal ${dim}
+
 variable i loop 10 # variable de controlar para ciclo
 label		loop1 # etiqueta para saltar hacia atrás
 # change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box # cambiado en clase
-change_box all x delta 0.0 0.0001  remap units box
+    change_box all x delta 0.0 0.0001  remap units box
         # delta     : ??
             # 0.0       : ??
             # 0.0001    : 
-minimize 	0 1e-6 5000 1000 # 0 
+    minimize 	0 1e-6 5000 1000 # 0
+    variable epsilon equal (${dim} - ${dim_0})/${dim_0} 
         # sólo minimize para relajar los átomos dentro de la caja
         # se minimiza la energía de la caja
     # print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
-print "length, pressure = ${dim}, ${px}"
-next		i
+    print "length, pressure = ${epsilon}, ${px}"
+    next		i
 jump        SELF loop1
     # SELF: debido a que se puede saltar a otros archivos, se debe especificar que el salto es 
     # en este mismo archivo
