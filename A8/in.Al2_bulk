@@ -82,23 +82,23 @@ unfix 1 # esto "apaga" el fix que está después del minimize.
 # -----------------------------------------------------------
 ###################### compress box to 2% and do expansion ##############################################
 # change_box      all x scale 0.95 y scale 0.95 z scale 0.95 remap units box # modificado en la clase
-# change_box all x scale 0.98 remap units box 
+change_box all x scale 0.98 remap units box 
                     # comprimir esto no es necesario, ya que sólo requerimos el módulo de Young
                     # que se puede calcular desde la relajación
     # all:      todos los átomos
     # remap:    hace que los átomos se ajusten en coordenadas internas de la caja.
 
-# minimize        0 1e-6 5000 10000
+minimize        0 1e-6 5000 10000
 # print           "Vol and Energy = ${vt} ${etev} ${etkcal}"
 #  #---print "Length and Stress = $"
 
 
 # ----------- Expand ------------------
 # variable 	e loop ${per} # per = 100
-variable i loop 10 # variable de controlar para ciclo
+variable i loop 400 # variable de controlar para ciclo
 label		loop1 # etiqueta para saltar hacia atrás
     # change_box 	all x scale 1.001 y scale 1.001 z scale 1.001 remap units box # cambiado en clase
-    change box all scale x delta 0.0 0.0001 remap units box
+    change box all scale x delta 0.0 0.0001  remap units box
         # delta     : ??
             # 0.0       : ??
             # 0.0001    : 
