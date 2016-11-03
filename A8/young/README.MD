@@ -1,3 +1,8 @@
+
+# how to run:
+
+./run.sh in.Al2 out.Al2
+
 # Assignment 8
 Due date: undefined.
 

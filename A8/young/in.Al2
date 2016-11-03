@@ -19,7 +19,7 @@ region		box block 0 1 0 1 0 1 units lattice
 
 # variables declaradas después de haber establecido la bucla del final
     variable dim equal lx   # buscar lx y pxx en la documentación
-    variable px equal pxx
+    variable px equal 0.0001*pxx
 
 create_box	1 box ## se crea la caja
 # lattice		fcc 4.046 orient x 1 0 0 orient y 0 1 0 orient z 0 0 1 
@@ -84,6 +84,7 @@ unfix 1 # esto "apaga" el fix que está después del minimize.
 # ----------- Expand ------------------
 # variable 	e loop ${per} # per = 100
 variable dim_0 equal ${dim}
+variable epsilon equal (lx-${dim_0}) #/${dim_0} 
 
 variable i loop 10 # variable de controlar para ciclo
 label		loop1 # etiqueta para saltar hacia atrás
@@ -93,10 +94,11 @@ label		loop1 # etiqueta para saltar hacia atrás
             # 0.0       : ??
             # 0.0001    : 
     minimize 	0 1e-6 5000 1000 # 0
-    variable epsilon equal (${dim} - ${dim_0})/${dim_0} 
+    
         # sólo minimize para relajar los átomos dentro de la caja
         # se minimiza la energía de la caja
     # print           "Vol and Energy = ${vt}	${etev} ${etkcal}"
+    # print "length, pressure = ${epsilon}, ${px}"
     print "length, pressure = ${epsilon}, ${px}"
     next		i
 jump        SELF loop1
