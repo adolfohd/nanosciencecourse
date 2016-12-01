@@ -1,0 +1,31 @@
+##—————INITIALIZATION——————————-
+units real
+dimension 3 #3D simmulation
+boundary f p f
+atom_style atomic
+newton on
+##—————ATOM DEFINITION——————————
+read_data data.graphene
+##—————SETTINGS———————————
+pair_style airebo 3.0
+pair_coeff * * CH.airebo C
+timestep 0.0005
+fix 1 all npt temp 300 300 0.05 y 0 0 0.5
+thermo 20
+compute 1 all stress/atom NULL
+compute 2 all pe/atom pair bond
+# compute 3 all reduce sum c 1[1] c 1[2] c 1[3]
+
+# thermo style custom step temp pe ke etotal lx ly pxx pyy c 3[1] c 3[2] c 3[3]
+##—————RUNING-RELAXATION————————————–
+run 60000
+##—————RUNNING-DEFORMATION————————————–
+unfix 1
+fix 1 all nvt temp 300 300 0.05
+fix 2 all ave/atom 1 1000 1000 c 1[1] c 1[2] c 1[3] c 2 fx fy fz
+dump 1 all custom 1000 dump.new.* id type x y z vx vy vz c 1[1] c 1[2] c 1[3]
+c 2 f 2[1] f 2[2] f 2[3] f 2[4] f 2[5] f 2[6] f 2[7]
+variable srate equal 1.0e9
+variable srate1 equal ”v srate / 1.0e12”
+fix 3 all deform 1 y erate $srate1 units box remap x
+run 600000

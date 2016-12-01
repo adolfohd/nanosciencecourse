@@ -1,0 +1,30 @@
+units          metal
+atom_style     atomic
+
+boundary       p  p  p
+newton         on
+
+read_data      data.grap
+
+pair_style     rebo
+pair_coeff     **SiC.tersoff C
+
+neighbor      2.0 bin
+neigh_modify   delay 3
+
+timestep       0.001
+thermo_style   custom step pe etotal
+thermo         10
+restart        50000 NICYCLESTAT.STA
+
+#dump          Graphene all xyz 100 Graphene.xyz
+
+region         del block 10 15 10 15 0 0 units box
+delete_atoms   porosity del 0.1 12345
+
+min_style      cg
+minimize       1e-4 1e-6 1000 100000
+
+fix            frelax all nve
+#fix            controltemp all temp/rescale 100 10.0 10.0 1.0 1.0
+run            1000
