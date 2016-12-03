@@ -1,0 +1,96 @@
+LAMMPS (17 Nov 2015)
+WARNING: OMP_NUM_THREADS environment is not set. (../comm.cpp:90)
+  using 1 OpenMP thread(s) per MPI task
+New timer settings: style=full  mode=nosync
+Reading data file ...
+  orthogonal box = (-1.42 -1.22972 -2) to (42.6 24.5944 2)
+  2 by 2 by 1 MPI processor grid
+  reading atoms ...
+  400 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 12.2
+  ghost atom cutoff = 12.2
+  binsize = 6.1, bins = 8 5 1
+Setting up Verlet run ...
+  Unit style  : real
+  Current step: 0
+  Time step   : 0.0005
+Memory usage per processor = 2.67719 Mbytes
+Step Temp PotEng KinEng TotEng Lx Ly Pxx Pyy 3[1] 3[2] 3[3] 
+       0            0   -2786.8353            0   -2786.8353        44.02     25.82412   -6614.5017   -5694.6921     30076874     25894397            0 
+      20 7.7920004e-07   -2786.9539 9.2673628e-07   -2786.9539        44.02    25.815964   -6605.6434    -5602.981     30027107     25469330            0 
+      40 3.2651379e-06   -2787.2941 3.8833695e-06   -2787.2941        44.02    25.791774   -6579.3077    -5329.233     29879370     24202262            0 
+      60 7.6724598e-06   -2787.8114 9.125188e-06   -2787.8114        44.02    25.752388   -6536.2229   -4877.8855     29638375     22118677            0 
+Loop time of 0.131314 on 4 procs for 60 steps with 400 atoms
+
+Performance: 0.020 ns/day, 1215.869 hours/ns, 456.921 timesteps/s
+97.5% CPU use with 4 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg|  %CPU | %total
+-----------------------------------------------------------------------
+Pair    | 0.083819   | 0.10222    | 0.12464    |   4.6 |  95.1 | 77.85
+Neigh   | 0          | 0          | 0          |   0.0 | 100.0 |  0.00
+Comm    | 0.0043688  | 0.026859   | 0.045324   |   9.0 |  92.2 | 20.45
+Output  | 0.00017309 | 0.00018561 | 0.00021505 |   0.1 |   0.0 |  0.14
+Modify  | 0.0015419  | 0.0016317  | 0.0017397  |   0.2 |  50.0 |  1.24
+Other   |            | 0.0004124  |            |       |       |  0.31
+
+Nlocal:    100 ave 100 max 100 min
+Histogram: 4 0 0 0 0 0 0 0 0 0
+Nghost:    356.75 ave 364 max 349 min
+Histogram: 2 0 0 0 0 0 0 0 0 2
+Neighs:    0 ave 0 max 0 min
+Histogram: 4 0 0 0 0 0 0 0 0 0
+FullNghs:  14658.5 ave 14662 max 14655 min
+Histogram: 2 0 0 0 0 0 0 0 0 2
+
+Total # of neighbors = 58634
+Ave neighs/atom = 146.585
+Neighbor list builds = 0
+Dangerous builds = 0
+srate = 1000000000
+sratec = 0.001
+Setting up Verlet run ...
+  Unit style  : real
+  Current step: 60
+  Time step   : 0.0005
+Memory usage per processor = 4.30219 Mbytes
+Step Temp PotEng KinEng TotEng Lx Ly Pxx Pyy 3[1] 3[2] 3[3] 
+      60 7.6724598e-06   -2787.8114 9.125188e-06   -2787.8114        44.02    25.752388   -6536.2229   -4877.8855     29638375     22118677            0 
+      80 1.3871409e-05   -2787.8083 1.6497866e-05   -2787.8083        44.02    25.752645   -6536.4861   -4880.7091     29639865     22131701            0 
+     100 2.2743234e-05   -2787.8051 2.704951e-05   -2787.8051        44.02    25.752903    -6536.766   -4883.6837     29641431     22145411            0 
+     120 3.413056e-05   -2787.8019 4.0592949e-05   -2787.8019        44.02    25.753161   -6537.0453   -4886.6584     29642994     22159122            0 
+Loop time of 0.108132 on 4 procs for 60 steps with 400 atoms
+
+Performance: 0.024 ns/day, 1001.219 hours/ns, 554.879 timesteps/s
+99.9% CPU use with 4 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg|  %CPU | %total
+-----------------------------------------------------------------------
+Pair    | 0.071464   | 0.088311   | 0.10609    |   4.8 |  97.2 | 81.67
+Neigh   | 0          | 0          | 0          |   0.0 | 100.0 |  0.00
+Comm    | 0.00090265 | 0.01873    | 0.03557    |  10.3 | 100.0 | 17.32
+Output  | 0.00016475 | 0.00017792 | 0.00020695 |   0.1 |   0.0 |  0.16
+Modify  | 0.00053    | 0.00058877 | 0.000669   |   0.2 |   0.0 |  0.54
+Other   |            | 0.000324   |            |       |       |  0.30
+
+Nlocal:    100 ave 100 max 100 min
+Histogram: 4 0 0 0 0 0 0 0 0 0
+Nghost:    356.75 ave 364 max 349 min
+Histogram: 2 0 0 0 0 0 0 0 0 2
+Neighs:    0 ave 0 max 0 min
+Histogram: 4 0 0 0 0 0 0 0 0 0
+FullNghs:  14658.5 ave 14662 max 14655 min
+Histogram: 2 0 0 0 0 0 0 0 0 2
+
+Total # of neighbors = 58634
+Ave neighs/atom = 146.585
+Neighbor list builds = 0
+Dangerous builds = 0
+Total wall time: 0:00:00

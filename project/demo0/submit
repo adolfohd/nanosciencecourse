@@ -1,0 +1,18 @@
+universe                = docker
+docker_image            = malramsay64/lammps-docker
+executable              = mpirun
+arguments               = -np 64 lmp_mpi -l cluster/log.lammps -in in.graphene > cluster/out.lammps
+should_transfer_files   = YES
+transfer_input_files    = data.graphene, in.graphene, cluster
+transfer_output_files   = cluster
+when_to_transfer_output = ON_EXIT
+output                  = out.clu
+error                   = err.clu
+log                     = log.clu
+MAX_I = 100
+MAX_J = 10
+N = MAX_I * MAX_J
+I = ($(Process) / $(MAX_J))+1
+J = ($(Process) % $(MAX_J))+1
+
+queue 1

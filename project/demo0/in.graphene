@@ -1,5 +1,9 @@
+# mpirun -np 4 lammps -l
+# ... cluster/log.lammps -in in.graphene > cluster/out.lammps
+
 ##—————INITIALIZATION——————————-
 units real
+timer full nosync
 dimension 3 #3D simmulation
 boundary f p f
 atom_style atomic
@@ -17,7 +21,7 @@ compute 2 all pe/atom pair bond
 compute 3 all reduce sum c_1[1] c_1[2] c_1[3]
 thermo_style custom step temp pe ke etotal lx ly pxx pyy c_3[1] c_3[2] c_3[3]
 ##—————RUNING-RELAXATION————————————–
-run 60000
+run 60#000
 ##—————RUNNING-DEFORMATION————————————–
 unfix 1
 fix 1 all nvt temp 300 300 0.05
@@ -28,4 +32,4 @@ print "srate = ${srate}"
 variable sratec equal "v_srate / 1.0e12"
 print "sratec = ${sratec}"
 fix 3 all deform 1 y erate ${sratec} units box remap x
-run 600000
+run 60#0000
