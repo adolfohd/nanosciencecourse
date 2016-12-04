@@ -1,0 +1,15 @@
+License Error: (Internal: 72 Context: 73)
+
+locale::facet::_S_create_c_locale name not valid
+
+License configuration (environment variables):
+---------------------------------------------------------------------------
+QUANTUM_LICENSE_PATH = '@192.168.10.1:/users/rudqvist/.quantumwise/licenses:6200@192.168.10.10'
+---------------------------------------------------------------------------
+*** Make sure to include the information above when contacting support ***
+
+For assistance on resolving this matter, there are several options:
+  Consult the FAQ             : http://quantumwise.com/support/faq
+  Find help on the Forum      : http://quantumwise.com/forum
+  Read the installation guide : http://quantumwise.com/support/manuals
+  Contact support             : support@quantumwise.com
