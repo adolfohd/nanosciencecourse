@@ -1,0 +1,56 @@
++------------------------------------------------------------------------------+
+|                                                                              |
+| Atomistix ToolKit 2016.3 [Build 7eb51b6]                                     |
+|                                                                              |
++------------------------------------------------------------------------------+
++----------------------------------------------------------+
+| Bulk Bravais lattice                                     |
++----------------------------------------------------------+
+Type:
+FaceCenteredCubic
+
+Lattice constants:
+a =     4.348000 Ang
+b =     4.348000 Ang
+c =     4.348000 Ang
+
+Lattice angles:
+alpha =    90.000000 deg
+beta  =    90.000000 deg
+gamma =    90.000000 deg
+
+Primitive vectors:
+u_1 =      0.000000      2.174000      2.174000 Ang
+u_2 =      2.174000      0.000000      2.174000 Ang
+u_3 =      2.174000      2.174000      0.000000 Ang
+
++----------------------------------------------------------+
+| Bulk: Cartesian (Angstrom) / fractional                  |
++----------------------------------------------------------+
+2
+Bulk
+Si    0.000000e+00  0.000000e+00  0.000000e+00    0.00000  0.00000  0.00000
+C     1.087000e+00  1.087000e+00  1.087000e+00    0.25000  0.25000  0.25000
+
+Timing:                          Total     Per Step        %
+
+--------------------------------------------------------------------------------
+
+Loading Modules + MPI   :       1.96 s       1.96 s      91.96% |=============|
+--------------------------------------------------------------------------------
+Total                   :       2.13 s
+License Error: (Internal: 145 Feature: ATKDFT)
+
+[LOCAL] /home/fito/.quantumwise/licenses/license.lic - (Err: 9) Feature not found
+
+License configuration (environment variables):
+---------------------------------------------------------------------------
+QUANTUM_LICENSE_PATH = '/home/fito/.lic/::/home/fito/.quantumwise/licenses'
+---------------------------------------------------------------------------
+*** Make sure to include the information above when contacting support ***
+
+For assistance on resolving this matter, there are several options:
+  Consult the FAQ             : http://quantumwise.com/support/faq
+  Find help on the Forum      : http://quantumwise.com/forum
+  Read the installation guide : http://quantumwise.com/support/manuals
+  Contact support             : support@quantumwise.com

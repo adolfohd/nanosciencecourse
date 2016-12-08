@@ -1,0 +1,33 @@
++------------------------------------------------------------------------------+
+|                                                                              |
+| Atomistix ToolKit 2016.3 [Build 7eb51b6]                                     |
+|                                                                              |
++------------------------------------------------------------------------------+
++------------------------------------------------------------------------------+
+|                                                                              |
+| Size of dense matrices =    26 x    26 [0 MB per matrix]                     |
+|                                                                              |
++------------------------------------------------------------------------------+
+
+                            |--------------------------------------------------|
+Calculating Kinetic Matrix : ==================================================
+
+                            |--------------------------------------------------|
+Calculating Nonlocal Part  : ==================================================
+
+Timing:                          Total     Per Step        %
+
+--------------------------------------------------------------------------------
+
+Loading Modules + MPI   :       3.76 s       3.76 s      51.94% |=============|
+File IO, nlread         :       3.46 s       3.46 s      47.82% |============|
+--------------------------------------------------------------------------------
+Total                   :       7.24 s
+Traceback (most recent call last):
+  File "sic.potential.py", line 32, in <module>
+    electrostatic_difference_potential = ElectrostaticDifferencePotential(bulk_configuration)
+  File ".\zipdir\NL\Analysis\ElectrostaticDifferencePotential.py", line 35, in __init__
+  File ".\zipdir\NL\Analysis\Analysis.py", line 201, in __init__
+  File ".\zipdir\NL\Analysis\Analysis.py", line 176, in _supportConfigurationWithCalculator
+NL.ComputerScienceUtilities.Exceptions.NLValueError: The parameter, configuration, must have set a calculator.
+
