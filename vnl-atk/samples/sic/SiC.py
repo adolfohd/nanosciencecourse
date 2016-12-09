@@ -45,18 +45,7 @@ calculator = LCAOCalculator(
 bulk_configuration.setCalculator(calculator)
 nlprint(bulk_configuration)
 bulk_configuration.update()
-nlsave('SiC.nc', bulk_configuration)
-
-# -------------------------------------------------------------
-# Bandstructure
-# -------------------------------------------------------------
-bandstructure = Bandstructure(
-    configuration=bulk_configuration,
-    route=['G', 'X', 'W', 'L', 'G', 'K', 'X', 'U', 'W', 'K', 'L'],
-    points_per_segment=100,
-    bands_above_fermi_level=All
-    )
-nlsave('SiC.nc', bandstructure)
+nlsave('/media/fito/Windows/Users/fitoh/Documents/code/nanosciencecourse/vnl-atk/samples/sic/SiC.nc', bulk_configuration)
 
 # -------------------------------------------------------------
 # Electron Density
@@ -64,4 +53,4 @@ nlsave('SiC.nc', bandstructure)
 electron_density = ElectronDensity(
     configuration=bulk_configuration,
     )
-nlsave('SiC.nc', electron_density)
+nlsave('/media/fito/Windows/Users/fitoh/Documents/code/nanosciencecourse/vnl-atk/samples/sic/SiC.nc', electron_density)

@@ -54,6 +54,12 @@ y agregarla a hydra:
 ssh-copy-id <usuario>@hydra
 ```
 
+esto hace que se pueda acceder fácilmente a hydra así:
+
+```
+ssh <usuario>@hydra
+```
+
 ### Módulos
 
 El sistema trabaja con el modelo de módulos, los cuales configuran el software que se requiera (dependiendo del software que se encuentre disponible). 
