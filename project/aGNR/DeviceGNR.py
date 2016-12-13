@@ -876,21 +876,21 @@ exchange_correlation = MGGA.TB09LDA
 # Numerical Accuracy Settings
 #----------------------------------------
 left_electrode_k_point_sampling = MonkhorstPackGrid(
-    nc=23,
+    nc=11,
     )
 left_electrode_numerical_accuracy_parameters = NumericalAccuracyParameters(
     k_point_sampling=left_electrode_k_point_sampling,
     )
 
 right_electrode_k_point_sampling = MonkhorstPackGrid(
-    nc=23,
+    nc=11,
     )
 right_electrode_numerical_accuracy_parameters = NumericalAccuracyParameters(
     k_point_sampling=right_electrode_k_point_sampling,
     )
 
 device_k_point_sampling = MonkhorstPackGrid(
-    nc=23,
+    nc=11,
     )
 device_numerical_accuracy_parameters = NumericalAccuracyParameters(
     k_point_sampling=device_k_point_sampling,
@@ -940,7 +940,7 @@ transmission_spectrum = TransmissionSpectrum(
     energies=numpy.linspace(-2,2,101)*eV,
     kpoints=kpoint_grid,
     energy_zero_parameter=AverageFermiLevel,
-    infinitesimal=1e-06*eV,
+    infinitesimal=1e-05*eV,
     self_energy_calculator=RecursionSelfEnergy(),
     )
 nlsave('Device GNR.nc', transmission_spectrum)
@@ -956,7 +956,7 @@ transmission_pathways = TransmissionPathways(
     energy=0*eV,
     kpoints=kpoint_grid,
     energy_zero_parameter=AverageFermiLevel,
-    infinitesimal=1e-06*eV,
+    infinitesimal=1e-05*eV,
     contributions=Left,
     self_energy_calculator=DirectSelfEnergy(),
     )
@@ -973,7 +973,7 @@ transmission_pathways = TransmissionPathways(
     energy=0.15*eV,
     kpoints=kpoint_grid,
     energy_zero_parameter=AverageFermiLevel,
-    infinitesimal=1e-06*eV,
+    infinitesimal=1e-05*eV,
     contributions=Left,
     self_energy_calculator=DirectSelfEnergy(),
     )
@@ -990,7 +990,7 @@ transmission_pathways = TransmissionPathways(
     energy=0.3*eV,
     kpoints=kpoint_grid,
     energy_zero_parameter=AverageFermiLevel,
-    infinitesimal=1e-06*eV,
+    infinitesimal=1e-05*eV,
     contributions=Left,
     self_energy_calculator=DirectSelfEnergy(),
     )

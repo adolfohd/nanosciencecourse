@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/sh -f
 #SBATCH -n 8                    # Number of cores
 #SBATCH -N 1                    # Ensure that all cores are on one machine
-#SBATCH -t 10-00:05              # Runtime in D-HH:MM
-### SBATCH -p serial_requeue       # Partition to submit to
+#SBATCH -t 10-00:00              # Runtime in D-HH:MM
+#SBATCH -p full       # Partition to submit to
 ### SBATCH --mem=100               # Memory pool for all cores (see also --mem-per-cpu)
 #SBATCH -o hydra_%j.out      # File to which STDOUT will be written
 #SBATCH -e hydra_%j.err      # File to which STDERR will be written
