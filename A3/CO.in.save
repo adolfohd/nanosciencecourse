@@ -1,0 +1,25 @@
+&CONTROL
+  calculation  = "relax",
+  prefix       = "H",
+&SYSTEM
+  ibrav     = 0,
+  nat       = 2,
+  ntyp      = 2,
+  ecutwfc   = 24.D0,
+  ecutrho   = 144.D0,
+
+&ELECTRONS
+  conv_thr    = 1.D-7,
+  mixing_beta = 0.7D0,
+
+&IONS
+
+CELL_PARAMETERS cubic
+12.0  0.0  0.0
+ 0.0 12.0  0.0
+ 0.0  0.0 12.0
+ATOMIC_SPECIES
+H 1.00 H.coulomb-ae.UPF
+ATOMIC_POSITIONS {bohr}
+H 0 0 0
+K_POINTS {Gamma}
