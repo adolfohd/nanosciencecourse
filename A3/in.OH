@@ -1,7 +1,7 @@
 &CONTROL
   calculation  = "relax",
   prefix       = "H2",
-  pseudo_dir   = '/home/fito/.qespresso/upf_files'
+  pseudo_dir   = 'pseudo/'
   outdir       = "log/"
 /
 &SYSTEM
