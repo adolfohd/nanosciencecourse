@@ -1,5 +1,5 @@
 
-     Program PWSCF v.5.1 starts on 13Dec2016 at 22:52:53 
+     Program PWSCF v.5.1 starts on 14Dec2016 at 11:42:38 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -129,7 +129,7 @@
      negative rho (up, down):  1.212E-03 0.000E+00
      Starting wfc are    5 randomized atomic wfcs +    3 random wfc
 
-     total cpu time spent up to now is       41.2 secs
+     total cpu time spent up to now is       50.4 secs
 
      Self-consistent Calculation
 
@@ -139,7 +139,7 @@
 
      negative rho (up, down):  4.247E-04 0.000E+00
 
-     total cpu time spent up to now is      126.4 secs
+     total cpu time spent up to now is      139.7 secs
 
      total energy              =     -30.87213775 Ry
      Harris-Foulkes estimate   =     -31.52076925 Ry
@@ -151,58 +151,10 @@
 
      negative rho (up, down):  2.390E-04 0.000E+00
 
-     total cpu time spent up to now is      197.4 secs
+     total cpu time spent up to now is      213.3 secs
 
      total energy              =     -31.06857015 Ry
      Harris-Foulkes estimate   =     -31.15369111 Ry
      estimated scf accuracy    <       0.14885162 Ry
 
      iteration #  3     ecut=   120.00 Ry     beta=0.70
-     Davidson diagonalization with overlap
-     ethr =  2.13E-03,  avg # of iterations =  2.0
-
-     negative rho (up, down):  1.446E-04 0.000E+00
-
-     total cpu time spent up to now is      270.3 secs
-
-     total energy              =     -31.10084387 Ry
-     Harris-Foulkes estimate   =     -31.10329978 Ry
-     estimated scf accuracy    <       0.00437539 Ry
-
-     iteration #  4     ecut=   120.00 Ry     beta=0.70
-     Davidson diagonalization with overlap
-     ethr =  6.25E-05,  avg # of iterations = 16.0
-
-     negative rho (up, down):  1.440E-04 0.000E+00
-
-     total cpu time spent up to now is      404.9 secs
-
-     total energy              =     -31.10185939 Ry
-     Harris-Foulkes estimate   =     -31.10212665 Ry
-     estimated scf accuracy    <       0.00093932 Ry
-
-     iteration #  5     ecut=   120.00 Ry     beta=0.70
-     Davidson diagonalization with overlap
-     ethr =  1.34E-05,  avg # of iterations =  8.0
-
-     negative rho (up, down):  1.443E-04 0.000E+00
-
-     total cpu time spent up to now is      510.1 secs
-
-     total energy              =     -31.10188816 Ry
-     Harris-Foulkes estimate   =     -31.10229332 Ry
-     estimated scf accuracy    <       0.00356204 Ry
-
-     iteration #  6     ecut=   120.00 Ry     beta=0.70
-     Davidson diagonalization with overlap
-     ethr =  1.34E-05,  avg # of iterations =  1.0
-
-     negative rho (up, down):  1.508E-04 0.000E+00
-
-     total cpu time spent up to now is      618.7 secs
-
-     total energy              =     -31.10208721 Ry
-     Harris-Foulkes estimate   =     -31.10208270 Ry
-     estimated scf accuracy    <       0.00000138 Ry
-
-     iteration #  7     ecut=   120.00 Ry     beta=0.70
