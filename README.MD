@@ -11,3 +11,28 @@
 
 ## Lectures/
 	- You know what
+
+
+# A3
+
+correo
+
+# A4
+
+steepest descent
+
+# A5
+
+tri-peptide
+
+# A6
+
+reax eff
+
+# A7
+
+coarse grain
+
+# A8
+
+Young's module
