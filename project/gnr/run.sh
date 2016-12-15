@@ -16,6 +16,12 @@ case "$1" in
     "2")  echo "running: GNR + glucose"
         mpirun -np 8 atkpython device.glucose.script.py
         exit 0;;
+    "3")  echo "running: Non customized GNR "
+        mpirun -np 8 atkpython device.script.nocustom.py
+        exit 0;;
+    "4")  echo "running: Non customized GNR + glucose (far?)"
+        mpirun -np 8 atkpython device.glucose.script_nocustom.py
+        exit 0;;
     *)
         echo "error, select an ATK script to run"
         exit 2;;
