@@ -1,5 +1,5 @@
 
-     Program PWSCF v.5.1 starts on 13Dec2016 at 19:46:46 
+     Program PWSCF v.5.1 starts on 14Dec2016 at 12:24:13 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -130,7 +130,7 @@
 
      negative rho (up, down):  2.417E-04 0.000E+00
 
-     total cpu time spent up to now is        0.4 secs
+     total cpu time spent up to now is        0.3 secs
 
      total energy              =      -0.90568104 Ry
      Harris-Foulkes estimate   =      -0.90511301 Ry
@@ -142,7 +142,7 @@
 
      negative rho (up, down):  1.296E-05 0.000E+00
 
-     total cpu time spent up to now is        0.5 secs
+     total cpu time spent up to now is        0.4 secs
 
      total energy              =      -0.90581571 Ry
      Harris-Foulkes estimate   =      -0.90575006 Ry
@@ -154,7 +154,7 @@
 
      negative rho (up, down):  1.664E-06 0.000E+00
 
-     total cpu time spent up to now is        0.6 secs
+     total cpu time spent up to now is        0.5 secs
 
      total energy              =      -0.90581385 Ry
      Harris-Foulkes estimate   =      -0.90581877 Ry
@@ -164,7 +164,7 @@
      Davidson diagonalization with overlap
      ethr =  7.29E-08,  avg # of iterations =  2.0
 
-     total cpu time spent up to now is        0.7 secs
+     total cpu time spent up to now is        0.6 secs
 
      End of self-consistent calculation
 
@@ -212,44 +212,44 @@ End final coordinates
 
      Writing output data file H.save
 
-     init_run     :      0.14s CPU      0.14s WALL (       1 calls)
-     electrons    :      0.48s CPU      0.49s WALL (       1 calls)
+     init_run     :      0.12s CPU      0.14s WALL (       1 calls)
+     electrons    :      0.46s CPU      0.48s WALL (       1 calls)
      forces       :      0.02s CPU      0.02s WALL (       1 calls)
 
      Called by init_run:
      wfcinit      :      0.01s CPU      0.01s WALL (       1 calls)
-     potinit      :      0.12s CPU      0.11s WALL (       1 calls)
+     potinit      :      0.11s CPU      0.11s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :      0.15s CPU      0.15s WALL (       5 calls)
-     sum_band     :      0.06s CPU      0.05s WALL (       5 calls)
+     c_bands      :      0.14s CPU      0.14s WALL (       5 calls)
+     sum_band     :      0.05s CPU      0.05s WALL (       5 calls)
      v_of_rho     :      0.31s CPU      0.31s WALL (       5 calls)
      mix_rho      :      0.02s CPU      0.01s WALL (       5 calls)
 
      Called by c_bands:
-     regterg      :      0.15s CPU      0.15s WALL (       5 calls)
+     regterg      :      0.14s CPU      0.14s WALL (       5 calls)
 
      Called by *egterg:
-     h_psi        :      0.14s CPU      0.14s WALL (      27 calls)
+     h_psi        :      0.14s CPU      0.13s WALL (      27 calls)
      g_psi        :      0.00s CPU      0.00s WALL (      21 calls)
      rdiaghg      :      0.00s CPU      0.00s WALL (      25 calls)
 
      Called by h_psi:
 
      General routines
-     fft          :      0.14s CPU      0.13s WALL (      71 calls)
+     fft          :      0.13s CPU      0.12s WALL (      71 calls)
      ffts         :      0.01s CPU      0.01s WALL (      10 calls)
-     fftw         :      0.15s CPU      0.14s WALL (     139 calls)
-     interpolate  :      0.04s CPU      0.04s WALL (      10 calls)
+     fftw         :      0.14s CPU      0.13s WALL (     139 calls)
+     interpolate  :      0.03s CPU      0.03s WALL (      10 calls)
      davcio       :      0.00s CPU      0.00s WALL (       1 calls)
 
      Parallel routines
      fft_scatter  :      0.03s CPU      0.02s WALL (     220 calls)
 
-     PWSCF        :     0.69s CPU         0.76s WALL
+     PWSCF        :     0.67s CPU         0.72s WALL
 
 
-   This run was terminated on:  19:46:47  13Dec2016            
+   This run was terminated on:  12:24:14  14Dec2016            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

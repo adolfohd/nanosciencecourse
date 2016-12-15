@@ -9,5 +9,20 @@
 #SBATCH --mail-type=END         # Type of email notification- BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=adolfo.hoyos@javerianacali.edu.co # Email to which notifications will be sent
 
-# mpirun -np 8 atkpython DeviceGNR.py
-mpirun -np 8 atkpython device.glucose.script.py
+
+
+if [ $1 != 1 ] 
+then
+    echo "running: GNR device"
+    mpirun -np 8 atkpython DeviceGNR.py
+    exit 2
+fi
+
+
+
+if [ $1 != 2 ] 
+then
+    echo "running: GNR + glucose"
+    mpirun -np 8 atkpython device.glucose.script.py
+    exit 2
+fi
