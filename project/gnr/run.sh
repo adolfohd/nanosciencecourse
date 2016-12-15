@@ -16,6 +16,7 @@ case "$1" in
     "2")  echo "running: GNR + glucose"
         mpirun -np 8 atkpython device.glucose.script.py
         exit 0;;
-    "\?")
+    *)
+        echo "error, select an ATK script to run"
         exit 2;;
 esac
