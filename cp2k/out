@@ -1,0 +1,38 @@
+
+ ERROR: At least one command line argument must be specified
+
+ cp2k [-c|--check] [-e|--echo] [-h|--help] [--html-manual]
+      [-i] <input_file>
+      [-mpi-mapping|--mpi-mapping] <method>
+      [-o] <output_file>
+      [--permissive-echo] [-r|-run] [--xml]
+
+ starts the CP2K program, see <http://www.cp2k.org/>
+
+ The easiest way is cp2k <input_file>
+
+ The following options can be used:
+
+  -i <input_file>   : provides an input file name, if it is the last
+                      argument, the -i flag is not needed
+  -o <output_file>  : provides an output file name [default: screen]
+
+ These switches skip the simulation, unless [-r|-run] is specified:
+
+  --check, -c       : performs a syntax check of the <input_file>
+  --echo, -e        : echos the <input_file>, and make all defaults explicit
+                      The input is also checked, but only a failure is reported
+  --help, -h        : writes this message
+  --html-manual     : writes a HTML reference manual of the CP2K input
+                      in the current directory. The file index.html is a good
+                      starting point for browsing
+  --license         : prints the CP2K license
+  --mpi-mapping     : applies a given MPI reordering to CP2K
+  --permissive-echo : ignores unknown keywords and sections in the input
+                      and echoes it, you cannot run, you have to run the
+                      dumped input
+  --run, -r         : forces a CP2K run regardless of other specified flags
+  --version, -v     : prints the CP2K version and the SVN revision number
+  --xml             : dumps the whole CP2K input structure as a XML file
+                      xml2htm generates a HTML manual from this XML file
+  

@@ -1,0 +1,7 @@
+molecule o {
+  O
+}
+
+set basis cc-pvdz
+set reference uhf
+energy('scf')  # on H

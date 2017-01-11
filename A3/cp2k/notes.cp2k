@@ -1,0 +1,38 @@
+&FORCE_EVAL
+  METHOD QS
+  &DFT
+    LSD
+    BASIS_SET_FILE_NAME ${LIBDIR}/GTH_BASIS_SETS
+
+    &SCF                              
+      SCF_GUESS ATOMIC # ! can be used to RESTART an interrupted calculation
+      MAX_SCF 30
+      EPS_SCF 1.0E-6 # ! accuracy of the SCF procedure typically 1.0E-6 - 1.0E-07
+      &OUTER_SCF ! repeat the inner SCF cycle 10 times
+        MAX_SCF 10
+        EPS_SCF 1.0E-6 ! must match the above
+      &END
+      &PRINT
+        &RESTART OFF
+        &END
+      &END
+    &END SCF
+    &XC
+      &XC_FUNCTIONAL
+
+      &END XC_FUNCTIONAL
+    &END XC
+  &END DFT
+  &SUBSYS
+    &CELL                    # box containing the molecule: 15x15x15 Angstroms
+      ABC [angstrom] 15 15 15
+    &END CELL
+    &COORD                   # coordinates of the atoms in the box [Angstroms]
+      H  0 0 0
+    &END COORD
+    &KIND H                  # basis sets and pseudo-potentials for atomic species
+      BASIS_SET TZVP-GTH
+      POTENTIAL GTH-BLYP-q1
+    &END KIND
+  &END SUBSYS
+&END FORCE_EVAL

@@ -1,0 +1,63 @@
+@SET SYSTEM H
+@SET LIBDIR /opt/cp2k/cp2k/data
+
+&GLOBAL
+  PROJECT ${SYSTEM}           # Name of calculation: run-1H2O-GOPT 
+  RUN_TYPE ENERGY             # Perform a geometry optimization
+  PRINT_LEVEL HIGH             # Do not output too much information
+  PROGRAM CP2K
+&END GLOBAL
+&ATOM
+  ATOMIC_NUMBER 1 # Default value
+  ELEMENT H # Default value
+  &METHOD
+    METHOD_TYPE HARTREE-FOCK
+  &END METHOD
+  &AE_BASIS
+    BASIS_SET_FILE_NAME ${LIBDIR}/GTH_BASIS_SETS
+    BASIS_SET GTH
+    BASIS_TYPE GAUSSIAN
+  &END AE_BASIS
+  &PRINT
+    &ENERGIES_MINUS_KINETIC
+      ADD_LAST SYMBOLIC
+      FILENAME /home/fito/code/nanosciencecourse/A3/cp2k/H.out
+    &END ENERGIES_MINUS_KINETIC 
+    &ORBITALS
+      FILENAME H.out
+    &END ORBITALS
+  &END PRINT
+&END ATOM
+
+&FORCE_EVAL              ! section with parameters and system description
+  METHOD FIST            ! Molecular Mechanics method
+  &MM                    ! specification of MM parameters 
+    &FORCEFIELD          ! parameters needed to describe the potential 
+    &SPLINE
+    EMAX_SPLINE 10000    ! numeric parameter to ensure calculation stability. Should not be changed
+    &END
+      &CHARGE
+        ATOM H
+        CHARGE 0.0
+      &END CHARGE
+    &END FORCEFIELD
+    &POISSON              ! solver for non periodic calculations
+     PERIODIC NONE
+      &EWALD
+        EWALD_TYPE none
+      &END EWALD
+    &END POISSON
+  &END MM
+  &SUBSYS
+    &CELL                    # box containing the molecule: 15x15x15 Angstroms
+      ABC [angstrom] 15 15 15
+    &END CELL
+    &COORD                   # coordinates of the atoms in the box [Angstroms]
+      H  0 0 0
+    &END COORD
+    &KIND H                  # basis sets and pseudo-potentials for atomic species
+      BASIS_SET TZVP-GTH
+      POTENTIAL GTH-BLYP-q1
+    &END KIND
+  &END SUBSYS
+&END FORCE_EVAL

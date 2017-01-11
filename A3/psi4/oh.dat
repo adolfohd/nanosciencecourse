@@ -1,0 +1,10 @@
+memory 250 mb
+
+molecule oh {
+  -1 1
+  O 
+  H 1 0.96
+}
+
+set basis cc-pVDZ
+energy('scf')
