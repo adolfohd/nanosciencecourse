@@ -5,8 +5,8 @@ molecule h2 {
   H 1 0.74
 }
 
-set basis cc-pvdz
-# set basis dzp
+# set basis cc-pvdz
+set basis dzp
 # set basis cc-pwcv_tpd_z
 
 # energy('scf')

@@ -18,9 +18,9 @@
     -----------------------------------------------------------------------
 
 
-    Psi4 started on: Tue Jan 24 23:46:40 2017
+    Psi4 started on: Wed Jan 25 09:29:18 2017
 
-    Process ID:  18595
+    Process ID:    623
     PSI4DATADIR: /home/fito/programs/psi4conda/share/psi4
     Memory level set to 256.000 MB
 
@@ -34,8 +34,8 @@ molecule h2 {
   H 1 0.74
 }
 
-set basis cc-pvdz
-# set basis dzp
+# set basis cc-pvdz
+set basis dzp
 # set basis cc-pwcv_tpd_z
 
 # energy('scf')
@@ -51,7 +51,7 @@ gradient() will perform analytic gradient computation.
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Tue Jan 24 23:46:41 2017
+*** at Wed Jan 25 09:29:19 2017
 
 
          ---------------------------------------------------------
@@ -98,11 +98,11 @@ gradient() will perform analytic gradient computation.
 
   ==> Primary Basis <==
 
-  Basis Set: CC-PVDZ
+  Basis Set: DZP
     Number of shells: 6
     Number of basis function: 10
     Number of Cartesian functions: 10
-    Spherical Harmonics?: true
+    Spherical Harmonics?: false
     Max angular momentum: 1
 
   ==> Pre-Iterations <==
@@ -140,13 +140,13 @@ gradient() will perform analytic gradient computation.
    => Auxiliary Basis Set <=
 
   Basis Set: 
-    Number of shells: 18
-    Number of basis function: 46
-    Number of Cartesian functions: 50
-    Spherical Harmonics?: true
+    Number of shells: 12
+    Number of basis function: 40
+    Number of Cartesian functions: 40
+    Spherical Harmonics?: false
     Max angular momentum: 2
 
-  Minimum eigenvalue in the overlap matrix is 4.3535732194E-02.
+  Minimum eigenvalue in the overlap matrix is 8.9744098117E-02.
   Using Symmetric Orthogonalization.
   SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
 
@@ -154,12 +154,12 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RHF iter   0:    -0.85021517085685   -8.50215e-01   3.80443e-02 
-   @DF-RHF iter   1:    -1.12726000591397   -2.77045e-01   7.86769e-03 
-   @DF-RHF iter   2:    -1.12865739709129   -1.39739e-03   1.32088e-03 DIIS
-   @DF-RHF iter   3:    -1.12870096703821   -4.35699e-05   6.77075e-05 DIIS
-   @DF-RHF iter   4:    -1.12870103316049   -6.61223e-08   7.64926e-07 DIIS
-   @DF-RHF iter   5:    -1.12870103317482   -1.43303e-11   4.00200e-10 DIIS
+   @DF-RHF iter   0:    -0.84512484738558   -8.45125e-01   4.24790e-02 
+   @DF-RHF iter   1:    -1.13024633808527   -2.85121e-01   7.53250e-03 
+   @DF-RHF iter   2:    -1.13119503509348   -9.48697e-04   1.01396e-03 DIIS
+   @DF-RHF iter   3:    -1.13121329452640   -1.82594e-05   3.35966e-05 DIIS
+   @DF-RHF iter   4:    -1.13121330542007   -1.08937e-08   9.60543e-08 DIIS
+   @DF-RHF iter   5:    -1.13121330542024   -1.64535e-13   8.26993e-12 DIIS
 
   ==> Post-Iterations <==
 
@@ -168,13 +168,13 @@ gradient() will perform analytic gradient computation.
 
     Doubly Occupied:                                                      
 
-       1Ag    -0.592411  
+       1Ag    -0.591973  
 
     Virtual:                                                              
 
-       1B1u    0.197388     2Ag     0.479314     2B1u    0.937283  
-       1B2u    1.292937     1B3u    1.292937     3Ag     1.957060  
-       1B3g    2.043541     1B2g    2.043541     3B1u    3.610506  
+       1B1u    0.261213     2Ag     0.846232     2B1u    1.348359  
+       1B2u    1.782192     1B3u    1.782192     3Ag     2.553225  
+       1B3g    2.703773     1B2g    2.703773     3B1u    4.261154  
 
     Final Occupation by Irrep:
              Ag   B1g   B2g   B3g    Au   B1u   B2u   B3u 
@@ -182,29 +182,29 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RHF Final Energy:    -1.12870103317482
+  @DF-RHF Final Energy:    -1.13121330542024
 
    => Energetics <=
 
     Nuclear Repulsion Energy =              0.7151043359324325
-    One-Electron Energy =                  -2.5027877817801336
-    Two-Electron Energy =                   0.6589824126728768
+    One-Electron Energy =                  -2.5086902425961215
+    Two-Electron Energy =                   0.6623726012434541
     DFT Exchange-Correlation Energy =       0.0000000000000000
     Empirical Dispersion Energy =           0.0000000000000000
     PCM Polarization Energy =               0.0000000000000000
     EFP Energy =                            0.0000000000000000
-    Total Energy =                         -1.1287010331748242
+    Total Energy =                         -1.1312133054202349
 
 
   Saving occupied orbitals to File 180.
 
-*** tstop() called on fito-laptop-ubuntu at Tue Jan 24 23:46:41 2017
+*** tstop() called on fito-laptop-ubuntu at Wed Jan 25 09:29:19 2017
 Module time:
-	user time   =       0.15 seconds =       0.00 minutes
+	user time   =       0.13 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.15 seconds =       0.00 minutes
+	user time   =       0.13 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 
@@ -227,7 +227,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Tue Jan 24 23:46:41 2017
+*** at Wed Jan 25 09:29:19 2017
 
 
          ------------------------------------------------------------
@@ -252,11 +252,11 @@ Properties computed using the SCF density matrix
 
   ==> Basis Set <==
 
-  Basis Set: CC-PVDZ
+  Basis Set: DZP
     Number of shells: 6
     Number of basis function: 10
     Number of Cartesian functions: 10
-    Spherical Harmonics?: true
+    Spherical Harmonics?: false
     Max angular momentum: 1
 
   ==> DFJKGrad: Density-Fitted SCF Gradients <==
@@ -274,27 +274,27 @@ Properties computed using the SCF density matrix
    => Auxiliary Basis Set <=
 
   Basis Set: 
-    Number of shells: 18
-    Number of basis function: 46
-    Number of Cartesian functions: 50
-    Spherical Harmonics?: true
+    Number of shells: 12
+    Number of basis function: 40
+    Number of Cartesian functions: 40
+    Spherical Harmonics?: false
     Max angular momentum: 2
 
 
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000000000000    -0.000000000000     0.006172225743
-       2        0.000000000000     0.000000000000    -0.006172225743
+       1       -0.000000000000    -0.000000000000    -0.005424268060
+       2        0.000000000000     0.000000000000     0.005424268060
 
 
-*** tstop() called on fito-laptop-ubuntu at Tue Jan 24 23:46:41 2017
+*** tstop() called on fito-laptop-ubuntu at Wed Jan 25 09:29:19 2017
 Module time:
 	user time   =       0.08 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.23 seconds =       0.00 minutes
+	user time   =       0.22 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 
@@ -312,8 +312,8 @@ Total time:
 	---Fragment 1 Geometry and Gradient---
 	 H           0.0000000000        0.0000000000       -0.6991986692
 	 H           0.0000000000        0.0000000000        0.6991986692
-	            -0.0000000000       -0.0000000000        0.0061722257
-	             0.0000000000        0.0000000000       -0.0061722257
+	            -0.0000000000       -0.0000000000       -0.0054242681
+	             0.0000000000        0.0000000000        0.0054242681
 
 	Previous optimization step data not found.  Starting new optimization.
 
@@ -321,14 +321,14 @@ Total time:
 	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
 	 R(1,2)           =         1.398397	       0.740000
 
-	Current energy   :        -1.1287010332
+	Current energy   :        -1.1312133054
 
 	Generating empirical Hessian (Schlegel '84) for each fragment.
 	Taking RFO optimization step.
 	Going to follow RFO solution 1.
 	Using RFO vector 1.
-	Norm of target step-size    0.01577
-	Projected energy change by RFO approximation:         0.0000269646
+	Norm of target step-size    0.01386
+	Projected energy change by RFO approximation:         0.0000208332
 
 	Back-transformation to cartesian coordinates...
 	Successfully converged to displaced geometry.
@@ -337,7 +337,7 @@ Total time:
 	 ---------------------------------------------------------------------------
 	   Coordinate                Previous        Force       Change         New 
 	   ----------                --------       ------       ------       ------
-	    1 R(1,2)          =      0.740000     0.050851     0.008343     0.748343
+	    1 R(1,2)          =      0.740000    -0.044689    -0.007332     0.732668
 	 ---------------------------------------------------------------------------
 
   ==> Convergence Check <==
@@ -349,14 +349,14 @@ Total time:
   --------------------------------------------------------------------------------------------- ~
     Convergence Criteria    1.00e-06 *    3.00e-04 *             o    1.20e-03 *             o  ~
   --------------------------------------------------------------------------------------------- ~
-      1      -1.12870103   -1.13e+00      6.17e-03      6.17e-03 o    1.58e-02      1.58e-02 o  ~
+      1      -1.13121331   -1.13e+00      5.42e-03      5.42e-03 o    1.39e-02      1.39e-02 o  ~
   ---------------------------------------------------------------------------------------------
 
 	Writing optimization data to binary file.
 	Structure for next step:
 	Cartesian Geometry (in Angstrom)
-	    H     0.0000000000   0.0000000000  -0.3741714840
-	    H     0.0000000000   0.0000000000   0.3741714840
+	    H     0.0000000000   0.0000000000  -0.3663338140
+	    H     0.0000000000   0.0000000000   0.3663338140
 			--------------------------
 			 OPTKING Finished Execution 
 			--------------------------
@@ -368,12 +368,12 @@ Total time:
     Geometry (in Angstrom), charge = 0, multiplicity = 1:
 
     H       
-    H             1    0.748343
+    H             1    0.732668
 
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Tue Jan 24 23:46:41 2017
+*** at Wed Jan 25 09:29:19 2017
 
 
          ---------------------------------------------------------
@@ -392,14 +392,14 @@ gradient() will perform analytic gradient computation.
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-           H          0.000000000000     0.000000000000    -0.374171483959     1.007825032070
-           H          0.000000000000     0.000000000000     0.374171483959     1.007825032070
+           H          0.000000000000     0.000000000000    -0.366333814007     1.007825032070
+           H          0.000000000000     0.000000000000     0.366333814007     1.007825032070
 
   Running in d2h symmetry.
 
-  Rotational constants: A = ************  B =     59.73653  C =     59.73653 [cm^-1]
-  Rotational constants: A = ************  B = 1790856.08390  C = 1790856.08390 [MHz]
-  Nuclear repulsion =    0.707131931849702
+  Rotational constants: A = ************  B =     62.31999  C =     62.31999 [cm^-1]
+  Rotational constants: A = ************  B = 1868306.15357  C = 1868306.15357 [MHz]
+  Nuclear repulsion =    0.722260938461122
 
   Charge       = 0
   Multiplicity = 1
@@ -420,11 +420,11 @@ gradient() will perform analytic gradient computation.
 
   ==> Primary Basis <==
 
-  Basis Set: CC-PVDZ
+  Basis Set: DZP
     Number of shells: 6
     Number of basis function: 10
     Number of Cartesian functions: 10
-    Spherical Harmonics?: true
+    Spherical Harmonics?: false
     Max angular momentum: 1
 
   ==> Pre-Iterations <==
@@ -462,13 +462,13 @@ gradient() will perform analytic gradient computation.
    => Auxiliary Basis Set <=
 
   Basis Set: 
-    Number of shells: 18
-    Number of basis function: 46
-    Number of Cartesian functions: 50
-    Spherical Harmonics?: true
+    Number of shells: 12
+    Number of basis function: 40
+    Number of Cartesian functions: 40
+    Spherical Harmonics?: false
     Max angular momentum: 2
 
-  Minimum eigenvalue in the overlap matrix is 4.5658563985E-02.
+  Minimum eigenvalue in the overlap matrix is 8.6851110635E-02.
   Using Symmetric Orthogonalization.
   SCF Guess: Reading in previously saved MOs, projecting if necessary.
 
@@ -481,11 +481,11 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RHF iter   0:    -1.12511944997782   -1.12512e+00   4.86597e-04 
-   @DF-RHF iter   1:    -1.12874554101575   -3.62609e-03   2.37101e-04 
-   @DF-RHF iter   2:    -1.12874687320369   -1.33219e-06   4.23538e-05 DIIS
-   @DF-RHF iter   3:    -1.12874691840810   -4.52044e-08   1.96683e-06 DIIS
-   @DF-RHF iter   4:    -1.12874691845595   -4.78515e-11   8.21289e-10 DIIS
+   @DF-RHF iter   0:    -1.13451233441951   -1.13451e+00   5.70388e-04 
+   @DF-RHF iter   1:    -1.13124899625513    3.26334e-03   2.25555e-04 
+   @DF-RHF iter   2:    -1.13124988544220   -8.89187e-07   3.26242e-05 DIIS
+   @DF-RHF iter   3:    -1.13124990426845   -1.88262e-08   1.01029e-06 DIIS
+   @DF-RHF iter   4:    -1.13124990427700   -8.54361e-12   1.31727e-10 DIIS
 
   ==> Post-Iterations <==
 
@@ -494,13 +494,13 @@ gradient() will perform analytic gradient computation.
 
     Doubly Occupied:                                                      
 
-       1Ag    -0.589902  
+       1Ag    -0.594278  
 
     Virtual:                                                              
 
-       1B1u    0.195785     2Ag     0.481319     2B1u    0.931330  
-       1B2u    1.292028     1B3u    1.292028     3Ag     1.948963  
-       1B3g    2.037872     1B2g    2.037872     3B1u    3.560253  
+       1B1u    0.263222     2Ag     0.843007     2B1u    1.353537  
+       1B2u    1.782369     1B3u    1.782369     3Ag     2.565918  
+       1B3g    2.711280     1B2g    2.711280     3B1u    4.300961  
 
     Final Occupation by Irrep:
              Ag   B1g   B2g   B3g    Au   B1u   B2u   B3u 
@@ -508,30 +508,30 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RHF Final Energy:    -1.12874691845595
+  @DF-RHF Final Energy:    -1.13124990427700
 
    => Energetics <=
 
-    Nuclear Repulsion Energy =              0.7071319318497025
-    One-Electron Energy =                  -2.4919532844360299
-    Two-Electron Energy =                   0.6560744341303761
+    Nuclear Repulsion Energy =              0.7222609384611225
+    One-Electron Energy =                  -2.5184653046305803
+    Two-Electron Energy =                   0.6649544618924614
     DFT Exchange-Correlation Energy =       0.0000000000000000
     Empirical Dispersion Energy =           0.0000000000000000
     PCM Polarization Energy =               0.0000000000000000
     EFP Energy =                            0.0000000000000000
-    Total Energy =                         -1.1287469184559513
+    Total Energy =                         -1.1312499042769963
 
 
   Saving occupied orbitals to File 180.
 
-*** tstop() called on fito-laptop-ubuntu at Tue Jan 24 23:46:41 2017
+*** tstop() called on fito-laptop-ubuntu at Wed Jan 25 09:29:19 2017
 Module time:
-	user time   =       0.10 seconds =       0.00 minutes
-	system time =       0.01 seconds =       0.00 minutes
+	user time   =       0.12 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
 	user time   =       0.38 seconds =       0.01 minutes
-	system time =       0.02 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 
 
@@ -553,7 +553,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Tue Jan 24 23:46:41 2017
+*** at Wed Jan 25 09:29:19 2017
 
 
          ------------------------------------------------------------
@@ -571,18 +571,18 @@ Properties computed using the SCF density matrix
 
        Center              X                  Y                   Z               Mass       
     ------------   -----------------  -----------------  -----------------  -----------------
-           H          0.000000000000     0.000000000000    -0.374171483959     1.007825032070
-           H          0.000000000000     0.000000000000     0.374171483959     1.007825032070
+           H          0.000000000000     0.000000000000    -0.366333814007     1.007825032070
+           H          0.000000000000     0.000000000000     0.366333814007     1.007825032070
 
-  Nuclear repulsion =    0.707131931849703
+  Nuclear repulsion =    0.722260938461122
 
   ==> Basis Set <==
 
-  Basis Set: CC-PVDZ
+  Basis Set: DZP
     Number of shells: 6
     Number of basis function: 10
     Number of Cartesian functions: 10
-    Spherical Harmonics?: true
+    Spherical Harmonics?: false
     Max angular momentum: 1
 
   ==> DFJKGrad: Density-Fitted SCF Gradients <==
@@ -600,28 +600,28 @@ Properties computed using the SCF density matrix
    => Auxiliary Basis Set <=
 
   Basis Set: 
-    Number of shells: 18
-    Number of basis function: 46
-    Number of Cartesian functions: 50
-    Spherical Harmonics?: true
+    Number of shells: 12
+    Number of basis function: 40
+    Number of Cartesian functions: 40
+    Spherical Harmonics?: false
     Max angular momentum: 2
 
 
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000000000000     0.000000000000    -0.000295656828
-       2        0.000000000000     0.000000000000     0.000295656828
+       1        0.000000000000     0.000000000000     0.000184597833
+       2        0.000000000000    -0.000000000000    -0.000184597833
 
 
-*** tstop() called on fito-laptop-ubuntu at Tue Jan 24 23:46:41 2017
+*** tstop() called on fito-laptop-ubuntu at Wed Jan 25 09:29:19 2017
 Module time:
-	user time   =       0.07 seconds =       0.00 minutes
+	user time   =       0.09 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.46 seconds =       0.01 minutes
-	system time =       0.02 seconds =       0.00 minutes
+	user time   =       0.48 seconds =       0.01 minutes
+	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 
 			-----------------------------------------
@@ -631,20 +631,20 @@ Total time:
 
 	Previous internal coordinate definitions found.
 	---Fragment 1 Geometry and Gradient---
-	 H           0.0000000000        0.0000000000       -0.7070816314
-	 H           0.0000000000        0.0000000000        0.7070816314
-	            -0.0000000000        0.0000000000       -0.0002956568
-	             0.0000000000        0.0000000000        0.0002956568
+	 H           0.0000000000        0.0000000000       -0.6922705817
+	 H           0.0000000000        0.0000000000        0.6922705817
+	             0.0000000000        0.0000000000        0.0001845978
+	             0.0000000000       -0.0000000000       -0.0001845978
 
 	---Fragment 1 Intrafragment Coordinates---
 	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
-	 R(1,2)           =         1.414163	       0.748343
+	 R(1,2)           =         1.384541	       0.732668
 
-	Current energy   :        -1.1287469185
+	Current energy   :        -1.1312499043
 
 	Energy change for the previous step:
-		Projected    :         0.0000269646
-		Actual       :        -0.0000458853
+		Projected    :         0.0000208332
+		Actual       :        -0.0000365989
 
 	Performing BFGS update.
 	Previous computed or guess Hessian on step 1.
@@ -652,8 +652,8 @@ Total time:
 	Taking RFO optimization step.
 	Going to follow RFO solution 1.
 	Using RFO vector 1.
-	Norm of target step-size    0.00072
-	Projected energy change by RFO approximation:         0.0000000466
+	Norm of target step-size    0.00046
+	Projected energy change by RFO approximation:         0.0000000198
 
 	Back-transformation to cartesian coordinates...
 	Successfully converged to displaced geometry.
@@ -662,7 +662,7 @@ Total time:
 	 ---------------------------------------------------------------------------
 	   Coordinate                Previous        Force       Change         New 
 	   ----------                --------       ------       ------       ------
-	    1 R(1,2)          =      0.748343    -0.002436    -0.000381     0.747962
+	    1 R(1,2)          =      0.732668     0.001521     0.000241     0.732909
 	 ---------------------------------------------------------------------------
 
   ==> Convergence Check <==
@@ -674,7 +674,7 @@ Total time:
   ---------------------------------------------------------------------------------------------
     Convergence Criteria    1.00e-06 *    3.00e-04 *             o    1.20e-03 *             o
   ---------------------------------------------------------------------------------------------
-      2      -1.12874692   -4.59e-05      2.96e-04 *    2.96e-04 o    7.21e-04 *    7.21e-04 o  ~
+      2      -1.13124990   -3.66e-05      1.85e-04 *    1.85e-04 o    4.56e-04 *    4.56e-04 o  ~
   ---------------------------------------------------------------------------------------------
 
 
@@ -686,16 +686,16 @@ Total time:
   --------------------------------------------------------------------------------------------------------------- ~
    Step         Total Energy             Delta E       MAX Force       RMS Force        MAX Disp        RMS Disp  ~
   --------------------------------------------------------------------------------------------------------------- ~
-      1      -1.128701033175     -1.128701033175      0.00617223      0.00617223      0.01576592      0.01576592  ~
-      2      -1.128746918456     -0.000045885281      0.00029566      0.00029566      0.00072068      0.00072068  ~
+      1      -1.131213305420     -1.131213305420      0.00542427      0.00542427      0.01385617      0.01385617  ~
+      2      -1.131249904277     -0.000036598857      0.00018460      0.00018460      0.00045603      0.00045603  ~
   --------------------------------------------------------------------------------------------------------------- ~
 
 	Writing optimization data to binary file.
-	Final energy is     -1.1287469184560
+	Final energy is     -1.1312499042770
 	Final (previous) structure:
 	Cartesian Geometry (in Angstrom)
-	    H     0.0000000000   0.0000000000  -0.3741714840
-	    H     0.0000000000   0.0000000000   0.3741714840
+	    H     0.0000000000   0.0000000000  -0.3663338140
+	    H     0.0000000000   0.0000000000   0.3663338140
 	Saving final (previous) structure.
 			--------------------------
 			 OPTKING Finished Execution 
@@ -708,7 +708,7 @@ Total time:
     Geometry (in Angstrom), charge = 0, multiplicity = 1:
 
     H       
-    H             1    0.748343
+    H             1    0.732668
 
 	Cleaning optimization helper files.
 

@@ -181,6 +181,28 @@ energy('scf')  # on H
 
 ## Input file
 
+## Methodology
+
+```
+psi4 -i h2.dat -o h2.out
+
+```
+
+
+```
+./psi4ex.py h2.out 
+```
+This generated a file named *geoms.xyz*. Next, to visualize all optimization steps in Molden:
+
+```
+$MOLDEN_PATH geoms.xyz 
+```
+
+
+
+```
+gifsicle --delay=100 --loop moldenfiles*.gif > images/filename.gif
+```
 
 ## Results
 
@@ -188,7 +210,9 @@ energy('scf')  # on H
 
 ### Basis set: cc-pVDZ 
 
+![][h2.cc-pvdz.movie]
 ![][h2.cc-pvdz]
+
 
 ```
 => Energetics <=
@@ -209,6 +233,7 @@ energy('scf')  # on H
 
 ### Basis set: dzp
 
+![][h2.dzp.gif]
 ![][h2.dzp]
 
 ```
@@ -247,5 +272,9 @@ energy('scf')  # on H
 
 
 [h2.cc-pVDZ]: psi4/images/h2.cc-pvdz.png
+[h2.cc-pvdz.movie]: psi4/images/h2.cc-pvdz.gif
+
+
 [h2.dzp]: psi4/images/h2.dzp.png
+[h2.dzp.gif]: psi4/images/h2.dzp.gif
 [h2.cc-pwcv_tpd_z]: psi4/images/h2.cc-pwcv_tpd_z.png
