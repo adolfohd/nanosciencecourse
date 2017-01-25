@@ -1,0 +1,15 @@
+memory 250 mb
+
+molecule h2 {
+  H 
+  H 1 0.74
+}
+
+set basis cc-pvdz
+# set basis dzp
+# set basis cc-pwcv_tpd_z
+
+# energy('scf')
+op, wfn = optimize('hf', return_wfn=True, molecule=h2)
+
+molden(wfn, "h2.molden", density_a=wfn.Da())

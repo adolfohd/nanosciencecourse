@@ -18,9 +18,9 @@
     -----------------------------------------------------------------------
 
 
-    Psi4 started on: Fri Dec 16 10:03:36 2016
+    Psi4 started on: Tue Jan 24 09:58:26 2017
 
-    Process ID:  11609
+    Process ID:   7164
     PSI4DATADIR: /home/fito/programs/psi4conda/share/psi4
     Memory level set to 256.000 MB
 
@@ -31,7 +31,9 @@ molecule h {
   H
 }
 
-set basis cc-pvdz
+# set basis cc-pvdz
+set basis dzp
+# set basis cc-pwcv_tpd_z
 set reference uhf
 energy('scf')  # on H--------------------------------------------------------------------------
 /home/fito/programs/psi4conda/lib/python2.7/site-packages/v2rdm_casscf/v2rdm_casscf.so loaded.
@@ -40,7 +42,7 @@ energy('scf')  # on H-----------------------------------------------------------
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Fri Dec 16 10:03:36 2016
+*** at Tue Jan 24 09:58:26 2017
 
 
          ---------------------------------------------------------
@@ -84,11 +86,11 @@ energy('scf')  # on H-----------------------------------------------------------
 
   ==> Primary Basis <==
 
-  Basis Set: CC-PVDZ
+  Basis Set: DZP
     Number of shells: 3
     Number of basis function: 5
     Number of Cartesian functions: 5
-    Spherical Harmonics?: true
+    Spherical Harmonics?: false
     Max angular momentum: 1
 
   ==> Pre-Iterations <==
@@ -126,13 +128,13 @@ energy('scf')  # on H-----------------------------------------------------------
    => Auxiliary Basis Set <=
 
   Basis Set: 
-    Number of shells: 9
-    Number of basis function: 23
-    Number of Cartesian functions: 25
-    Spherical Harmonics?: true
+    Number of shells: 6
+    Number of basis function: 20
+    Number of Cartesian functions: 20
+    Spherical Harmonics?: false
     Max angular momentum: 2
 
-  Minimum eigenvalue in the overlap matrix is 3.1513974851E-01.
+  Minimum eigenvalue in the overlap matrix is 3.1693980995E-01.
   Using Symmetric Orthogonalization.
   SCF Guess: Generalized Wolfsberg-Helmholtz.
 
@@ -140,10 +142,10 @@ energy('scf')  # on H-----------------------------------------------------------
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-UHF iter   1:    -0.49927002321515   -4.99270e-01   6.38560e-04 
-   @DF-UHF iter   2:    -0.49927729076367   -7.26755e-06   2.32679e-04 DIIS
-   @DF-UHF iter   3:    -0.49927840341958   -1.11266e-06   4.07205e-17 DIIS
-   @DF-UHF iter   4:    -0.49927840341958    0.00000e+00   4.07205e-17 DIIS
+   @DF-UHF iter   1:    -0.49407722562233   -4.94077e-01   1.61112e-02 
+   @DF-UHF iter   2:    -0.49728383016970   -3.20660e-03   5.08424e-03 DIIS
+   @DF-UHF iter   3:    -0.49763724462701   -3.53414e-04   8.12527e-17 DIIS
+   @DF-UHF iter   4:    -0.49763724462701    0.00000e+00   2.03132e-17 DIIS
 
   ==> Post-Iterations <==
 
@@ -158,12 +160,12 @@ energy('scf')  # on H-----------------------------------------------------------
 
     Alpha Occupied:                                                       
 
-       1Ag    -0.499278  
+       1Ag    -0.497637  
 
     Alpha Virtual:                                                        
 
-       2Ag     0.572446     1B2u    1.443081     1B3u    1.443081  
-       1B1u    1.443081  
+       2Ag     0.997966     1B1u    2.024066     1B2u    2.024066  
+       1B3u    2.024066  
 
     Beta Occupied:                                                        
 
@@ -171,8 +173,8 @@ energy('scf')  # on H-----------------------------------------------------------
 
     Beta Virtual:                                                         
 
-       1Ag     0.073343     2Ag     0.753274     1B2u    1.573640  
-       1B3u    1.573640     1B1u    1.573640  
+       1Ag     0.110898     2Ag     1.186958     1B1u    2.161225  
+       1B2u    2.161225     1B3u    2.161225  
 
     Final Occupation by Irrep:
              Ag   B1g   B2g   B3g    Au   B1u   B2u   B3u 
@@ -181,18 +183,18 @@ energy('scf')  # on H-----------------------------------------------------------
 
   Energy converged.
 
-  @DF-UHF Final Energy:    -0.49927840341958
+  @DF-UHF Final Energy:    -0.49763724462701
 
    => Energetics <=
 
     Nuclear Repulsion Energy =              0.0000000000000000
-    One-Electron Energy =                  -0.4992784034195830
-    Two-Electron Energy =                   0.0000000000000000
+    One-Electron Energy =                  -0.4976372446270106
+    Two-Electron Energy =                  -0.0000000000000001
     DFT Exchange-Correlation Energy =       0.0000000000000000
     Empirical Dispersion Energy =           0.0000000000000000
     PCM Polarization Energy =               0.0000000000000000
     EFP Energy =                            0.0000000000000000
-    Total Energy =                         -0.4992784034195830
+    Total Energy =                         -0.4976372446270107
 
 
   Saving occupied orbitals to File 180.
@@ -205,15 +207,15 @@ energy('scf')  # on H-----------------------------------------------------------
   LUNO+3 :    2 Ag -0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Fri Dec 16 10:03:37 2016
+*** tstop() called on fito-laptop-ubuntu at Tue Jan 24 09:58:26 2017
 Module time:
 	user time   =       0.06 seconds =       0.00 minutes
-	system time =       0.02 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
 	user time   =       0.06 seconds =       0.00 minutes
-	system time =       0.02 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr

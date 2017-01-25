@@ -2,6 +2,8 @@ molecule h {
   H
 }
 
-set basis cc-pvdz
+# set basis cc-pvdz
+set basis dzp
+# set basis cc-pwcv_tpd_z
 set reference uhf
 energy('scf')  # on H
