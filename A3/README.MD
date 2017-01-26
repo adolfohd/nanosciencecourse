@@ -290,6 +290,8 @@ The initial and resulting optimization geometries are:
            H          0.000000000000     0.000000000000     0.924748954405     1.007825032070
            H          0.000000000000     0.000000000000    -0.924748954405     1.007825032070
 ```
+An animation of this steps is shown next:
+
 ![][h2o.gif]
 
 [h2.cc-pVDZ]: psi4/images/h2.cc-pvdz.png
