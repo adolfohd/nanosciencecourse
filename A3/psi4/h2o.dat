@@ -3,7 +3,7 @@ memory 250 mb
 molecule h2o {
   O 
   H 1 0.96
-  H 1 0.96 2 180
+  H 1 0.96 2 179.9
 }
 
 set basis cc-pVDZ

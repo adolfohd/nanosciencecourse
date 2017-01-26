@@ -181,6 +181,22 @@ energy('scf')  # on H
 
 ## Input file
 
+```
+memory 250 mb
+
+molecule h2o {
+  O 
+  H 1 0.96
+  H 1 0.96 2 180
+}
+
+set basis cc-pVDZ
+
+op, wfn = optimize('hf', return_wfn=True, molecule=h2o)
+
+molden(wfn, "op.molden", density_a=wfn.Da())
+```
+
 ## Methodology
 
 ```
@@ -294,6 +310,61 @@ An animation of this steps is shown next:
 
 ![][h2o.gif]
 
+Although the previous result would greatly differ from the experimentally measured geometry, at least in terms of the angle:
+
+
+![][realh2o]
+
+This happens because the calculator detected a symmetry in the geomtry we provided. We can fin a better approximation if we nudge one of the hydrogen atoms just a little bit, so the angle is not 180°:
+
+```
+memory 250 mb
+
+molecule h2o {
+  O 
+  H 1 0.96
+  H 1 0.96 2 179.9
+}
+
+set basis cc-pVDZ
+
+op, wfn = optimize('hf', return_wfn=True, molecule=h2o)
+
+molden(wfn, "op.molden", density_a=wfn.Da())
+```
+
+The resulting geometry, that approximates a lot better to the one shown in the previous image, is:
+
+```
+Final energy is    -76.0270327800673
+	Final (previous) structure:
+	Cartesian Geometry (in Angstrom)
+	    O     0.0000000000   0.0000000000  -0.0647393695
+	    H     0.0000000000  -0.7488413998   0.5137303870
+	    H     0.0000000000   0.7488413998   0.5137303870
+	Saving final (previous) structure.
+			--------------------------
+			 OPTKING Finished Execution 
+			--------------------------
+
+    Final optimized geometry and variables:
+    Molecular point group: c2v
+    Full point group: C2v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+    O
+    H             1    0.946251
+    H             1    0.946251      2  104.628807
+```
+A step by step animation of the optimization steps is shown next:
+
+![][h2o.nudged]
+
+**pending**: Angular energy
+
+# Nitrogen molecule
+
 [h2.cc-pVDZ]: psi4/images/h2.cc-pvdz.png
 [h2.cc-pvdz.movie]: psi4/images/h2.cc-pvdz.gif
 
@@ -303,3 +374,6 @@ An animation of this steps is shown next:
 
 [h2.cc-pwcv_tpd_z]: psi4/images/h2.cc-pwcv_tpd_z.png
 [h2o.gif]: psi4/images/h2o.gif
+
+[realh2o]: psi4/images/Water-2D_angl_Wiki.png
+[h2o.nudged]: psi4/images/h2o.nudged.gif
