@@ -1410,3 +1410,196 @@ JKGrad: Awmnx:       0.00u       0.00s   0.000012w     12 calls
 Grad: XC    :       0.00u       0.00s   0.000007w     12 calls
 
 ***********************************************************
+
+Host: fito-laptop-ubuntu
+
+Timers On : Thu Jan 26 12:05:18 2017
+Timers Off: Thu Jan 26 12:05:23 2017
+
+Wall Time:        5.00 seconds
+
+JK: (A|mn)  :       0.09u       0.00s   0.098037w     12 calls
+JK: (A|Q)^-1/2:       0.17u       0.02s   0.191110w     12 calls
+JK: (Q|mn)  :       0.01u       0.01s   0.012500w     12 calls
+HF: Form H  :       0.01u       0.00s   0.010259w     11 calls
+HF: Form S/X:       0.01u       0.00s   0.002181w     11 calls
+HF: Guess   :       0.34u       0.01s   0.359596w     11 calls
+SAD Guess   :       0.07u       0.00s 0.07228700w      1 call
+JK: D       :       0.00u       0.00s   0.000392w     98 calls
+JK: USO2AO  :       0.00u       0.00s   0.002548w     98 calls
+JK: JK      :       0.03u       0.00s   0.042207w     98 calls
+JK: J       :       0.00u       0.00s   0.003601w     98 calls
+JK: J1      :       0.00u       0.00s   0.001853w    105 calls
+JK: J2      :       0.00u       0.00s   0.001380w    105 calls
+JK: K       :       0.03u       0.00s   0.036547w     98 calls
+JK: K1      :       0.02u       0.00s   0.030408w    105 calls
+JK: K2      :       0.01u       0.00s   0.005912w    105 calls
+JK: AO2USO  :       0.00u       0.00s   0.001913w     98 calls
+DIISManager::add_entry:       0.00u       0.00s   0.004856w     87 calls
+DIISManager::extrapolate:       0.02u       0.00s   0.003792w     76 calls
+DIISManager::extrapolate: bMatrix setup:       0.01u       0.00s   0.001007w     76 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.01u       0.00s   0.001581w     76 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000989w     76 calls
+HF: Form G  :       0.03u       0.00s   0.047926w     91 calls
+HF: Form F  :       0.00u       0.00s   0.000159w     91 calls
+HF: DIIS    :       0.02u       0.00s   0.010434w     91 calls
+HF: Form C  :       0.01u       0.01s   0.005794w     91 calls
+HF: Form D  :       0.00u       0.00s   0.000216w     91 calls
+Grad: T     :       0.01u       0.00s   0.004766w     11 calls
+Grad: V     :       0.21u       0.04s   0.235380w     11 calls
+Grad: S     :       0.00u       0.00s   0.002349w     11 calls
+Grad: JK    :       1.40u       0.02s   1.463352w     11 calls
+JKGrad: Amn :       0.20u       0.00s   0.190044w     11 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000007w     11 calls
+JKGrad: AB  :       0.15u       0.01s   0.167495w     11 calls
+JKGrad: UV  :       0.00u       0.00s   0.002140w     11 calls
+JKGrad: ABx :       0.15u       0.00s   0.137526w     11 calls
+JKGrad: Amnx:       0.41u       0.00s   0.447331w     11 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000010w     11 calls
+Grad: XC    :       0.00u       0.00s   0.000009w     11 calls
+
+***********************************************************
+
+Host: fito-laptop-ubuntu
+
+Timers On : Thu Jan 26 21:00:55 2017
+Timers Off: Thu Jan 26 21:00:59 2017
+
+Wall Time:        4.00 seconds
+
+JK: (A|mn)  :       0.11u       0.00s   0.086481w     12 calls
+JK: (A|Q)^-1/2:       0.15u       0.01s   0.180168w     12 calls
+JK: (Q|mn)  :       0.00u       0.00s   0.006085w     12 calls
+HF: Form H  :       0.01u       0.00s   0.009112w     12 calls
+HF: Form S/X:       0.00u       0.00s   0.001944w     12 calls
+HF: Guess   :       0.25u       0.01s   0.273661w     12 calls
+HF: Form G  :       0.08u       0.00s   0.093882w     95 calls
+JK: D       :       0.00u       0.00s   0.000554w     95 calls
+JK: USO2AO  :       0.00u       0.00s   0.004358w     95 calls
+JK: JK      :       0.08u       0.00s   0.083095w     95 calls
+JK: J       :       0.02u       0.00s   0.006861w     95 calls
+JK: J1      :       0.01u       0.00s   0.003463w    190 calls
+JK: J2      :       0.01u       0.00s   0.002662w    190 calls
+JK: K       :       0.06u       0.00s   0.073965w     95 calls
+JK: K1      :       0.04u       0.00s   0.062145w    186 calls
+JK: K2      :       0.02u       0.00s   0.011473w    186 calls
+JK: AO2USO  :       0.00u       0.00s   0.003560w     95 calls
+HF: Form F  :       0.00u       0.00s   0.000227w     95 calls
+HF: DIIS    :       0.00u       0.00s   0.013660w     95 calls
+DIISManager::add_entry:       0.00u       0.00s   0.005852w     85 calls
+HF: Form C  :       0.00u       0.01s   0.009808w     95 calls
+HF: Form D  :       0.00u       0.00s   0.000468w     95 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.004184w     73 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.001113w     73 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.001619w     73 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.001203w     73 calls
+Grad: T     :       0.02u       0.00s   0.004234w     11 calls
+Grad: V     :       0.21u       0.03s   0.226016w     11 calls
+Grad: S     :       0.00u       0.00s   0.002356w     11 calls
+Grad: JK    :       1.32u       0.04s   1.360291w     11 calls
+JKGrad: Amn :       0.14u       0.00s   0.182653w     11 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000004w     11 calls
+JKGrad: AB  :       0.19u       0.00s   0.163468w     11 calls
+JKGrad: UV  :       0.00u       0.00s   0.002629w     11 calls
+JKGrad: ABx :       0.11u       0.01s   0.125008w     11 calls
+JKGrad: Amnx:       0.42u       0.01s   0.411579w     11 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000008w     11 calls
+Grad: XC    :       0.00u       0.00s   0.000005w     11 calls
+
+***********************************************************
+
+Host: fito-laptop-ubuntu
+
+Timers On : Thu Jan 26 21:04:06 2017
+Timers Off: Thu Jan 26 21:04:10 2017
+
+Wall Time:        4.00 seconds
+
+JK: (A|mn)  :       0.08u       0.00s   0.093406w     13 calls
+JK: (A|Q)^-1/2:       0.16u       0.02s   0.197476w     13 calls
+JK: (Q|mn)  :       0.01u       0.00s   0.006167w     13 calls
+HF: Form H  :       0.00u       0.00s   0.009174w     13 calls
+HF: Form S/X:       0.00u       0.00s   0.002019w     13 calls
+HF: Guess   :       0.24u       0.00s   0.278847w     13 calls
+HF: Form G  :       0.12u       0.01s   0.096044w    108 calls
+JK: D       :       0.00u       0.00s   0.000532w    108 calls
+JK: USO2AO  :       0.01u       0.00s   0.004245w    108 calls
+JK: JK      :       0.10u       0.01s   0.084887w    108 calls
+JK: J       :       0.01u       0.00s   0.006178w    108 calls
+JK: J1      :       0.01u       0.00s   0.003151w    216 calls
+JK: J2      :       0.00u       0.00s   0.002337w    216 calls
+JK: K       :       0.09u       0.01s   0.076591w    108 calls
+JK: K1      :       0.09u       0.00s   0.063817w    216 calls
+JK: K2      :       0.00u       0.01s   0.012430w    216 calls
+JK: AO2USO  :       0.01u       0.00s   0.003861w    108 calls
+HF: Form F  :       0.00u       0.00s   0.000266w    108 calls
+HF: DIIS    :       0.01u       0.00s   0.016215w    108 calls
+DIISManager::add_entry:       0.00u       0.00s   0.007501w     98 calls
+HF: Form C  :       0.01u       0.00s   0.010644w    108 calls
+HF: Form D  :       0.00u       0.00s   0.000592w    108 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.004670w     85 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.001395w     85 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.001723w     85 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.001257w     85 calls
+Grad: T     :       0.00u       0.00s   0.004220w     11 calls
+Grad: V     :       0.19u       0.04s   0.226109w     11 calls
+Grad: S     :       0.00u       0.00s   0.002463w     11 calls
+Grad: JK    :       1.33u       0.01s   1.365426w     11 calls
+JKGrad: Amn :       0.19u       0.00s   0.182223w     11 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000004w     11 calls
+JKGrad: AB  :       0.17u       0.00s   0.164685w     11 calls
+JKGrad: UV  :       0.00u       0.00s   0.002583w     11 calls
+JKGrad: ABx :       0.10u       0.00s   0.123813w     11 calls
+JKGrad: Amnx:       0.42u       0.00s   0.414470w     11 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000011w     11 calls
+Grad: XC    :       0.00u       0.00s   0.000006w     11 calls
+
+***********************************************************
+
+Host: fito-laptop-ubuntu
+
+Timers On : Thu Jan 26 21:09:55 2017
+Timers Off: Thu Jan 26 21:10:00 2017
+
+Wall Time:        5.00 seconds
+
+JK: (A|mn)  :       0.10u       0.00s   0.093856w     13 calls
+JK: (A|Q)^-1/2:       0.15u       0.06s   0.241756w     13 calls
+JK: (Q|mn)  :       0.02u       0.02s   0.019743w     13 calls
+HF: Form H  :       0.01u       0.00s   0.008898w     13 calls
+HF: Form S/X:       0.00u       0.00s   0.002031w     13 calls
+HF: Guess   :       0.23u       0.01s   0.272247w     13 calls
+HF: Form G  :       0.10u       0.00s   0.096056w    108 calls
+JK: D       :       0.00u       0.00s   0.000552w    108 calls
+JK: USO2AO  :       0.00u       0.00s   0.004089w    108 calls
+JK: JK      :       0.10u       0.00s   0.085129w    108 calls
+JK: J       :       0.01u       0.00s   0.006403w    108 calls
+JK: J1      :       0.00u       0.00s   0.003253w    216 calls
+JK: J2      :       0.00u       0.00s   0.002459w    216 calls
+JK: K       :       0.09u       0.00s   0.076595w    108 calls
+JK: K1      :       0.06u       0.00s   0.063964w    216 calls
+JK: K2      :       0.03u       0.00s   0.012280w    216 calls
+JK: AO2USO  :       0.00u       0.00s   0.003827w    108 calls
+HF: Form F  :       0.00u       0.00s   0.000235w    108 calls
+HF: DIIS    :       0.01u       0.00s   0.013477w    108 calls
+DIISManager::add_entry:       0.00u       0.00s   0.004903w     98 calls
+HF: Form C  :       0.02u       0.00s   0.010835w    108 calls
+HF: Form D  :       0.00u       0.00s   0.000526w    108 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.004560w     85 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.001302w     85 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.001720w     85 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.001260w     85 calls
+Grad: T     :       0.00u       0.00s   0.004452w     11 calls
+Grad: V     :       0.20u       0.02s   0.228775w     11 calls
+Grad: S     :       0.00u       0.00s   0.002453w     11 calls
+Grad: JK    :       1.34u       0.05s   1.367219w     11 calls
+JKGrad: Amn :       0.18u       0.00s   0.186497w     11 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000005w     11 calls
+JKGrad: AB  :       0.16u       0.00s   0.163232w     11 calls
+JKGrad: UV  :       0.00u       0.00s   0.002528w     11 calls
+JKGrad: ABx :       0.13u       0.02s   0.122255w     11 calls
+JKGrad: Amnx:       0.40u       0.00s   0.407826w     11 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000010w     11 calls
+Grad: XC    :       0.00u       0.00s   0.000006w     11 calls
+
+***********************************************************
