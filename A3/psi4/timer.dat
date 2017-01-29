@@ -1603,3 +1603,51 @@ JKGrad: Awmnx:       0.00u       0.00s   0.000010w     11 calls
 Grad: XC    :       0.00u       0.00s   0.000006w     11 calls
 
 ***********************************************************
+
+Host: fito-laptop-ubuntu
+
+Timers On : Sat Jan 28 12:33:49 2017
+Timers Off: Sat Jan 28 12:33:53 2017
+
+Wall Time:        4.00 seconds
+
+JK: (A|mn)  :       0.10u       0.00s   0.097796w     13 calls
+JK: (A|Q)^-1/2:       0.19u       0.05s   0.246477w     13 calls
+JK: (Q|mn)  :       0.01u       0.02s   0.009499w     13 calls
+HF: Form H  :       0.00u       0.00s   0.008897w     13 calls
+HF: Form S/X:       0.00u       0.00s   0.002052w     13 calls
+HF: Guess   :       0.27u       0.01s   0.274225w     13 calls
+HF: Form G  :       0.06u       0.01s   0.098689w    108 calls
+JK: D       :       0.00u       0.00s   0.000522w    108 calls
+JK: USO2AO  :       0.00u       0.00s   0.004426w    108 calls
+JK: JK      :       0.06u       0.01s   0.087452w    108 calls
+JK: J       :       0.00u       0.00s   0.006509w    108 calls
+JK: J1      :       0.00u       0.00s   0.003186w    216 calls
+JK: J2      :       0.00u       0.00s   0.002543w    216 calls
+JK: K       :       0.06u       0.01s   0.078588w    108 calls
+JK: K1      :       0.06u       0.01s   0.065684w    216 calls
+JK: K2      :       0.00u       0.00s   0.012558w    216 calls
+JK: AO2USO  :       0.00u       0.00s   0.003939w    108 calls
+HF: Form F  :       0.00u       0.00s   0.000252w    108 calls
+HF: DIIS    :       0.00u       0.00s   0.014242w    108 calls
+DIISManager::add_entry:       0.00u       0.00s   0.005165w     98 calls
+HF: Form C  :       0.00u       0.00s   0.010814w    108 calls
+HF: Form D  :       0.00u       0.00s   0.000519w    108 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.004851w     85 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.001408w     85 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.001852w     85 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.001330w     85 calls
+Grad: T     :       0.01u       0.00s   0.004205w     11 calls
+Grad: V     :       0.19u       0.03s   0.228756w     11 calls
+Grad: S     :       0.01u       0.00s   0.002429w     11 calls
+Grad: JK    :       1.33u       0.04s   1.391589w     11 calls
+JKGrad: Amn :       0.18u       0.00s   0.186070w     11 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000006w     11 calls
+JKGrad: AB  :       0.17u       0.00s   0.165567w     11 calls
+JKGrad: UV  :       0.00u       0.00s   0.002595w     11 calls
+JKGrad: ABx :       0.11u       0.00s   0.129253w     11 calls
+JKGrad: Amnx:       0.41u       0.00s   0.420106w     11 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000009w     11 calls
+Grad: XC    :       0.00u       0.00s   0.000006w     11 calls
+
+***********************************************************

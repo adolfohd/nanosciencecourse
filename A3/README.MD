@@ -365,6 +365,40 @@ A step by step animation of the optimization steps is shown next:
 
 # Nitrogen molecule
 
+## Input file
+
+With the code shown next, I calculated the atomix energy of nytrogen and then the energy of a $N_2$ molecule.
+
+```
+memory 250 mb
+
+molecule n {
+  N
+}
+set basis dzp
+set reference uhf
+e_n=energy('scf', molecule=n)
+print "Nitrogen atom's energy=",e_n
+
+
+molecule n2 {
+  N 
+  N 1 1.45
+}
+
+set basis cc-pvdz
+op, wfn = optimize('hf', return_wfn=True, molecule=n2)
+
+molden(wfn, "n2.molden", density_a=wfn.Da())
+
+e_n2 = energy('scf', molecule=n2)
+print "Nitrogen molecule's energy=",e_n2
+
+print "bond energy?", e_n2-2*e_n
+```
+
+
+
 [h2.cc-pVDZ]: psi4/images/h2.cc-pvdz.png
 [h2.cc-pvdz.movie]: psi4/images/h2.cc-pvdz.gif
 

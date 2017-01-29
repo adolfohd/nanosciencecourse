@@ -18,9 +18,9 @@
     -----------------------------------------------------------------------
 
 
-    Psi4 started on: Thu Jan 26 21:09:55 2017
+    Psi4 started on: Sat Jan 28 12:33:49 2017
 
-    Process ID:   5119
+    Process ID:   4217
     PSI4DATADIR: /home/fito/programs/psi4conda/share/psi4
     Memory level set to 256.000 MB
 
@@ -60,7 +60,7 @@ print "bond energy?", e_n2-2*e_n------------------------------------------------
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:56 2017
+*** at Sat Jan 28 12:33:49 2017
 
 
          ---------------------------------------------------------
@@ -238,7 +238,7 @@ print "bond energy?", e_n2-2*e_n------------------------------------------------
   LUNO+3 :    2B2u 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:56 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:49 2017
 Module time:
 	user time   =       0.08 seconds =       0.00 minutes
 	system time =       0.06 seconds =       0.00 minutes
@@ -271,7 +271,7 @@ gradient() will perform analytic gradient computation.
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:56 2017
+*** at Sat Jan 28 12:33:49 2017
 
 
          ---------------------------------------------------------
@@ -460,15 +460,15 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    1 Au 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:56 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:50 2017
 Module time:
-	user time   =       0.10 seconds =       0.00 minutes
-	system time =       0.02 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       0.11 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 Total time:
-	user time   =       0.24 seconds =       0.00 minutes
-	system time =       0.08 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       0.25 seconds =       0.00 minutes
+	system time =       0.07 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -489,7 +489,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:56 2017
+*** at Sat Jan 28 12:33:50 2017
 
 
          ------------------------------------------------------------
@@ -550,15 +550,15 @@ Properties computed using the SCF density matrix
        2       -0.000000000000     0.000000000000     0.446446049423
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:56 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:50 2017
 Module time:
 	user time   =       0.14 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.38 seconds =       0.01 minutes
-	system time =       0.09 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       0.39 seconds =       0.01 minutes
+	system time =       0.08 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 			-----------------------------------------
 			 OPTKING 2.0: for geometry optimizations 
@@ -647,7 +647,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:56 2017
+*** at Sat Jan 28 12:33:50 2017
 
 
          ---------------------------------------------------------
@@ -842,15 +842,15 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    2B3u 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:56 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:50 2017
 Module time:
-	user time   =       0.12 seconds =       0.00 minutes
+	user time   =       0.13 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.55 seconds =       0.01 minutes
-	system time =       0.09 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       0.56 seconds =       0.01 minutes
+	system time =       0.08 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -871,7 +871,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:56 2017
+*** at Sat Jan 28 12:33:50 2017
 
 
          ------------------------------------------------------------
@@ -932,14 +932,14 @@ Properties computed using the SCF density matrix
        2       -0.000000000000     0.000000000000     0.288342471591
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:57 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:50 2017
 Module time:
 	user time   =       0.14 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.70 seconds =       0.01 minutes
-	system time =       0.10 seconds =       0.00 minutes
+	user time   =       0.71 seconds =       0.01 minutes
+	system time =       0.09 seconds =       0.00 minutes
 	total time  =          1 seconds =       0.02 minutes
 
 			-----------------------------------------
@@ -1018,7 +1018,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:57 2017
+*** at Sat Jan 28 12:33:50 2017
 
 
          ---------------------------------------------------------
@@ -1213,10 +1213,10 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    3B3u 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:57 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:50 2017
 Module time:
 	user time   =       0.13 seconds =       0.00 minutes
-	system time =       0.00 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
 	user time   =       0.88 seconds =       0.01 minutes
@@ -1242,7 +1242,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:57 2017
+*** at Sat Jan 28 12:33:50 2017
 
 
          ------------------------------------------------------------
@@ -1303,7 +1303,7 @@ Properties computed using the SCF density matrix
        2       -0.000000000000     0.000000000000    -1.618768632570
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:57 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:50 2017
 Module time:
 	user time   =       0.14 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
@@ -1389,7 +1389,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:57 2017
+*** at Sat Jan 28 12:33:50 2017
 
 
          ---------------------------------------------------------
@@ -1584,15 +1584,15 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    4 Ag 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:57 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:51 2017
 Module time:
-	user time   =       0.13 seconds =       0.00 minutes
+	user time   =       0.14 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
-Total time:
-	user time   =       1.21 seconds =       0.02 minutes
-	system time =       0.10 seconds =       0.00 minutes
 	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =       1.22 seconds =       0.02 minutes
+	system time =       0.10 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -1613,7 +1613,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:57 2017
+*** at Sat Jan 28 12:33:51 2017
 
 
          ------------------------------------------------------------
@@ -1674,15 +1674,15 @@ Properties computed using the SCF density matrix
        2       -0.000000000000     0.000000000000     0.351092474443
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:57 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:51 2017
 Module time:
-	user time   =       0.15 seconds =       0.00 minutes
+	user time   =       0.14 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
 	user time   =       1.36 seconds =       0.02 minutes
 	system time =       0.10 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	total time  =          2 seconds =       0.03 minutes
 
 			-----------------------------------------
 			 OPTKING 2.0: for geometry optimizations 
@@ -1760,7 +1760,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:57 2017
+*** at Sat Jan 28 12:33:51 2017
 
 
          ---------------------------------------------------------
@@ -1955,15 +1955,15 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    3B2u 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:57 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:51 2017
 Module time:
-	user time   =       0.12 seconds =       0.00 minutes
-	system time =       0.00 seconds =       0.00 minutes
+	user time   =       0.11 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       1.53 seconds =       0.03 minutes
-	system time =       0.10 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	user time   =       1.52 seconds =       0.03 minutes
+	system time =       0.11 seconds =       0.00 minutes
+	total time  =          2 seconds =       0.03 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -1984,7 +1984,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:57 2017
+*** at Sat Jan 28 12:33:51 2017
 
 
          ------------------------------------------------------------
@@ -2045,14 +2045,14 @@ Properties computed using the SCF density matrix
        2        0.000000000000    -0.000000000000    -2.054692471719
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:58 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:51 2017
 Module time:
-	user time   =       0.14 seconds =       0.00 minutes
+	user time   =       0.15 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
 	user time   =       1.68 seconds =       0.03 minutes
-	system time =       0.10 seconds =       0.00 minutes
+	system time =       0.11 seconds =       0.00 minutes
 	total time  =          2 seconds =       0.03 minutes
 
 			-----------------------------------------
@@ -2135,7 +2135,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:58 2017
+*** at Sat Jan 28 12:33:51 2017
 
 
          ---------------------------------------------------------
@@ -2330,14 +2330,14 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    5 Ag 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:58 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:51 2017
 Module time:
-	user time   =       0.11 seconds =       0.00 minutes
-	system time =       0.01 seconds =       0.00 minutes
+	user time   =       0.13 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       1.83 seconds =       0.03 minutes
-	system time =       0.12 seconds =       0.00 minutes
+	user time   =       1.86 seconds =       0.03 minutes
+	system time =       0.11 seconds =       0.00 minutes
 	total time  =          2 seconds =       0.03 minutes
 
 
@@ -2359,7 +2359,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:58 2017
+*** at Sat Jan 28 12:33:51 2017
 
 
          ------------------------------------------------------------
@@ -2420,14 +2420,14 @@ Properties computed using the SCF density matrix
        2        0.000000000000    -0.000000000000     0.362077676547
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:58 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:51 2017
 Module time:
 	user time   =       0.14 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       1.98 seconds =       0.03 minutes
-	system time =       0.13 seconds =       0.00 minutes
+	user time   =       2.00 seconds =       0.03 minutes
+	system time =       0.12 seconds =       0.00 minutes
 	total time  =          2 seconds =       0.03 minutes
 
 			-----------------------------------------
@@ -2508,7 +2508,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:58 2017
+*** at Sat Jan 28 12:33:51 2017
 
 
          ---------------------------------------------------------
@@ -2703,15 +2703,15 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    2B3u 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:58 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:52 2017
 Module time:
 	user time   =       0.12 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 Total time:
-	user time   =       2.15 seconds =       0.04 minutes
-	system time =       0.14 seconds =       0.00 minutes
-	total time  =          2 seconds =       0.03 minutes
+	user time   =       2.17 seconds =       0.04 minutes
+	system time =       0.13 seconds =       0.00 minutes
+	total time  =          3 seconds =       0.05 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -2732,7 +2732,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:58 2017
+*** at Sat Jan 28 12:33:52 2017
 
 
          ------------------------------------------------------------
@@ -2793,15 +2793,15 @@ Properties computed using the SCF density matrix
        2        0.000000000000    -0.000000000000    -0.246635992146
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:58 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:52 2017
 Module time:
 	user time   =       0.14 seconds =       0.00 minutes
-	system time =       0.00 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       2.29 seconds =       0.04 minutes
+	user time   =       2.32 seconds =       0.04 minutes
 	system time =       0.14 seconds =       0.00 minutes
-	total time  =          2 seconds =       0.03 minutes
+	total time  =          3 seconds =       0.05 minutes
 
 			-----------------------------------------
 			 OPTKING 2.0: for geometry optimizations 
@@ -2877,7 +2877,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:58 2017
+*** at Sat Jan 28 12:33:52 2017
 
 
          ---------------------------------------------------------
@@ -3071,15 +3071,15 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    4B1u 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:58 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:52 2017
 Module time:
 	user time   =       0.13 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       2.46 seconds =       0.04 minutes
-	system time =       0.15 seconds =       0.00 minutes
-	total time  =          2 seconds =       0.03 minutes
+	user time   =       2.49 seconds =       0.04 minutes
+	system time =       0.14 seconds =       0.00 minutes
+	total time  =          3 seconds =       0.05 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -3100,7 +3100,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:58 2017
+*** at Sat Jan 28 12:33:52 2017
 
 
          ------------------------------------------------------------
@@ -3161,14 +3161,14 @@ Properties computed using the SCF density matrix
        2       -0.000000000000     0.000000000000    -0.008422950860
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:59 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:52 2017
 Module time:
 	user time   =       0.14 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       2.61 seconds =       0.04 minutes
-	system time =       0.16 seconds =       0.00 minutes
+	user time   =       2.64 seconds =       0.04 minutes
+	system time =       0.15 seconds =       0.00 minutes
 	total time  =          3 seconds =       0.05 minutes
 
 			-----------------------------------------
@@ -3245,7 +3245,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:59 2017
+*** at Sat Jan 28 12:33:52 2017
 
 
          ---------------------------------------------------------
@@ -3438,13 +3438,13 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    4B1u 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:59 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:52 2017
 Module time:
-	user time   =       0.12 seconds =       0.00 minutes
-	system time =       0.00 seconds =       0.00 minutes
+	user time   =       0.13 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       2.77 seconds =       0.05 minutes
+	user time   =       2.81 seconds =       0.05 minutes
 	system time =       0.16 seconds =       0.00 minutes
 	total time  =          3 seconds =       0.05 minutes
 
@@ -3467,7 +3467,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:59 2017
+*** at Sat Jan 28 12:33:52 2017
 
 
          ------------------------------------------------------------
@@ -3528,13 +3528,13 @@ Properties computed using the SCF density matrix
        2        0.000000000000    -0.000000000000     0.005522032352
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:59 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:52 2017
 Module time:
-	user time   =       0.14 seconds =       0.00 minutes
+	user time   =       0.13 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       2.91 seconds =       0.05 minutes
+	user time   =       2.95 seconds =       0.05 minutes
 	system time =       0.17 seconds =       0.00 minutes
 	total time  =          3 seconds =       0.05 minutes
 
@@ -3612,7 +3612,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:59 2017
+*** at Sat Jan 28 12:33:53 2017
 
 
          ---------------------------------------------------------
@@ -3805,15 +3805,15 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    5 Ag 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:59 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:53 2017
 Module time:
-	user time   =       0.13 seconds =       0.00 minutes
+	user time   =       0.12 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       3.10 seconds =       0.05 minutes
+	user time   =       3.14 seconds =       0.05 minutes
 	system time =       0.17 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	total time  =          4 seconds =       0.07 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -3834,7 +3834,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:59 2017
+*** at Sat Jan 28 12:33:53 2017
 
 
          ------------------------------------------------------------
@@ -3895,15 +3895,15 @@ Properties computed using the SCF density matrix
        2        0.000000000000     0.000000000000     0.000936311128
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:59 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:53 2017
 Module time:
-	user time   =       0.13 seconds =       0.00 minutes
-	system time =       0.01 seconds =       0.00 minutes
+	user time   =       0.14 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       3.24 seconds =       0.05 minutes
-	system time =       0.18 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	user time   =       3.28 seconds =       0.05 minutes
+	system time =       0.17 seconds =       0.00 minutes
+	total time  =          4 seconds =       0.07 minutes
 
 			-----------------------------------------
 			 OPTKING 2.0: for geometry optimizations 
@@ -3979,7 +3979,7 @@ Total time:
 gradient() will perform analytic gradient computation.
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:59 2017
+*** at Sat Jan 28 12:33:53 2017
 
 
          ---------------------------------------------------------
@@ -4171,15 +4171,15 @@ gradient() will perform analytic gradient computation.
   LUNO+3 :    2B3u 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:09:59 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:53 2017
 Module time:
-	user time   =       0.12 seconds =       0.00 minutes
-	system time =       0.00 seconds =       0.00 minutes
+	user time   =       0.11 seconds =       0.00 minutes
+	system time =       0.02 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       3.41 seconds =       0.06 minutes
-	system time =       0.18 seconds =       0.00 minutes
-	total time  =          3 seconds =       0.05 minutes
+	user time   =       3.45 seconds =       0.06 minutes
+	system time =       0.19 seconds =       0.00 minutes
+	total time  =          4 seconds =       0.07 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -4200,7 +4200,7 @@ Properties computed using the SCF density matrix
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:09:59 2017
+*** at Sat Jan 28 12:33:53 2017
 
 
          ------------------------------------------------------------
@@ -4261,14 +4261,14 @@ Properties computed using the SCF density matrix
        2       -0.000000000000     0.000000000000     0.000006947953
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:10:00 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:53 2017
 Module time:
-	user time   =       0.15 seconds =       0.00 minutes
+	user time   =       0.14 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
-	total time  =          1 seconds =       0.02 minutes
+	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       3.56 seconds =       0.06 minutes
-	system time =       0.19 seconds =       0.00 minutes
+	user time   =       3.59 seconds =       0.06 minutes
+	system time =       0.20 seconds =       0.00 minutes
 	total time  =          4 seconds =       0.07 minutes
 
 			-----------------------------------------
@@ -4372,7 +4372,7 @@ Total time:
 
 
 *** tstart() called on fito-laptop-ubuntu
-*** at Thu Jan 26 21:10:00 2017
+*** at Sat Jan 28 12:33:53 2017
 
 
          ---------------------------------------------------------
@@ -4560,14 +4560,14 @@ Total time:
   LUNO+3 :    5 Ag 0.0000000
 
 
-*** tstop() called on fito-laptop-ubuntu at Thu Jan 26 21:10:00 2017
+*** tstop() called on fito-laptop-ubuntu at Sat Jan 28 12:33:53 2017
 Module time:
 	user time   =       0.10 seconds =       0.00 minutes
-	system time =       0.00 seconds =       0.00 minutes
+	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       3.72 seconds =       0.06 minutes
-	system time =       0.19 seconds =       0.00 minutes
+	user time   =       3.74 seconds =       0.06 minutes
+	system time =       0.22 seconds =       0.00 minutes
 	total time  =          4 seconds =       0.07 minutes
 
 
