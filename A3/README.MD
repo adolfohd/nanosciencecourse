@@ -448,6 +448,26 @@ $error_{{DZP}}=\frac{0.437-0.3602}{0.3602}\approx 21\% $
 
 # CO2
 
+Given the next geometry
+
+```
+molecule co2 {
+  C 
+  O 1 0.96
+  O 1 1.20 2 90
+}
+```
+
+and after optimizing it, we have the next result:
+
+```
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+    C       
+    O             1    1.297446
+    O             1    1.297136      2   69.133888
+```
+
 # NH3
 
 # BH3

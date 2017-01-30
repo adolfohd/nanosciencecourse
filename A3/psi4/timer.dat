@@ -1795,3 +1795,150 @@ JKGrad: Awmnx:       0.00u       0.00s   0.000009w     11 calls
 Grad: XC    :       0.00u       0.00s   0.000006w     11 calls
 
 ***********************************************************
+
+Host: Takums-iMac.local
+
+Timers On : Mon Jan 30 14:55:47 2017
+Timers Off: Mon Jan 30 14:55:48 2017
+
+Wall Time:        1.00 seconds
+
+JK: (A|mn)  :       0.00u       0.00s   0.001131w      3 calls
+JK: (A|Q)^-1/2:       0.10u       0.00s   0.052397w      3 calls
+JK: (Q|mn)  :       0.00u       0.00s   0.000032w      3 calls
+HF: Form H  :       0.00u       0.00s   0.004467w      2 calls
+HF: Form S/X:       0.00u       0.00s   0.000268w      2 calls
+HF: Guess   :       0.20u       0.00s   0.117903w      2 calls
+SAD Guess   :       0.13u       0.00s 0.08357800w      1 call
+JK: D       :       0.00u       0.00s   0.000082w     13 calls
+JK: USO2AO  :       0.00u       0.00s   0.000189w     13 calls
+JK: JK      :       0.00u       0.00s   0.000779w     13 calls
+JK: J       :       0.00u       0.00s   0.000123w     13 calls
+JK: J1      :       0.00u       0.00s   0.000034w     15 calls
+JK: J2      :       0.00u       0.00s   0.000023w     15 calls
+JK: K       :       0.00u       0.00s   0.000262w     13 calls
+JK: K1      :       0.00u       0.00s   0.000159w     13 calls
+JK: K2      :       0.00u       0.00s   0.000035w     13 calls
+JK: AO2USO  :       0.00u       0.00s   0.000076w     13 calls
+DIISManager::add_entry:       0.00u       0.00s   0.000807w     11 calls
+DIISManager::extrapolate:       0.00u       0.00s   0.000553w      9 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.000154w      9 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000165w      9 calls
+DIISManager::extrapolate: form new data:       0.00u       0.00s   0.000184w      9 calls
+HF: Form G  :       0.00u       0.00s   0.001241w     11 calls
+HF: Form F  :       0.00u       0.00s   0.000027w     11 calls
+HF: DIIS    :       0.00u       0.00s   0.001581w     11 calls
+HF: Form C  :       0.00u       0.00s   0.000601w     11 calls
+HF: Form D  :       0.00u       0.00s   0.000039w     11 calls
+Grad: T     :       0.00u       0.00s   0.000182w      2 calls
+Grad: V     :       0.03u       0.02s   0.020298w      2 calls
+Grad: S     :       0.00u       0.00s   0.000190w      2 calls
+Grad: JK    :       0.38u       0.02s   0.233334w      2 calls
+JKGrad: Amn :       0.07u       0.00s   0.029976w      2 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000004w      2 calls
+JKGrad: AB  :       0.05u       0.00s   0.036270w      2 calls
+JKGrad: UV  :       0.00u       0.00s   0.000091w      2 calls
+JKGrad: ABx :       0.05u       0.00s   0.032797w      2 calls
+JKGrad: Amnx:       0.07u       0.00s   0.034687w      2 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000003w      2 calls
+Grad: XC    :       0.00u       0.00s   0.000002w      2 calls
+
+***********************************************************
+
+Host: Takums-iMac.local
+
+Timers On : Mon Jan 30 15:02:51 2017
+Timers Off: Mon Jan 30 15:03:02 2017
+
+Wall Time:       11.00 seconds
+
+JK: (A|mn)  :       0.83u       0.00s   0.532742w      9 calls
+JK: (A|Q)^-1/2:       0.57u       0.00s   0.352038w      9 calls
+JK: (Q|mn)  :       0.07u       0.00s   0.010354w      9 calls
+HF: Form H  :       0.00u       0.00s   0.029602w      7 calls
+HF: Form S/X:       0.02u       0.00s   0.002658w      7 calls
+HF: Guess   :       0.68u       0.02s   0.495792w      7 calls
+SAD Guess   :       0.37u       0.02s 0.25154600w      1 call
+JK: D       :       0.00u       0.00s   0.000854w     96 calls
+JK: USO2AO  :       0.00u       0.00s   0.003400w     96 calls
+JK: JK      :       0.43u       0.12s   0.275363w     96 calls
+JK: J       :       0.02u       0.02s   0.017134w     96 calls
+JK: J1      :       0.00u       0.00s   0.006616w    109 calls
+JK: J2      :       0.02u       0.02s   0.007950w    109 calls
+JK: K       :       0.38u       0.10s   0.246042w     96 calls
+JK: K1      :       0.33u       0.10s   0.213851w    109 calls
+JK: K2      :       0.03u       0.00s   0.031236w    109 calls
+JK: AO2USO  :       0.00u       0.00s   0.003571w     96 calls
+DIISManager::add_entry:       0.02u       0.00s   0.038013w     89 calls
+DIISManager::extrapolate:       0.05u       0.00s   0.018127w     82 calls
+DIISManager::extrapolate: bMatrix setup:       0.02u       0.00s   0.005106w     82 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.003048w     82 calls
+DIISManager::extrapolate: form new data:       0.03u       0.00s   0.009449w     82 calls
+HF: Form G  :       0.42u       0.12s   0.284910w     83 calls
+HF: Form F  :       0.00u       0.00s   0.000620w     83 calls
+HF: DIIS    :       0.07u       0.00s   0.061128w     83 calls
+HF: Form C  :       0.05u       0.00s   0.024414w     83 calls
+HF: Form D  :       0.00u       0.00s   0.000657w     83 calls
+Grad: T     :       0.03u       0.00s   0.016865w      7 calls
+Grad: V     :       0.47u       0.03s   0.327929w      7 calls
+Grad: S     :       0.02u       0.00s   0.007837w      7 calls
+Grad: JK    :       7.05u       0.12s   4.342585w      7 calls
+JKGrad: Amn :       1.10u       0.07s   0.653380w      7 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000015w      7 calls
+JKGrad: AB  :       0.53u       0.00s   0.316757w      7 calls
+JKGrad: UV  :       0.00u       0.00s   0.003628w      7 calls
+JKGrad: ABx :       0.52u       0.00s   0.355934w      7 calls
+JKGrad: Amnx:       4.03u       0.02s   2.453645w      7 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000011w      7 calls
+Grad: XC    :       0.00u       0.00s   0.000008w      7 calls
+
+***********************************************************
+
+Host: Takums-iMac.local
+
+Timers On : Mon Jan 30 15:06:23 2017
+Timers Off: Mon Jan 30 15:06:43 2017
+
+Wall Time:       20.00 seconds
+
+JK: (A|mn)  :       1.60u       0.00s   0.977450w     15 calls
+JK: (A|Q)^-1/2:       1.08u       0.00s   0.628354w     15 calls
+JK: (Q|mn)  :       0.03u       0.00s   0.019112w     15 calls
+HF: Form H  :       0.00u       0.00s   0.174103w     13 calls
+HF: Form S/X:       0.00u       0.00s   0.005449w     13 calls
+HF: Guess   :       1.07u       0.02s   0.769075w     13 calls
+SAD Guess   :       0.38u       0.00s 0.26796000w      1 call
+JK: D       :       0.00u       0.00s   0.001711w    188 calls
+JK: USO2AO  :       0.00u       0.00s   0.007101w    188 calls
+JK: JK      :       0.95u       0.20s   0.579114w    188 calls
+JK: J       :       0.12u       0.02s   0.037336w    188 calls
+JK: J1      :       0.05u       0.00s   0.013216w    201 calls
+JK: J2      :       0.05u       0.02s   0.018838w    201 calls
+JK: K       :       0.80u       0.18s   0.520136w    188 calls
+JK: K1      :       0.75u       0.18s   0.453346w    201 calls
+JK: K2      :       0.05u       0.00s   0.064853w    201 calls
+JK: AO2USO  :       0.02u       0.00s   0.007548w    188 calls
+DIISManager::add_entry:       0.05u       0.03s   0.073130w    175 calls
+DIISManager::extrapolate:       0.05u       0.00s   0.040761w    162 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.00s   0.011897w    162 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.03u       0.00s   0.006443w    162 calls
+DIISManager::extrapolate: form new data:       0.02u       0.00s   0.021364w    162 calls
+HF: Form G  :       0.97u       0.20s   0.601100w    175 calls
+HF: Form F  :       0.00u       0.00s   0.001264w    175 calls
+HF: DIIS    :       0.13u       0.03s   0.125738w    175 calls
+HF: Form C  :       0.10u       0.00s   0.050821w    175 calls
+HF: Form D  :       0.00u       0.00s   0.001440w    175 calls
+Grad: T     :       0.05u       0.00s   0.033185w     13 calls
+Grad: V     :       0.98u       0.17s   0.625018w     13 calls
+Grad: S     :       0.00u       0.00s   0.014698w     13 calls
+Grad: JK    :      13.20u       0.18s   8.124373w     13 calls
+JKGrad: Amn :       2.10u       0.03s   1.239230w     13 calls
+JKGrad: Awmn:       0.00u       0.00s   0.000020w     13 calls
+JKGrad: AB  :       0.93u       0.00s   0.592443w     13 calls
+JKGrad: UV  :       0.00u       0.00s   0.006793w     13 calls
+JKGrad: ABx :       0.98u       0.00s   0.625960w     13 calls
+JKGrad: Amnx:       7.60u       0.05s   4.619865w     13 calls
+JKGrad: Awmnx:       0.00u       0.00s   0.000017w     13 calls
+Grad: XC    :       0.00u       0.00s   0.000015w     13 calls
+
+***********************************************************

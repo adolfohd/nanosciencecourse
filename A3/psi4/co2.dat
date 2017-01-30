@@ -3,7 +3,7 @@ memory 250 mb
 molecule co2 {
   C 
   O 1 0.96
-  O 1 0.96 2 179.9
+  O 1 1.20 2 90
 }
 
 set basis cc-pVDZ

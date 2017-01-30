@@ -2,7 +2,7 @@
           Psi4: An Open-Source Ab Initio Electronic Structure Package
                               Psi4 1.0.0 Driver
 
-                          Git: Rev {master} 6a9a71b dirty
+                          Git: Rev {master} 6a9a71b 
 
     J. M. Turney, A. C. Simmonett, R. M. Parrish, E. G. Hohenstein,
     F. A. Evangelista, J. T. Fermann, B. J. Mintz, L. A. Burns, J. J. Wilke,
@@ -18,10 +18,10 @@
     -----------------------------------------------------------------------
 
 
-    Psi4 started on: Wed Jan 25 09:29:18 2017
+    Psi4 started on: Mon Jan 30 14:55:47 2017
 
-    Process ID:    623
-    PSI4DATADIR: /home/fito/programs/psi4conda/share/psi4
+    Process ID:   4423
+    PSI4DATADIR: /Users/equipo/miniconda/share/psi4
     Memory level set to 256.000 MB
 
   ==> Input File <==
@@ -42,7 +42,6 @@ set basis dzp
 op, wfn = optimize('hf', return_wfn=True, molecule=h2)
 
 molden(wfn, "h2.molden", density_a=wfn.Da())--------------------------------------------------------------------------
-/home/fito/programs/psi4conda/lib/python2.7/site-packages/v2rdm_casscf/v2rdm_casscf.so loaded.
 
   Memory set to 250.000 MiB by Python script.
 gradient() will perform analytic gradient computation.
@@ -50,8 +49,8 @@ gradient() will perform analytic gradient computation.
     Specify the multiplicity in the molecule input block.
 
 
-*** tstart() called on fito-laptop-ubuntu
-*** at Wed Jan 25 09:29:19 2017
+*** tstart() called on Takums-iMac.local
+*** at Mon Jan 30 14:55:47 2017
 
 
          ---------------------------------------------------------
@@ -159,7 +158,7 @@ gradient() will perform analytic gradient computation.
    @DF-RHF iter   2:    -1.13119503509348   -9.48697e-04   1.01396e-03 DIIS
    @DF-RHF iter   3:    -1.13121329452640   -1.82594e-05   3.35966e-05 DIIS
    @DF-RHF iter   4:    -1.13121330542007   -1.08937e-08   9.60543e-08 DIIS
-   @DF-RHF iter   5:    -1.13121330542024   -1.64535e-13   8.26993e-12 DIIS
+   @DF-RHF iter   5:    -1.13121330542023   -1.64979e-13   8.26981e-12 DIIS
 
   ==> Post-Iterations <==
 
@@ -173,7 +172,7 @@ gradient() will perform analytic gradient computation.
     Virtual:                                                              
 
        1B1u    0.261213     2Ag     0.846232     2B1u    1.348359  
-       1B2u    1.782192     1B3u    1.782192     3Ag     2.553225  
+       1B3u    1.782192     1B2u    1.782192     3Ag     2.553225  
        1B3g    2.703773     1B2g    2.703773     3B1u    4.261154  
 
     Final Occupation by Irrep:
@@ -182,31 +181,31 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RHF Final Energy:    -1.13121330542024
+  @DF-RHF Final Energy:    -1.13121330542023
 
    => Energetics <=
 
     Nuclear Repulsion Energy =              0.7151043359324325
-    One-Electron Energy =                  -2.5086902425961215
-    Two-Electron Energy =                   0.6623726012434541
+    One-Electron Energy =                  -2.5086902425961233
+    Two-Electron Energy =                   0.6623726012434568
     DFT Exchange-Correlation Energy =       0.0000000000000000
     Empirical Dispersion Energy =           0.0000000000000000
     PCM Polarization Energy =               0.0000000000000000
     EFP Energy =                            0.0000000000000000
-    Total Energy =                         -1.1312133054202349
+    Total Energy =                         -1.1312133054202340
 
 
   Saving occupied orbitals to File 180.
 
-*** tstop() called on fito-laptop-ubuntu at Wed Jan 25 09:29:19 2017
+*** tstop() called on Takums-iMac.local at Mon Jan 30 14:55:48 2017
 Module time:
-	user time   =       0.13 seconds =       0.00 minutes
-	system time =       0.01 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       0.19 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 Total time:
-	user time   =       0.13 seconds =       0.00 minutes
-	system time =       0.01 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	user time   =       0.19 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -226,8 +225,8 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:     0.0000     Total:     0.0000
 
 
-*** tstart() called on fito-laptop-ubuntu
-*** at Wed Jan 25 09:29:19 2017
+*** tstart() called on Takums-iMac.local
+*** at Mon Jan 30 14:55:48 2017
 
 
          ------------------------------------------------------------
@@ -284,19 +283,19 @@ Properties computed using the SCF density matrix
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1       -0.000000000000    -0.000000000000    -0.005424268060
-       2        0.000000000000     0.000000000000     0.005424268060
+       1        0.000000000000    -0.000000000000    -0.005424268060
+       2       -0.000000000000     0.000000000000     0.005424268060
 
 
-*** tstop() called on fito-laptop-ubuntu at Wed Jan 25 09:29:19 2017
+*** tstop() called on Takums-iMac.local at Mon Jan 30 14:55:48 2017
 Module time:
-	user time   =       0.08 seconds =       0.00 minutes
-	system time =       0.00 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
-Total time:
-	user time   =       0.22 seconds =       0.00 minutes
+	user time   =       0.13 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =       0.32 seconds =       0.01 minutes
+	system time =       0.01 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 			-----------------------------------------
 			 OPTKING 2.0: for geometry optimizations 
@@ -312,8 +311,8 @@ Total time:
 	---Fragment 1 Geometry and Gradient---
 	 H           0.0000000000        0.0000000000       -0.6991986692
 	 H           0.0000000000        0.0000000000        0.6991986692
-	            -0.0000000000       -0.0000000000       -0.0054242681
-	             0.0000000000        0.0000000000        0.0054242681
+	             0.0000000000       -0.0000000000       -0.0054242681
+	            -0.0000000000        0.0000000000        0.0054242681
 
 	Previous optimization step data not found.  Starting new optimization.
 
@@ -372,8 +371,8 @@ Total time:
 
 gradient() will perform analytic gradient computation.
 
-*** tstart() called on fito-laptop-ubuntu
-*** at Wed Jan 25 09:29:19 2017
+*** tstart() called on Takums-iMac.local
+*** at Mon Jan 30 14:55:48 2017
 
 
          ---------------------------------------------------------
@@ -399,7 +398,7 @@ gradient() will perform analytic gradient computation.
 
   Rotational constants: A = ************  B =     62.31999  C =     62.31999 [cm^-1]
   Rotational constants: A = ************  B = 1868306.15357  C = 1868306.15357 [MHz]
-  Nuclear repulsion =    0.722260938461122
+  Nuclear repulsion =    0.722260938461525
 
   Charge       = 0
   Multiplicity = 1
@@ -481,11 +480,11 @@ gradient() will perform analytic gradient computation.
 
                            Total Energy        Delta E     RMS |[F,P]|
 
-   @DF-RHF iter   0:    -1.13451233441951   -1.13451e+00   5.70388e-04 
-   @DF-RHF iter   1:    -1.13124899625513    3.26334e-03   2.25555e-04 
-   @DF-RHF iter   2:    -1.13124988544220   -8.89187e-07   3.26242e-05 DIIS
-   @DF-RHF iter   3:    -1.13124990426845   -1.88262e-08   1.01029e-06 DIIS
-   @DF-RHF iter   4:    -1.13124990427700   -8.54361e-12   1.31727e-10 DIIS
+   @DF-RHF iter   0:    -1.13451233441980   -1.13451e+00   5.70388e-04 
+   @DF-RHF iter   1:    -1.13124899625524    3.26334e-03   2.25555e-04 
+   @DF-RHF iter   2:    -1.13124988544231   -8.89187e-07   3.26242e-05 DIIS
+   @DF-RHF iter   3:    -1.13124990426856   -1.88262e-08   1.01029e-06 DIIS
+   @DF-RHF iter   4:    -1.13124990427710   -8.54383e-12   1.31727e-10 DIIS
 
   ==> Post-Iterations <==
 
@@ -499,8 +498,8 @@ gradient() will perform analytic gradient computation.
     Virtual:                                                              
 
        1B1u    0.263222     2Ag     0.843007     2B1u    1.353537  
-       1B2u    1.782369     1B3u    1.782369     3Ag     2.565918  
-       1B3g    2.711280     1B2g    2.711280     3B1u    4.300961  
+       1B3u    1.782369     1B2u    1.782369     3Ag     2.565918  
+       1B2g    2.711280     1B3g    2.711280     3B1u    4.300961  
 
     Final Occupation by Irrep:
              Ag   B1g   B2g   B3g    Au   B1u   B2u   B3u 
@@ -508,31 +507,31 @@ gradient() will perform analytic gradient computation.
 
   Energy converged.
 
-  @DF-RHF Final Energy:    -1.13124990427700
+  @DF-RHF Final Energy:    -1.13124990427710
 
    => Energetics <=
 
-    Nuclear Repulsion Energy =              0.7222609384611225
-    One-Electron Energy =                  -2.5184653046305803
-    Two-Electron Energy =                   0.6649544618924614
+    Nuclear Repulsion Energy =              0.7222609384615247
+    One-Electron Energy =                  -2.5184653046311367
+    Two-Electron Energy =                   0.6649544618925102
     DFT Exchange-Correlation Energy =       0.0000000000000000
     Empirical Dispersion Energy =           0.0000000000000000
     PCM Polarization Energy =               0.0000000000000000
     EFP Energy =                            0.0000000000000000
-    Total Energy =                         -1.1312499042769963
+    Total Energy =                         -1.1312499042771016
 
 
   Saving occupied orbitals to File 180.
 
-*** tstop() called on fito-laptop-ubuntu at Wed Jan 25 09:29:19 2017
+*** tstop() called on Takums-iMac.local at Mon Jan 30 14:55:48 2017
 Module time:
-	user time   =       0.12 seconds =       0.00 minutes
+	user time   =       0.13 seconds =       0.00 minutes
 	system time =       0.00 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
 Total time:
-	user time   =       0.38 seconds =       0.01 minutes
+	user time   =       0.53 seconds =       0.01 minutes
 	system time =       0.01 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 
 Properties will be evaluated at   0.000000,   0.000000,   0.000000 Bohr
@@ -552,8 +551,8 @@ Properties computed using the SCF density matrix
      X:     0.0000      Y:     0.0000      Z:     0.0000     Total:     0.0000
 
 
-*** tstart() called on fito-laptop-ubuntu
-*** at Wed Jan 25 09:29:19 2017
+*** tstart() called on Takums-iMac.local
+*** at Mon Jan 30 14:55:48 2017
 
 
          ------------------------------------------------------------
@@ -574,7 +573,7 @@ Properties computed using the SCF density matrix
            H          0.000000000000     0.000000000000    -0.366333814007     1.007825032070
            H          0.000000000000     0.000000000000     0.366333814007     1.007825032070
 
-  Nuclear repulsion =    0.722260938461122
+  Nuclear repulsion =    0.722260938461525
 
   ==> Basis Set <==
 
@@ -610,19 +609,19 @@ Properties computed using the SCF density matrix
   -Total Gradient:
      Atom            X                  Y                   Z
     ------   -----------------  -----------------  -----------------
-       1        0.000000000000     0.000000000000     0.000184597833
-       2        0.000000000000    -0.000000000000    -0.000184597833
+       1       -0.000000000000    -0.000000000000     0.000184597837
+       2        0.000000000000     0.000000000000    -0.000184597837
 
 
-*** tstop() called on fito-laptop-ubuntu at Wed Jan 25 09:29:19 2017
+*** tstop() called on Takums-iMac.local at Mon Jan 30 14:55:48 2017
 Module time:
-	user time   =       0.09 seconds =       0.00 minutes
-	system time =       0.00 seconds =       0.00 minutes
-	total time  =          0 seconds =       0.00 minutes
-Total time:
-	user time   =       0.48 seconds =       0.01 minutes
+	user time   =       0.12 seconds =       0.00 minutes
 	system time =       0.01 seconds =       0.00 minutes
 	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =       0.66 seconds =       0.01 minutes
+	system time =       0.02 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
 
 			-----------------------------------------
 			 OPTKING 2.0: for geometry optimizations 
@@ -633,8 +632,8 @@ Total time:
 	---Fragment 1 Geometry and Gradient---
 	 H           0.0000000000        0.0000000000       -0.6922705817
 	 H           0.0000000000        0.0000000000        0.6922705817
-	             0.0000000000        0.0000000000        0.0001845978
-	             0.0000000000       -0.0000000000       -0.0001845978
+	            -0.0000000000       -0.0000000000        0.0001845978
+	             0.0000000000        0.0000000000       -0.0001845978
 
 	---Fragment 1 Intrafragment Coordinates---
 	 - Coordinate -           - BOHR/RAD -       - ANG/DEG -
@@ -691,7 +690,7 @@ Total time:
   --------------------------------------------------------------------------------------------------------------- ~
 
 	Writing optimization data to binary file.
-	Final energy is     -1.1312499042770
+	Final energy is     -1.1312499042771
 	Final (previous) structure:
 	Cartesian Geometry (in Angstrom)
 	    H     0.0000000000   0.0000000000  -0.3663338140
