@@ -468,6 +468,37 @@ and after optimizing it, we have the next result:
     O             1    1.297136      2   69.133888
 ```
 
+```
+molecule co2 {
+  C 
+  O 1 0.96
+  O 1 1.20 2 60
+}
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+    C       
+    O             1    1.297054
+    O             1    1.297134      2   69.137257
+```
+
+```
+molecule co2 {
+  C 
+  O 1 0.96
+  O 1 1.20 2 120
+}
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+    C       
+    O             1    1.140523
+    O             1    1.140537      2  179.994584
+```
+
+
+
+
 # NH3
 
 # BH3

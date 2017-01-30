@@ -1,12 +1,40 @@
+import math
+from angle import angle, dotproduct, length
+import numpy
 memory 250 mb
 
 molecule co2 {
   C 
-  O 1 0.96
-  O 1 1.20 2 90
+  O 1 1.20
+  O 1 1.20 2 A
 }
 
-set basis cc-pVDZ
+Avals = numpy.asarray(range(11,18))*10
 
-op, wfn = optimize('hf', return_wfn=True, molecule=co2)
-molden(wfn, "op.molden", density_a=wfn.Da())
+set basis cc-pVDZ
+for A in Avals:
+  if A != 90:
+    co2.A = A
+    print "Initial geometry for A = ", A, " := \n" , mat2arr(co2.geometry()), "\n\n"
+    op, wfn = optimize('hf', return_wfn=True, molecule=co2)
+    if A == 120:
+        molden(wfn, "op.molden", density_a=wfn.Da())
+
+    geo = mat2arr(co2.geometry())
+    print "Optimized geometry := \n" , geo, "\n\n"
+
+    c_pos = numpy.asarray(geo[0])
+    print "position of carbon atom := ", c_pos  
+    o1_pos = numpy.asarray(geo[1])
+    print "position of first oxygen atom := ", o1_pos  
+    o2_pos = numpy.asarray(geo[2])
+    print "position of second oxygen atom := ", o2_pos  
+
+    u = c_pos - o1_pos
+    print "first vector", u
+    v = c_pos - o2_pos
+    print "second vector", v
+    distance_co2 = length(v)
+    print "C-O bond lenght", distance_co2 , " Bohr = ", distance_co2 * 0.529177249 , " Angstrom"
+    angle_co2 = angle(u,v) 
+    print "CO2 molecule angle", angle_co2 

@@ -1,0 +1,36 @@
+from angle import angle, dotproduct, length
+import numpy
+memory 250 mb
+
+molecule co2 {
+  C 
+  O 1 0.96
+  O 1 1.20 2 110
+}
+
+set basis cc-pVDZ
+print "Initial geometry := \n  " , mat2arr(co2.geometry()), "\n\n"
+op, wfn = optimize('hf', return_wfn=True, molecule=co2)
+co2.update_geometry() 
+molden(wfn, "op.molden", density_a=wfn.Da())
+
+geo = mat2arr(co2.geometry())
+print "Optimized geometry := \n   " , geo, "\n\n"
+c_pos = numpy.asarray(geo[0])
+print "position of carbon atom := ", c_pos  
+o1_pos = numpy.asarray(geo[1])
+print "position of first oxygen atom := ", o1_pos  
+o2_pos = numpy.asarray(geo[2])
+print "position of second oxygen atom := ", o2_pos  
+
+u = c_pos - o1_pos
+print "first vector", u
+v = c_pos - o2_pos
+print "second vector", v
+distance_co2_bohr = length(v) # output in Bohr radius units
+distance_co2 = distance_co2_bohr * 0.529177249
+print "C-O bond lenght = \n  ", distance_co2_bohr , "  Bohr\n  ", distance_co2 , "  Angstrom"
+angle_co2 = angle(u,v) * 180 / math.pi 
+print "CO2 molecule angle", angle_co2 
+
+

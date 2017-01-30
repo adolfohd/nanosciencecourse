@@ -1,0 +1,18 @@
+memory 250 mb
+
+molecule h2o {
+  O 
+  H 1 0.96
+  H 1 0.96 2 179.9
+}
+
+set basis cc-pVDZ
+
+op, wfn = optimize('hf', return_wfn=True, molecule=h2o)
+# scf_e, scf_wfn = frequencies('scf', , dertype=1)
+
+molden(wfn, "op.molden", density_a=wfn.Da())
+
+geo = mat2arr(h2o.geometry())
+
+print geo
