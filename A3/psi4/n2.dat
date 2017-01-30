@@ -3,7 +3,9 @@ memory 250 mb
 molecule n {
   N
 }
-set basis dzp
+# set basis dzp
+# set basis cc-pvdz
+set basis cc-pwcv_tpd_z
 set reference uhf
 e_n=energy('scf', molecule=n)
 print "Nitrogen atom's energy=",e_n

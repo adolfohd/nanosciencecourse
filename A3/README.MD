@@ -394,9 +394,65 @@ molden(wfn, "n2.molden", density_a=wfn.Da())
 e_n2 = energy('scf', molecule=n2)
 print "Nitrogen molecule's energy=",e_n2
 
-print "bond energy?", e_n2-2*e_n
+print "bond energy=", e_n2-2*e_n
 ```
 
+## Results
+
+When executing this code, the results are:
+
+### Basis set: dzp
+
+```
+$ psi4 -i n2.dat -o n2.out 
+Nitrogen atom's energy= -54.2591265885
+Optimizer: Optimization complete!
+Nitrogen molecule's energy= -108.955259424
+bond energy= -0.437006247261
+```
+In literature, bond energy for nitrogen is reported as $226 \frac{kcal}{mol}$, which equals:
+
+$226 \frac{kcal}{mol}=0.3602 Hartree$
+
+So we have a different level. Let's try with other basis sets
+
+
+### Basis set: cc-pvdz
+
+```
+$ psi4 -i n2.dat -o n2.out 
+
+Nitrogen atom's energy= -54.2516556453
+Optimizer: Optimization complete!
+Nitrogen molecule's energy= -108.955259424
+bond energy= -0.451948133562
+```
+
+### Basis set: cc-pwcv_tpd_z
+
+```
+$ psi4 -i n2.dat -o n2.out 
+Nitrogen atom's energy= -54.2639929677
+Optimizer: Optimization complete!
+Nitrogen molecule's energy= -108.955259424
+bond energy= -0.427273488756
+```
+
+## Conclusion
+
+
+$error_{{DZP}}=\frac{0.437-0.3602}{0.3602}\approx 21\% $ 
+
+
+# Linear VS planar estructures
+
+# CO2
+
+# NH3
+
+# BH3
+
+# NH4+
 
 
 [h2.cc-pVDZ]: psi4/images/h2.cc-pvdz.png
