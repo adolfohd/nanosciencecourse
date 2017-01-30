@@ -5,7 +5,7 @@ memory 250 mb
 
 molecule co2 {
   C 
-  O 1 1.20
+  O 1 1.19
   O 1 1.20 2 A
 }
 
@@ -13,9 +13,10 @@ Avals = numpy.asarray(range(11,18))*10
 
 set basis cc-pVDZ
 for A in Avals:
-  if A != 90:
+  if A != 90 and A != 130:
     co2.A = A
-    print "Initial geometry for A = ", A, " := \n" , mat2arr(co2.geometry()), "\n\n"
+    co2.update_geometry() 
+    print "\n\nInitial geometry for A = ", A, " := \n" , mat2arr(co2.geometry()), "\n\n"
     op, wfn = optimize('hf', return_wfn=True, molecule=co2)
     if A == 120:
         molden(wfn, "op.molden", density_a=wfn.Da())
@@ -34,7 +35,8 @@ for A in Avals:
     print "first vector", u
     v = c_pos - o2_pos
     print "second vector", v
-    distance_co2 = length(v)
-    print "C-O bond lenght", distance_co2 , " Bohr = ", distance_co2 * 0.529177249 , " Angstrom"
-    angle_co2 = angle(u,v) 
+    distance_co2_bohr = length(v) # output in Bohr radius units
+    distance_co2 = distance_co2_bohr * 0.529177249
+    print "C-O bond lenght = \n  ", distance_co2_bohr , "  Bohr\n  ", distance_co2 , "  Angstrom"
+    angle_co2 = angle(u,v) * 180 / math.pi " degrees"
     print "CO2 molecule angle", angle_co2 
